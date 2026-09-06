@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 36" fill="none">
+  <title>MEAI</title>
+  <g fill="#191a18">
+    <path d="M0 31V5h6l8 15 8-15h6v26h-6V16l-8 14-8-14v15z"/>
+    <path d="M36 5h22v5H42v5.5h14v5H42V26h16v5H36z"/>
+    <path fill-rule="evenodd" d="M75 5h7l12 26h-7l-2.3-5.5H72.3L70 31h-7L75 5zm-.6 15.5h8.2L78.5 11l-4.1 9.5z"/>
+    <path d="M102 5h6v26h-6z"/>
+  </g>
+</svg>

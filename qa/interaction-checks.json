@@ -1,0 +1,78 @@
+[
+  {
+    "test": "Arrow Down",
+    "focused": "school-option-1"
+  },
+  {
+    "test": "Arrow Up",
+    "focused": "school-option-0"
+  },
+  {
+    "test": "End",
+    "state": {
+      "focused": "school-option-8",
+      "scroll": 271
+    }
+  },
+  {
+    "test": "Escape",
+    "state": {
+      "expanded": "false",
+      "focused": "school-selector-trigger",
+      "hidden": true
+    }
+  },
+  {
+    "test": "Arrow Up opens last",
+    "focused": "school-option-8"
+  },
+  {
+    "test": "Tab exits picker",
+    "state": {
+      "focused": "school-categories",
+      "hidden": true
+    }
+  },
+  {
+    "test": "Enter opens",
+    "state": {
+      "expanded": "true",
+      "focused": "school-option-0"
+    }
+  },
+  {
+    "test": "Click outside closes",
+    "hidden": ""
+  },
+  {
+    "test": "Mobile menu opens",
+    "state": {
+      "expanded": "true",
+      "focused": "Uniforme școlare",
+      "menuVisible": true
+    }
+  },
+  {
+    "test": "Menu Escape",
+    "state": {
+      "focused": "school-menu-toggle",
+      "menuHidden": true
+    }
+  },
+  {
+    "test": "Enter selects school",
+    "url": "https://meai.ro/uniforme-scolare/liceul-teoretic-mihai-ionescu"
+  },
+  {
+    "test": "Final dropdown fits mobile viewport",
+    "pass": true
+  },
+  {
+    "test": "Optional school search and empty state",
+    "pass": true
+  },
+  {
+    "test": "CTA returns focus to school selector",
+    "pass": true
+  }
+]

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <meta name="description" content="Uniforme școlare realizate în România. Alege școala copilului tău și descoperă tricouri polo, bluze, hanorace, pantaloni și fuste MEAI.">
+  <title>Uniforme școlare — MEAI</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-expanded-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-expanded-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<!-- Only this standalone document has its default body margin removed.
+     For OpenCart, move the wrapper and its two asset references into the dedicated template. -->
+<body style="margin: 0;">
+  <div id="school-uniforms-landing">
+    <a class="school-skip-link" href="#school-main">Sari la conținut</a>
+
+    <header class="school-header">
+      <div class="school-header-inner">
+        <a class="school-logo" href="https://meai.ro/" aria-label="MEAI — pagina principală">
+          <img src="assets/logo.svg" alt="MEAI" width="112" height="36">
+        </a>
+        <nav class="school-nav" id="school-menu" aria-label="Navigație principală">
+          <a class="school-nav-link" href="#school-main" aria-current="page">Uniforme școlare</a>
+          <a class="school-nav-link" href="#school-partners">Pentru școli</a>
+          <a class="school-nav-link" href="#contact">Contact</a>
+          <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Căutare</a>
+          <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Contul meu</a>
+        </nav>
+        <div class="school-header-actions">
+          <!-- Replace placeholder hrefs with the existing OpenCart URLs during integration. -->
+          <a class="school-desktop-only" href="#" data-school-placeholder>Căutare</a>
+          <a class="school-desktop-only" href="#" data-school-placeholder>Cont</a>
+          <a class="school-cart-link" href="#" aria-label="Coș de cumpărături" data-school-placeholder>Coș <span aria-hidden="true">(0)</span></a>
+          <button class="school-menu-toggle" type="button" aria-expanded="false" aria-controls="school-menu" aria-label="Deschide meniul" hidden>
+            <span class="school-menu-label">Meniu</span>
+            <span class="school-menu-icon" aria-hidden="true"><span></span><span></span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="school-main">
+      <section class="school-hero school-container" aria-labelledby="school-title">
+        <p class="school-eyebrow">MEAI / UNIFORME ȘCOLARE</p>
+        <h1 class="school-title" id="school-title"><span>Uniforme</span> <span>școlare</span></h1>
+        <p class="school-hero-description">Uniforme realizate în România, concepute pentru confortul copiilor și identitatea fiecărei școli.</p>
+        <p class="school-hero-note" id="school-selector-description">Alege școala copilului tău și descoperă uniformele disponibile.</p>
+      </section>
+
+      <section class="school-selector-section school-container" aria-label="Alege școala copilului tău">
+        <div class="school-school-selector" id="school-selector">
+          <button class="school-selector-trigger" id="school-selector-trigger" type="button" aria-expanded="false" aria-controls="school-selector-panel" aria-haspopup="listbox" aria-describedby="school-selector-description" disabled>
+            <span>Alege școala</span>
+            <svg class="school-selector-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v15m-6-6 6 6 6-6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <div class="school-selector-panel" id="school-selector-panel" hidden>
+            <!-- Optional search: enable selectorSettings.searchEnabled in main.js. -->
+            <div class="school-selector-search" id="school-selector-search" hidden>
+              <label class="school-visually-hidden" for="school-search-input">Caută o școală</label>
+              <input class="school-search-input" id="school-search-input" type="search" placeholder="Caută școala…" autocomplete="off" aria-controls="school-listbox">
+            </div>
+            <div class="school-selector-list" id="school-listbox" role="listbox" aria-label="Școli partenere"></div>
+            <p class="school-selector-empty" id="school-selector-empty" role="status" hidden>Nu am găsit această școală.</p>
+          </div>
+        </div>
+        <noscript><p class="school-noscript">Activează JavaScript pentru a alege școala sau <a href="https://meai.ro/uniforme-scolare">consultă lista școlilor pe MEAI.ro</a>.</p></noscript>
+      </section>
+
+      <section class="school-collection school-container" id="school-collection" aria-label="Colecția de uniforme școlare">
+        <div class="school-collection-toolbar">
+          <!-- Plain links, ready for category URLs. This prototype does not filter products. -->
+          <nav class="school-categories" aria-label="Categorii de uniforme" tabindex="0">
+            <a class="school-category school-category-active" href="#" aria-current="page" data-school-placeholder>Toate</a>
+            <a class="school-category" href="#" data-school-placeholder>Tricouri polo</a>
+            <a class="school-category" href="#" data-school-placeholder>Bluze</a>
+            <a class="school-category" href="#" data-school-placeholder>Hanorace</a>
+            <a class="school-category" href="#" data-school-placeholder>Pantaloni</a>
+            <a class="school-category" href="#" data-school-placeholder>Fuste</a>
+            <a class="school-category" href="#" data-school-placeholder>Accesorii</a>
+          </nav>
+          <span class="school-collection-count">Colecția MEAI</span>
+        </div>
+
+        <div class="school-product-grid">
+          <!-- Product URLs live only in href. Photos and prices are presentation placeholders. -->
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-01.jpg" alt="Tricou polo alb, cu mânecă scurtă, purtat cu pantaloni școlari bleumarin" width="900" height="1125" fetchpriority="high" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Tricou Polo Unisex</h2><p class="school-product-price">45,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-02.jpg" alt="Bluză polo bleumarin cu mânecă lungă, pentru uniforma școlară" width="900" height="1125" loading="lazy" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Bluză Polo Unisex</h2><p class="school-product-price">54,99 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-03.jpg" alt="Pantaloni școlari bleumarin, cu croială dreaptă" width="900" height="1125" loading="lazy" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Pantaloni Școlari</h2><p class="school-product-price">65,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-04.jpg" alt="Hanorac școlar bleumarin cu fermoar, purtat peste un tricou polo alb" width="900" height="1125" loading="lazy" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Hanorac Școlar</h2><p class="school-product-price">67,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-05.jpg" alt="Fustă școlară plisată, bleumarin, asortată cu un tricou polo alb" width="900" height="1125" loading="lazy" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Fustă Școlară</h2><p class="school-product-price">65,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="school-product-card">
+            <a class="school-product-link" href="#" data-school-placeholder>
+              <div class="school-product-image"><img src="assets/product-06.jpg" alt="Tricou polo vișiniu, cu mânecă scurtă, pentru uniforma școlară" width="900" height="1125" loading="lazy" decoding="async"></div>
+              <div class="school-product-info"><div><h2 class="school-product-name">Tricou Polo Vișiniu</h2><p class="school-product-price">45,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="school-editorial" aria-labelledby="school-editorial-title">
+        <div class="school-editorial-image"><img src="assets/hero.jpg" alt="Doi copii în uniforme școlare albe și bleumarin, împreună în fața școlii" width="1600" height="1000" loading="lazy" decoding="async"></div>
+        <div class="school-editorial-copy">
+          <p class="school-eyebrow">O IDENTITATE COMUNĂ</p>
+          <h2 class="school-section-title" id="school-editorial-title">Uniforma<br>școlii tale</h2>
+          <p>Fiecare școală are propria identitate.</p>
+          <a class="school-text-cta" href="#school-selector" data-school-selector-link>Alege școala <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="school-benefits school-container" aria-label="De ce MEAI">
+        <div class="school-benefit"><span class="school-benefit-index" aria-hidden="true">01</span><h2>Produs în România</h2><p>Uniformele sunt realizate în propria noastră producție.</p></div>
+        <div class="school-benefit"><span class="school-benefit-index" aria-hidden="true">02</span><h2>Personalizare</h2><p>Broderie și imprimeu realizate in-house.</p></div>
+        <div class="school-benefit"><span class="school-benefit-index" aria-hidden="true">03</span><h2>Livrare rapidă</h2><p>Produsele disponibile sunt expediate rapid.</p></div>
+      </section>
+
+      <section class="school-partners school-container" id="school-partners" aria-labelledby="school-partners-title">
+        <div><p class="school-eyebrow">PENTRU ȘCOLI. PENTRU COMUNITĂȚI.</p><h2 class="school-section-title" id="school-partners-title">Vrei uniforme<br>pentru școala ta?</h2></div>
+        <div class="school-partners-copy"><p>Realizăm uniforme personalizate pentru școli, licee și instituții de învățământ.</p><a class="school-text-cta" href="#contact">Devino partener <span aria-hidden="true">→</span></a></div>
+      </section>
+    </main>
+
+    <footer class="school-footer" id="contact">
+      <div class="school-footer-inner school-container">
+        <div class="school-footer-top"><a class="school-logo" href="https://meai.ro/" aria-label="MEAI — pagina principală"><img src="assets/logo.svg" alt="MEAI" width="112" height="36" loading="lazy"></a><span class="school-footer-signature">Uniforme cu identitate.</span></div>
+        <div class="school-footer-grid">
+          <nav class="school-footer-column" aria-labelledby="school-footer-shop"><h2 id="school-footer-shop">Magazin</h2><a href="#school-main">Uniforme școlare</a><a href="#" data-school-placeholder>Toate produsele</a><a href="https://meai.ro/index.php?route=information/contact">Contact</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-info"><h2 id="school-footer-info">Informații</h2><a href="#" data-school-placeholder>Livrare</a><a href="#" data-school-placeholder>Retur</a><a href="#" data-school-placeholder>Termeni și condiții</a><a href="#" data-school-placeholder>Confidențialitate</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#" data-school-placeholder>Contul meu</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
+          <div class="school-footer-column"><h2>MEAI</h2><p>Producător român de uniforme</p><p>Broderie &amp; imprimeu in-house</p><a class="school-footer-contact" href="https://meai.ro/index.php?route=information/contact">Hai să vorbim <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="school-footer-bottom"><small>© AUROCOM SRL / MEAI</small><a href="#school-main">Înapoi sus <span aria-hidden="true">↑</span></a></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
