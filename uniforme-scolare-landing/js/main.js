@@ -6,62 +6,7 @@
 
   // Single source of truth. Counties and schools are sorted automatically in Romanian.
   // Leave county / city empty until confirmed; no location is inferred from the name.
-  const schools = [
-    {
-      name: 'Liceul Teoretic "Mihai Ionescu"',
-      county: 'București',
-      city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/liceul-teoretic-mihai-ionescu'
-    },
-    {
-      name: 'Școala Gimnazială "M. Sântimbreanu"',
-      county: 'București',
-      city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-m-santimbreanu'
-    },
-    {
-      name: 'Școala Gimnazială Nr. 2 "Mihai Viteazul"',
-      county: 'Teleorman',
-      city: '',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-2-mihai-viteazul'
-    },
-    {
-      name: 'Școala Gimnazială "Mihai Eminescu"',
-      county: 'Teleorman',
-      city: 'Alexandria',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-mihai-eminescu'
-    },
-    {
-      name: 'Școala Gimnazială Nr. 7',
-      county: 'Teleorman',
-      city: 'Alexandria',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-7'
-    },
-    {
-      name: 'Liceul Teologic Adventist "Ștefan Demetrescu"',
-      county: 'București',
-      city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/liceul-teologic-adventist-stefan-demetrescu'
-    },
-    {
-      name: 'Școala Gimnazială "Avram Iancu"',
-      county: 'București',
-      city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-avram-iancu'
-    },
-    {
-      name: 'Școala Gimnazială "Ștefan cel Mare"',
-      county: 'Teleorman',
-      city: '',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-stefan-cel-mare'
-    },
-    {
-      name: 'Colegiul Național "AI Cuza" Alexandria',
-      county: 'Teleorman',
-      city: 'Alexandria',
-      url: 'https://meai.ro/uniforme-scolare/colegiul-national-ai-cuza-alexandria'
-    }
-  ];
+  const { schools, categoryUrl } = window.SchoolCatalog;
 
   // Set to true to show the optional local school search. No network calls.
   const selectorSettings = { searchEnabled: false };
@@ -173,7 +118,7 @@
     option.append(details, arrow);
     option.addEventListener('click', () => {
       option.setAttribute('aria-selected', 'true');
-      window.location.href = school.url;
+      window.location.href = categoryUrl(school);
     });
     options.push(option);
     return option;

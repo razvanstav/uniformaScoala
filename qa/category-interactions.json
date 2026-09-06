@@ -1,0 +1,70 @@
+[
+  {
+    "step": "bleumarin",
+    "count": "4 produse din 6"
+  },
+  {
+    "step": "bleumarin + 14 ani",
+    "count": "2 produse din 6"
+  },
+  {
+    "step": "combinație fără rezultate",
+    "empty": true,
+    "count": "0 produse din 6"
+  },
+  {
+    "step": "eliminare filtru + sortare",
+    "names": [
+      "Hanorac Școlar",
+      "Bluză Polo Unisex"
+    ],
+    "prices": [
+      "67,00 Lei",
+      "54,99 Lei"
+    ],
+    "url": "http://127.0.0.1:4173/categorie.html?scoala=liceul-teoretic-mihai-ionescu&marime=14&culoare=bleumarin&sortare=pret-descrescator"
+  },
+  {
+    "step": "produs din colecție",
+    "title": "Hanorac Școlar",
+    "returnLink": "categorie.html?scoala=liceul-teoretic-mihai-ionescu&marime=14&culoare=bleumarin&sortare=pret-descrescator"
+  },
+  {
+    "step": "revenire la filtre",
+    "count": "2 produse din 6",
+    "checked": [
+      "marime:14",
+      "culoare:bleumarin"
+    ]
+  },
+  {
+    "step": "tipuri multiple OR",
+    "count": "2 produse din 6"
+  },
+  {
+    "step": "sortare crescătoare",
+    "prices": [
+      "54,99 Lei",
+      "67,00 Lei"
+    ]
+  },
+  {
+    "step": "reset",
+    "count": "6 produse din 6",
+    "checked": 0
+  },
+  {
+    "step": "panou mobile final",
+    "count": "6 produse din 6",
+    "panelHidden": true,
+    "focus": "school-filter-toggle"
+  },
+  {
+    "checked": [
+      "marime:10"
+    ],
+    "count": "6 produse din 6",
+    "sort": "pret-crescator",
+    "step": "refresh păstrează filtre și sortare"
+  }
+]

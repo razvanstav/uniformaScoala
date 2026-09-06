@@ -1,0 +1,69 @@
+/* Separate school collection template. Shared NOVRI typography and product cards. */
+#school-uniforms-landing.school-category-page .school-header { position: relative; inset: auto; background: var(--school-paper); border-bottom: 1px solid var(--school-line); }
+#school-uniforms-landing .school-category-breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px 12px; padding-block: 25px; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 12px; }
+#school-uniforms-landing .school-category-breadcrumbs a { text-decoration: underline; text-underline-offset: 4px; }
+#school-uniforms-landing .school-category-hero { padding-block: 44px 48px; text-align: center; }
+#school-uniforms-landing .school-category-hero h1 { max-width: 990px; margin: 24px auto 22px; font-size: clamp(1.875rem,7.6vw,3.5rem); font-weight: 600; letter-spacing: -.045em; line-height: 1.15; text-transform: uppercase; overflow-wrap: break-word; text-wrap: balance; }
+#school-uniforms-landing .school-category-location { display: inline-block; padding: 7px 12px; border: 1px solid #c4b58d; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; }
+#school-uniforms-landing .school-category-intro { max-width: 580px; margin: 22px auto 8px; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 16px; line-height: 1.65; }
+#school-uniforms-landing .school-change-school { display: inline-flex; align-items: center; gap: 18px; min-height: 44px; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; }
+#school-uniforms-landing .school-change-school span { font-family: Arial, sans-serif; font-size: 22px; color: #977325; }
+#school-uniforms-landing .school-category-toolbar { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; padding-block: 12px; border-block: 1px solid var(--school-line); }
+#school-uniforms-landing .school-filter-toggle { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; padding: 0; background: transparent; border: 0; font-size: 12px; text-transform: uppercase; }
+#school-uniforms-landing .school-results-count { margin-left: auto; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 13px; }
+#school-uniforms-landing .school-sort-label { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; font-size: 11px; }
+#school-uniforms-landing .school-sort-control { position: relative; display: flex; align-items: center; }
+#school-uniforms-landing .school-sort-control select { width: 180px; min-height: 44px; appearance: none; border: 0; border-radius: 0; padding: 10px 28px 10px 12px; background: var(--school-paper); color: var(--school-ink); font: inherit; cursor: pointer; }
+#school-uniforms-landing .school-sort-control > span { position: absolute; right: 8px; pointer-events: none; font-family: Arial, sans-serif; font-size: 18px; }
+#school-uniforms-landing .school-sort-control select:focus-visible { outline: 2px solid currentColor; outline-offset: -2px; }
+#school-uniforms-landing .school-category-layout { display: grid; grid-template-columns: minmax(0,1fr); }
+#school-uniforms-landing .school-filter-panel { padding-block: 28px; border-bottom: 1px solid var(--school-line); }
+#school-uniforms-landing .school-filter-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 26px; }
+#school-uniforms-landing .school-filter-heading h2 { font-size: 12px; font-weight: 500; text-transform: uppercase; }
+#school-uniforms-landing .school-reset-filters { min-height: 44px; padding: 0; background: transparent; border: 0; text-decoration: underline; text-underline-offset: 4px; font-family: Arial, sans-serif; font-size: 12px; }
+#school-uniforms-landing .school-filter-group { min-width: 0; margin: 0 0 24px; padding: 0 0 20px; border: 0; border-bottom: 1px solid var(--school-line); }
+#school-uniforms-landing .school-filter-group legend { padding: 0 0 14px; font-size: 11px; letter-spacing: .025em; text-transform: uppercase; }
+#school-uniforms-landing .school-filter-option { display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; font-family: Arial, sans-serif; font-size: 14px; }
+#school-uniforms-landing .school-filter-option input { width: 15px; height: 15px; margin: 0; flex-shrink: 0; accent-color: var(--school-ink); cursor: pointer; }
+#school-uniforms-landing .school-filter-option small { margin-left: auto; color: var(--school-muted); font-size: 11px; }
+#school-uniforms-landing .school-filter-color-dot { width: 14px; height: 14px; border: 1px solid #aeb0a8; border-radius: 50%; }
+#school-uniforms-landing .school-filter-sizes { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 8px; }
+#school-uniforms-landing .school-filter-size { position: relative; cursor: pointer; }
+#school-uniforms-landing .school-filter-size span { display: grid; place-items: center; min-height: 44px; border: 1px solid var(--school-line); font-family: Arial, sans-serif; font-size: 12px; }
+#school-uniforms-landing .school-filter-size input:checked + span { border-color: var(--school-ink); background: var(--school-ink); color: #fff; }
+#school-uniforms-landing .school-filter-size input:focus-visible + span { outline: 2px solid var(--school-ink); outline-offset: 3px; }
+#school-uniforms-landing .school-filter-done { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 52px; padding: 14px 18px; background: var(--school-ink); color: #fff; border: 0; font-size: 12px; text-transform: uppercase; }
+#school-uniforms-landing .school-category-results { min-width: 0; padding-top: 24px; }
+#school-uniforms-landing .school-category-demo { color: var(--school-muted); font-family: Arial, sans-serif; font-size: 11px; line-height: 1.7; }
+#school-uniforms-landing .school-active-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+#school-uniforms-landing .school-filter-chip { display: inline-flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 44px; padding: 9px 12px; border: 1px solid var(--school-line); background: transparent; font-family: Arial, sans-serif; font-size: 12px; }
+#school-uniforms-landing .school-filter-chip span { font-size: 18px; }
+#school-uniforms-landing .school-category-empty { padding: 75px 0 100px; }
+#school-uniforms-landing .school-category-empty h2 { margin-block: 18px; font-size: clamp(1.5rem,4vw,2.5rem); font-weight: 500; line-height: 1.2; letter-spacing: -.035em; text-transform: uppercase; }
+#school-uniforms-landing .school-category-empty p { color: var(--school-muted); font-family: Arial, sans-serif; font-size: 15px; }
+#school-uniforms-landing .school-empty-reset { display: inline-flex; align-items: center; gap: 24px; min-height: 48px; margin-top: 24px; padding: 10px 0; border: 0; border-bottom: 1px solid var(--school-ink); background: transparent; font-size: 11px; text-transform: uppercase; }
+#school-uniforms-landing .school-category-note { margin-block: 80px; padding-top: 48px; border-top: 1px solid var(--school-line); }
+#school-uniforms-landing .school-category-note h2 { margin-block: 24px; font-size: clamp(2.25rem,7vw,4rem); font-weight: 500; line-height: 1.1; letter-spacing: -.045em; text-transform: uppercase; }
+#school-uniforms-landing .school-category-note > p:last-of-type { max-width: 410px; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 16px; line-height: 1.7; }
+@media (min-width: 600px) {
+  #school-uniforms-landing .school-sort-label { width: auto; }
+  #school-uniforms-landing .school-results-count { margin-left: 0; }
+  #school-uniforms-landing .school-filter-panel form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px 32px; }
+  #school-uniforms-landing .school-filter-done { grid-column: 1 / -1; }
+  #school-uniforms-landing .school-filter-sizes { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  #school-uniforms-landing .school-category-hero { padding-block: 60px 64px; }
+}
+@media (min-width: 1024px) {
+  #school-uniforms-landing .school-category-hero { padding-block: 66px 76px; }
+  #school-uniforms-landing .school-category-hero h1 { font-size: clamp(2.75rem,4.5vw,4rem); }
+  #school-uniforms-landing .school-category-breadcrumbs { padding-block: 34px; }
+  #school-uniforms-landing .school-category-layout { grid-template-columns: 190px minmax(0,1fr); gap: 40px; }
+  #school-uniforms-landing .school-filter-panel { border: 0; padding-top: 28px; }
+  #school-uniforms-landing .school-filter-panel form { display: block; }
+  #school-uniforms-landing .school-filter-heading { min-height: 44px; margin-bottom: 24px; }
+  #school-uniforms-landing .school-filter-done { display: none; }
+  #school-uniforms-landing .school-category-note { margin-block: 110px; padding-top: 70px; }
+}
+@media (min-width: 1440px) {
+  #school-uniforms-landing .school-category-layout { grid-template-columns: 210px minmax(0,1fr); gap: 50px; }
+}

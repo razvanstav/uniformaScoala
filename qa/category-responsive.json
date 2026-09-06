@@ -1,0 +1,74 @@
+[
+  {
+    "columns": "320px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": true,
+    "titleFits": true,
+    "toggleHidden": false,
+    "width": 375
+  },
+  {
+    "columns": "335px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": true,
+    "titleFits": true,
+    "toggleHidden": false,
+    "width": 390
+  },
+  {
+    "columns": "375px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": true,
+    "titleFits": true,
+    "toggleHidden": false,
+    "width": 430
+  },
+  {
+    "columns": "329.5px 329.5px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": true,
+    "titleFits": true,
+    "toggleHidden": false,
+    "width": 768
+  },
+  {
+    "columns": "208.25px 208.266px 208.266px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": false,
+    "titleFits": true,
+    "toggleHidden": true,
+    "width": 1024
+  },
+  {
+    "columns": "285.734px 285.75px 285.734px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": false,
+    "titleFits": true,
+    "toggleHidden": true,
+    "width": 1280
+  },
+  {
+    "columns": "324.172px 324.172px 324.172px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": false,
+    "titleFits": true,
+    "toggleHidden": true,
+    "width": 1440
+  },
+  {
+    "columns": "333.328px 333.328px 333.344px",
+    "h1": 1,
+    "overflow": false,
+    "panelHidden": false,
+    "titleFits": true,
+    "toggleHidden": true,
+    "width": 1920
+  }
+]
