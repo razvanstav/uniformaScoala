@@ -1,4 +1,4 @@
-# MEAI — Uniforme școlare, versiunea statică 1
+# ERUDIK — Uniforme școlare, versiunea statică 1
 
 Deschide `index.html` direct în browser. Toate fișierele necesare sunt locale; pagina nu cere instalare, build sau conexiune la un serviciu extern. Pentru previzualizarea din workspace se poate folosi `node qa/serve.cjs`, executat din directorul părinte, apoi http://127.0.0.1:4173/.
 
@@ -27,7 +27,7 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 - Intro centrat, mult spațiu deasupra, font Archivo Expanded, navigație discretă.
 - La 1440 px, referința are un heading de 64 px, margini laterale de aproximativ 66 px, spații de 30 px între produse și fotografii de aproximativ 301 × 360 px. Cele trei produse ocupă trei poziții dintr-un grid de patru coloane.
 - La 390 px, referința folosește un produs pe rând, margini de 14 px și un heading de 28 px. Footer-ul original este închis la culoare, cu o bandă decorativă și newsletter.
-- Adaptările cerute pentru MEAI: fundal off-white mai deschis, titlu mai mare, trei coloane complete pe desktop, două pe tabletă, una pe telefon, selector de școli și un titlu static pentru selecția de produse. Footer-ul alb, bannerul și CTA-ul pentru parteneri păstrează ierarhia editorială, cu conținutul din brief. Newsletter-ul, banda animată și funcțiile de cumpărare din referință nu au fost reproduse.
+- Adaptările cerute pentru ERUDIK: fundal off-white mai deschis, titlu mai mare, trei coloane complete pe desktop, două pe tabletă, una pe telefon, selector de școli și un titlu static pentru selecția de produse. Footer-ul alb, bannerul și CTA-ul pentru parteneri păstrează ierarhia editorială, cu conținutul din brief. Newsletter-ul, banda animată și funcțiile de cumpărare din referință nu au fost reproduse.
 
 ## Modificări ulterioare
 
@@ -41,7 +41,7 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 
 ## Materiale demonstrative
 
-Cele șapte fotografii sunt generate cu instrumentul integrat ImageGen, exclusiv pentru această previzualizare. Nu reprezintă inventarul real MEAI. Prompturile exacte și corespondența imaginilor sunt în `assets/image-prompts.md`. Prețurile sunt exemplele din brief. `logo.svg` este un wordmark MEAI provizoriu desenat vectorial, care poate fi înlocuit cu logo-ul oficial.
+Cele șapte fotografii sunt generate cu instrumentul integrat ImageGen, exclusiv pentru această previzualizare. Nu reprezintă inventarul real ERUDIK. Prompturile exacte și corespondența imaginilor sunt în `assets/image-prompts.md`. Prețurile sunt exemplele din brief. `logo.svg` este un wordmark ERUDIK provizoriu desenat vectorial, care poate fi înlocuit cu logo-ul oficial.
 
 Archivo este găzduit local, cu caracterele românești incluse. Sursă: [Google Fonts / Archivo](https://fonts.google.com/specimen/Archivo). Licența SIL Open Font License este inclusă în `assets/fonts/OFL.txt`.
 
@@ -58,8 +58,8 @@ Archivo este găzduit local, cu caracterele românești incluse. Sursă: [Google
 
 ## Limita acestei etape
 
-Doar HTML5, Vanilla CSS și Vanilla JavaScript. Fără pachete, framework-uri, PHP, baze de date, API-uri, autentificare sau coș funcțional. Produsele sunt introduse prin titlul static „O parte din colecția MEAI”; nu există bară de categorii sau filtre.
+Doar HTML5, Vanilla CSS și Vanilla JavaScript. Fără pachete, framework-uri, PHP, baze de date, API-uri, autentificare sau coș funcțional. Produsele sunt introduse prin titlul static „O parte din colecția ERUDIK”; nu există bară de categorii sau filtre.
 
 Pentru integrarea viitoare, wrapper-ul `#school-uniforms-landing` și referințele către CSS/JS vor fi introduse în template-ul dedicat. Toți selectorii paginii sunt izolați în wrapper, clasele sunt prefixate `school-`, iar familia fontului are un nume propriu. Nu există `!important`. Marginea inline a elementului `body` aparține doar documentului standalone și nu trebuie transferată în OpenCart. Dezactivarea Journal și verificarea în tema reală rămân pentru etapa următoare.
 
-Validarea și capturile de browser sunt în directorul `../qa/`. Fișierele paginii, inclusiv fotografiile și fonturile, însumează aproximativ 1 MB; nu există cereri de rețea externe pentru randare. Deschiderea linkurilor către MEAI necesită internet.
+Validarea și capturile de browser sunt în directorul `../qa/`. Fișierele paginii, inclusiv fotografiile și fonturile, însumează aproximativ 1 MB; nu există cereri de rețea externe pentru randare. Deschiderea linkurilor către ERUDIK necesită internet.
