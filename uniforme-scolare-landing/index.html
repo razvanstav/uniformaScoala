@@ -34,7 +34,11 @@
           <!-- Replace placeholder hrefs with the existing OpenCart URLs during integration. -->
           <a class="school-desktop-only" href="#" data-school-placeholder>Căutare</a>
           <a class="school-desktop-only" href="#" data-school-placeholder>Cont</a>
-          <a class="school-cart-link" href="#" aria-label="Coș de cumpărături" data-school-placeholder>Coș <span aria-hidden="true">(0)</span></a>
+          <a class="school-cart-link" href="#" data-school-placeholder>
+            <span class="school-visually-hidden">Coș de cumpărături, produse: </span>
+            <svg class="school-cart-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M2.5 4.5h3l3 14h13l3-10H6.5M9 18.5l-1 3h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="25" r="1.4" fill="currentColor"/><circle cx="21" cy="25" r="1.4" fill="currentColor"/></svg>
+            <span class="school-cart-count" id="school-cart-count" data-school-cart-count>0</span>
+          </a>
           <button class="school-menu-toggle" type="button" aria-expanded="false" aria-controls="school-menu" aria-label="Deschide meniul" hidden>
             <span class="school-menu-label">Meniu</span>
             <span class="school-menu-icon" aria-hidden="true"><span></span><span></span></span>
@@ -44,6 +48,17 @@
     </header>
 
     <main id="school-main">
+      <section class="school-campaign" aria-labelledby="school-campaign-title">
+        <div class="school-campaign-copy">
+          <p class="school-campaign-eyebrow">REALIZATE ÎN ROMÂNIA. PURTATE CU ÎNCREDERE.</p>
+          <h2 class="school-campaign-title" id="school-campaign-title"><span>Pregătiți</span><span>pentru</span><span class="school-campaign-light">fiecare</span><span class="school-campaign-light">zi de școală.</span></h2>
+          <a class="school-campaign-cta" href="#school-selector" data-school-selector-link>Alege uniforma școlii tale <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="school-campaign-image">
+          <img src="assets/product-01.jpg" alt="Elev în tricou polo alb și pantaloni bleumarin, pregătit pentru o nouă zi de școală" width="900" height="1125" fetchpriority="high" decoding="async">
+        </div>
+        <span class="school-campaign-accent" aria-hidden="true"></span>
+      </section>
       <section class="school-hero school-container" aria-labelledby="school-title">
         <p class="school-eyebrow">MEAI / UNIFORME ȘCOLARE</p>
         <h1 class="school-title" id="school-title"><span>Uniforme</span> <span>școlare</span></h1>
@@ -89,7 +104,7 @@
           <!-- Product URLs live only in href. Photos and prices are presentation placeholders. -->
           <article class="school-product-card">
             <a class="school-product-link" href="#" data-school-placeholder>
-              <div class="school-product-image"><img src="assets/product-01.jpg" alt="Tricou polo alb, cu mânecă scurtă, purtat cu pantaloni școlari bleumarin" width="900" height="1125" fetchpriority="high" decoding="async"></div>
+              <div class="school-product-image"><img src="assets/product-01.jpg" alt="Tricou polo alb, cu mânecă scurtă, purtat cu pantaloni școlari bleumarin" width="900" height="1125" loading="lazy" decoding="async"></div>
               <div class="school-product-info"><div><h2 class="school-product-name">Tricou Polo Unisex</h2><p class="school-product-price">45,00 Lei</p></div><span class="school-product-arrow" aria-hidden="true">↗</span></div>
             </a>
           </article>

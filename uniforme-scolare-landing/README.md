@@ -31,6 +31,8 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 
 ## Modificări ulterioare
 
+- **Hero superior:** compoziție editorială inspirată din captura Milano furnizată ulterior, cu textul „Pregătiți pentru fiecare zi de școală”. Reutilizează fotografia locală `product-01.jpg`; pe telefon, fotografia apare sub text. CTA-ul duce la selectorul școlilor.
+- **Coș:** linkul `.school-cart-link` conține un SVG și contorul static `#school-cart-count` (disponibil și prin `[data-school-cart-count]`). La integrare, înlocuiește `href` și textul contorului cu datele OpenCart. Denumirea accesibilă include automat valoarea afișată. Nu există logică de coș în prototip.
 - **Școli:** editează exclusiv `const schools` din `js/main.js`. Fiecare școală are `name`, `county`, `city` și `url`. Dropdown-ul grupează automat după `county`, sortează județele și școlile alfabetic cu regulile limbii române și afișează localitatea sub numele școlii atunci când este diferită de județ. Etichetele județelor au chenar și rămân vizibile la derularea grupului. Selectarea navighează la `school.url`. Pentru o locație neconfirmată, lasă câmpul gol; școala rămâne accesibilă în grupul final „Județ neprecizat”.
 - **Căutare opțională în școli:** schimbă `selectorSettings.searchEnabled` din `false` în `true`. Caută după școală, județ sau localitate, inclusiv fără diacritice, și ascunde grupurile fără rezultate. Implicit, câmpul nu este afișat.
 - **Categorii, produse și cont:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`.
