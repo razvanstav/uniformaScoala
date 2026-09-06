@@ -1,0 +1,77 @@
+[
+  {
+    "step": "plus un tricou",
+    "total": "134,99 Lei",
+    "badge": "3"
+  },
+  {
+    "step": "cantitate 3 bluze",
+    "total": "244,97 Lei"
+  },
+  {
+    "quantity": "1",
+    "step": "limită minimă",
+    "total": "204,97 Lei"
+  },
+  {
+    "quantity": "99",
+    "step": "limită maximă",
+    "total": "4.124,97 Lei"
+  },
+  {
+    "step": "undo păstrează celelalte cantități",
+    "total": "189,98 Lei",
+    "quantities": [
+      "2",
+      "2"
+    ]
+  },
+  {
+    "description": "Acesta este un coș demonstrativ. Finalizarea și plata vor fi disponibile după integrarea magazinului. Nu a fost plasată nicio comandă.",
+    "dialogOpen": true,
+    "step": "finalizare demo"
+  },
+  {
+    "dialogOpen": false,
+    "focus": "school-checkout-button",
+    "step": "Escape dialog"
+  },
+  {
+    "step": "voucher demo",
+    "message": "În acest demo nu se aplică reduceri. Codul va putea fi verificat în magazin.",
+    "total": "94,99 Lei"
+  },
+  {
+    "badge": "0",
+    "emptyVisible": true,
+    "step": "coș gol",
+    "summaryHidden": true
+  },
+  {
+    "badge": "0",
+    "emptyVisible": true,
+    "step": "coș gol după refresh"
+  },
+  {
+    "step": "badge în categorie",
+    "badge": "3"
+  },
+  {
+    "step": "badge în produs",
+    "badge": "3"
+  },
+  {
+    "step": "badge pe homepage",
+    "badge": "3"
+  },
+  {
+    "step": "revenire în coș",
+    "total": "134,99 Lei",
+    "badge": "3"
+  },
+  {
+    "quantity": "1",
+    "step": "câmp gol păstrează cantitatea",
+    "total": "94,99 Lei"
+  }
+]

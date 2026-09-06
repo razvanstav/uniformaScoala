@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <meta name="description" content="Coșul tău NOVRI. Previzualizează uniformele alese, mărimile, cantitățile și sumarul produselor.">
+  <title>Coșul tău — NOVRI</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-expanded-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-expanded-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <script src="js/catalog.js" defer></script>
+  <script src="js/cart-state.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/cart.js" defer></script>
+</head>
+<!-- Only this standalone document has its default body margin removed.
+     For OpenCart, move the wrapper and its stylesheet and script references into the dedicated template. -->
+<body style="margin: 0;">
+  <div id="school-uniforms-landing" class="school-cart-page">
+    <a class="school-skip-link" href="#school-main">Sari la conținut</a>
+
+    <header class="school-header">
+      <div class="school-header-inner">
+        <a class="school-logo" href="index.html" aria-label="NOVRI — pagina principală">
+          <img src="assets/logo.svg" alt="NOVRI" width="112" height="36">
+        </a>
+        <nav class="school-nav" id="school-menu" aria-label="Navigație principală">
+          <a class="school-nav-link" href="index.html#school-main">Uniforme școlare</a>
+          <a class="school-nav-link" href="index.html#school-partners">Pentru școli</a>
+          <a class="school-nav-link" href="#contact">Contact</a>
+          <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Căutare</a>
+          <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Contul meu</a>
+        </nav>
+        <div class="school-header-actions">
+          <!-- Replace placeholder hrefs with the existing OpenCart URLs during integration. -->
+          <a class="school-desktop-only" href="#" data-school-placeholder>Căutare</a>
+          <a class="school-desktop-only" href="#" data-school-placeholder>Cont</a>
+          <a class="school-cart-link" href="cos.html">
+            <span class="school-visually-hidden">Coș de cumpărături, produse: </span>
+            <svg class="school-cart-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M2.5 4.5h3l3 14h13l3-10H6.5M9 18.5l-1 3h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="25" r="1.4" fill="currentColor"/><circle cx="21" cy="25" r="1.4" fill="currentColor"/></svg>
+            <span class="school-cart-count" id="school-cart-count" data-school-cart-count>0</span>
+          </a>
+          <button class="school-menu-toggle" type="button" aria-expanded="false" aria-controls="school-menu" aria-label="Deschide meniul" hidden>
+            <span class="school-menu-label">Meniu</span>
+            <span class="school-menu-icon" aria-hidden="true"><span></span><span></span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="school-container" id="school-main">
+      <nav class="school-cart-breadcrumbs" aria-label="Fir de navigare"><a href="index.html">Acasă</a><span aria-hidden="true">/</span><span aria-current="page">Coșul tău</span></nav>
+      <section class="school-cart-intro" aria-labelledby="school-cart-title">
+        <p class="school-eyebrow">NOVRI / PREGĂTIȚI PENTRU ȘCOALĂ</p>
+        <div class="school-cart-title-row"><h1 id="school-cart-title">Coșul tău</h1><a class="school-cart-continue" href="categorie.html" data-school-cart-continue>Continuă cumpărăturile <span aria-hidden="true">↗</span></a></div>
+        <p class="school-cart-intro-note">Uniformele alese. Un pas mai aproape de o nouă zi de școală.</p>
+      </section>
+
+      <div class="school-cart-feedback" id="school-cart-feedback" hidden><p id="school-cart-message" role="status" aria-live="polite"></p><button type="button" id="school-cart-undo">Anulează eliminarea</button></div>
+      <div class="school-cart-layout" id="school-cart-content" hidden>
+        <section class="school-cart-products" aria-label="Produsele din coș">
+          <div class="school-cart-list-heading"><h2>Produsele tale</h2><span id="school-cart-item-count"></span></div>
+          <div id="school-cart-items"></div>
+          <p class="school-visually-hidden" id="school-cart-live" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="school-cart-extras">
+            <details class="school-cart-disclosure"><summary>Ai un cod de reducere?</summary>
+              <form class="school-coupon-form" id="school-coupon-form">
+                <label for="school-coupon-code">Cod de reducere sau voucher</label>
+                <div class="school-coupon-fields"><input id="school-coupon-code" type="text" maxlength="40" placeholder="Introdu codul" autocomplete="off" required><button type="submit">Aplică <span aria-hidden="true">↗</span></button></div>
+                <p class="school-coupon-status" id="school-coupon-status" role="status" aria-live="polite"></p>
+              </form>
+            </details>
+            <details class="school-cart-disclosure"><summary>Despre livrare</summary><p>Costul livrării se confirmă după alegerea adresei, la finalizarea comenzii. Produsele disponibile sunt expediate rapid.</p></details>
+          </div>
+        </section>
+
+        <aside class="school-cart-summary" aria-labelledby="school-summary-title">
+          <p class="school-eyebrow">ÎN CÂȚIVA PAȘI</p><h2 id="school-summary-title">Sumarul coșului</h2>
+          <dl class="school-cart-totals"><div><dt>Subtotal produse</dt><dd id="school-cart-subtotal">94,99 Lei</dd></div><div><dt>Livrare</dt><dd>Se calculează ulterior</dd></div><div class="school-cart-grand-total"><dt>Total produse</dt><dd id="school-cart-total">94,99 Lei</dd></div></dl>
+          <p class="school-cart-delivery-note">Costul livrării nu este inclus în totalul afișat.</p>
+          <button class="school-checkout-button" id="school-checkout-button" type="button" aria-haspopup="dialog" aria-controls="school-checkout-dialog">Finalizare comandă <span aria-hidden="true">→</span></button>
+          <p class="school-cart-demo-note">Coș demonstrativ. Produsele și cantitățile sunt exemple; nu se plasează comenzi.</p>
+          <div class="school-cart-summary-signature"><span>Realizate în România.</span><span>Purtate cu încredere.</span></div>
+        </aside>
+      </div>
+
+      <section class="school-cart-empty" id="school-cart-empty" aria-labelledby="school-cart-empty-title" hidden>
+        <p class="school-eyebrow">O NOUĂ ZI. O NOUĂ ALEGERE.</p>
+        <h2 id="school-cart-empty-title" tabindex="-1">Coșul tău<br>așteaptă prima uniformă.</h2>
+        <p>Descoperă colecția și găsește uniformele potrivite școlii copilului tău.</p>
+        <a class="school-cart-empty-cta" href="index.html#school-selector">Alege școala <span aria-hidden="true">→</span></a>
+      </section>
+      <div class="school-cart-demo-controls"><button type="button" id="school-cart-reset">Resetează coșul demo <span aria-hidden="true">↗</span></button></div>
+      <noscript><p class="school-noscript">Activează JavaScript pentru previzualizarea coșului sau <a href="index.html#school-collection">vezi colecția NOVRI</a>.</p></noscript>
+      <section class="school-cart-recommendations" aria-labelledby="school-cart-recommendations-title"><div class="school-cart-recommendations-heading"><h2 id="school-cart-recommendations-title">Completează uniforma</h2><a href="categorie.html" data-school-cart-continue>Vezi colecția <span aria-hidden="true">↗</span></a></div><div class="school-product-grid" id="school-cart-related"></div></section>
+    </main>
+
+    <dialog class="school-checkout-dialog" id="school-checkout-dialog" aria-labelledby="school-checkout-title" aria-describedby="school-checkout-description">
+      <button class="school-dialog-close" type="button" data-school-close-dialog aria-label="Închide previzualizarea">×</button>
+      <p class="school-eyebrow">NOVRI / PREVIZUALIZARE</p><h2 id="school-checkout-title">Pasul următor,<br>în magazin.</h2>
+      <p id="school-checkout-description">Acesta este un coș demonstrativ. Finalizarea și plata vor fi disponibile după integrarea magazinului. Nu a fost plasată nicio comandă.</p>
+      <button class="school-checkout-button" type="button" data-school-close-dialog>Înapoi la coș <span aria-hidden="true">→</span></button>
+    </dialog>
+
+    <template id="school-cart-row-template">
+      <article class="school-cart-row">
+        <a class="school-cart-row-image"><img width="900" height="1125" decoding="async"></a>
+        <div class="school-cart-row-info"><h3><a class="school-cart-product-name"></a></h3><p class="school-cart-row-options"></p><a class="school-cart-row-school"></a><p class="school-cart-row-price"></p></div>
+        <div class="school-cart-row-actions">
+          <div class="school-cart-quantity" role="group"><button type="button" data-school-cart-action="decrease">−</button><input type="number" min="1" max="99" step="1" inputmode="numeric" data-school-cart-quantity><button type="button" data-school-cart-action="increase">+</button></div>
+          <button class="school-cart-remove" type="button" data-school-cart-action="remove">Elimină</button>
+          <p class="school-cart-line-total"></p>
+        </div>
+      </article>
+    </template>
+
+    <footer class="school-footer" id="contact">
+      <div class="school-footer-inner school-container">
+        <div class="school-footer-top"><a class="school-logo" href="index.html" aria-label="NOVRI — pagina principală"><img src="assets/logo.svg" alt="NOVRI" width="112" height="36" loading="lazy"></a><span class="school-footer-signature">Uniforme cu identitate.</span></div>
+        <div class="school-footer-grid">
+          <nav class="school-footer-column" aria-labelledby="school-footer-shop"><h2 id="school-footer-shop">Magazin</h2><a href="index.html#school-main">Uniforme școlare</a><a href="index.html#school-collection">Toate produsele</a><a href="https://meai.ro/index.php?route=information/contact">Contact</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-info"><h2 id="school-footer-info">Informații</h2><a href="#" data-school-placeholder>Livrare</a><a href="#" data-school-placeholder>Retur</a><a href="#" data-school-placeholder>Termeni și condiții</a><a href="#" data-school-placeholder>Confidențialitate</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#" data-school-placeholder>Contul meu</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
+          <div class="school-footer-column"><h2>NOVRI</h2><p>Producător român de uniforme</p><p>Broderie &amp; imprimeu in-house</p><a class="school-footer-contact" href="https://meai.ro/index.php?route=information/contact">Hai să vorbim <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="school-footer-bottom"><small>© AUROCOM SRL / NOVRI</small><a href="#school-main">Înapoi sus <span aria-hidden="true">↑</span></a></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -10,10 +10,11 @@ Pagina este un demo static HTML5 / CSS / JavaScript. Nu modifică magazinul publ
 | `css/styles.css` | Aspect comun NOVRI: fonturi, header, carduri de produs, footer |
 | `css/category.css` | Layout-ul colecției și filtrelor, inclusiv mobile |
 | `js/catalog.js` | Date demo comune, URL-uri și generarea cardurilor |
+| `js/cart-state.js` | Contorul coșului demo, păstrat în aceeași filă |
 | `js/navigation.js` | Meniu comun și linkuri placeholder |
 | `js/category.js` | Școala curentă, filtre, sortare, rezultate și stare în URL |
 
-Ordinea scripturilor este `catalog.js`, `navigation.js`, `category.js`, toate cu `defer`. CSS-ul comun se încarcă înainte de CSS-ul categoriei. Nu este necesar `product.css`, `product.js` sau `main.js` pentru această pagină.
+Ordinea scripturilor este `catalog.js`, `cart-state.js`, `navigation.js`, `category.js`, toate cu `defer`. CSS-ul comun se încarcă înainte de CSS-ul categoriei. Nu este necesar `product.css`, `product.js` sau `main.js` pentru această pagină.
 
 Wrapper-ul template-ului este:
 
