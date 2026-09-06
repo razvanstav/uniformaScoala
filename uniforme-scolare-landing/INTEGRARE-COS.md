@@ -6,9 +6,9 @@
 
 | Fișier | Rol |
 | --- | --- |
-| `cos.html` | Template semantic, produse, sumar, voucher, stare goală, mesaj de finalizare |
+| `cos.html` | Template semantic, produse, sumar, voucher, stare goală, link către checkout |
 | `css/styles.css` | Aspectul comun NOVRI |
-| `css/cart.css` | Layout-ul coșului, cantități, sumar, dialog și responsive |
+| `css/cart.css` | Layout-ul coșului, cantități, sumar și responsive |
 | `js/catalog.js` | Produse, școli, prețuri și URL-uri demonstrative comune |
 | `js/cart-state.js` | Stare locală demonstrativă și contorul din header |
 | `js/navigation.js` | Meniul comun |
@@ -45,7 +45,7 @@ Butonul „Resetează coșul demo” restabilește cele două exemple. Nu exist�
 - Contorul din header reprezintă suma cantităților, nu numărul de produse distincte.
 - Totalurile sunt calculate în bani întregi, apoi formatate în lei. Livrarea nu este inclusă, nu se calculează taxe separate și nu se estimează un cost de transport fictiv.
 - Voucherul afișează un mesaj demonstrativ și nu aplică reduceri.
-- „Finalizare comandă” deschide un dialog care explică limita demo-ului. Escape sau butoanele de închidere restabilesc focusul. Nu se trimite nicio comandă.
+- „Finalizare comandă” deschide pagina separată `checkout.html`, care folosește aceeași stare a coșului. Formularul este demonstrativ și nu trimite comenzi; vezi [INTEGRARE-CHECKOUT.md](INTEGRARE-CHECKOUT.md).
 - Produsele și numele școlii au linkuri către paginile demo corespunzătoare. „Continuă cumpărăturile” duce la colecția școlii din prima linie; în coșul gol se folosește prima școală demo.
 
 ## Puncte de înlocuit în OpenCart
@@ -61,6 +61,6 @@ La integrare, înlocuiește `cart-state.js` cu un adaptor pentru coșul real și
 - `#school-cart-subtotal`, `#school-cart-total`: valorile sumarului;
 - `[data-school-cart-count]`: contorul comun;
 - `#school-coupon-form`: zona viitorului voucher;
-- `#school-checkout-button`: legătura către finalizarea reală, după înlocuirea dialogului demonstrativ.
+- `#school-checkout-button`: linkul actual către `checkout.html`, de înlocuit cu ruta reală la integrare.
 
 Nu există framework-uri, pachete, build tools sau servicii externe. Fotografiile sunt aceleași materiale demonstrative locale din restul proiectului.

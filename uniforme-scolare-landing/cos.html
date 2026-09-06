@@ -81,7 +81,7 @@
           <p class="school-eyebrow">ÎN CÂȚIVA PAȘI</p><h2 id="school-summary-title">Sumarul coșului</h2>
           <dl class="school-cart-totals"><div><dt>Subtotal produse</dt><dd id="school-cart-subtotal">94,99 Lei</dd></div><div><dt>Livrare</dt><dd>Se calculează ulterior</dd></div><div class="school-cart-grand-total"><dt>Total produse</dt><dd id="school-cart-total">94,99 Lei</dd></div></dl>
           <p class="school-cart-delivery-note">Costul livrării nu este inclus în totalul afișat.</p>
-          <button class="school-checkout-button" id="school-checkout-button" type="button" aria-haspopup="dialog" aria-controls="school-checkout-dialog">Finalizare comandă <span aria-hidden="true">→</span></button>
+          <a class="school-checkout-button" id="school-checkout-button" href="checkout.html">Finalizare comandă <span aria-hidden="true">→</span></a>
           <p class="school-cart-demo-note">Coș demonstrativ. Produsele și cantitățile sunt exemple; nu se plasează comenzi.</p>
           <div class="school-cart-summary-signature"><span>Realizate în România.</span><span>Purtate cu încredere.</span></div>
         </aside>
@@ -97,13 +97,6 @@
       <noscript><p class="school-noscript">Activează JavaScript pentru previzualizarea coșului sau <a href="index.html#school-collection">vezi colecția NOVRI</a>.</p></noscript>
       <section class="school-cart-recommendations" aria-labelledby="school-cart-recommendations-title"><div class="school-cart-recommendations-heading"><h2 id="school-cart-recommendations-title">Completează uniforma</h2><a href="categorie.html" data-school-cart-continue>Vezi colecția <span aria-hidden="true">↗</span></a></div><div class="school-product-grid" id="school-cart-related"></div></section>
     </main>
-
-    <dialog class="school-checkout-dialog" id="school-checkout-dialog" aria-labelledby="school-checkout-title" aria-describedby="school-checkout-description">
-      <button class="school-dialog-close" type="button" data-school-close-dialog aria-label="Închide previzualizarea">×</button>
-      <p class="school-eyebrow">NOVRI / PREVIZUALIZARE</p><h2 id="school-checkout-title">Pasul următor,<br>în magazin.</h2>
-      <p id="school-checkout-description">Acesta este un coș demonstrativ. Finalizarea și plata vor fi disponibile după integrarea magazinului. Nu a fost plasată nicio comandă.</p>
-      <button class="school-checkout-button" type="button" data-school-close-dialog>Înapoi la coș <span aria-hidden="true">→</span></button>
-    </dialog>
 
     <template id="school-cart-row-template">
       <article class="school-cart-row">

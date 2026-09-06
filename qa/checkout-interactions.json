@@ -1,0 +1,133 @@
+{
+  "emptyValidation": {
+    "dialog": false,
+    "focus": "school-firstname",
+    "invalid": 9
+  },
+  "expanded": {
+    "doc": 375,
+    "registerVisible": true,
+    "shippingVisible": true,
+    "width": 390
+  },
+  "foreignRegion": {
+    "selectDisabled": true,
+    "textVisible": true
+  },
+  "login": {
+    "message": "Recuperarea parolei va fi disponibilă în magazin. Nu a fost trimis niciun e-mail.",
+    "registerDisabled": true,
+    "shippingDisabled": true
+  },
+  "passwordMismatch": {
+    "error": "Parolele nu coincid.",
+    "focus": "school-password-confirm"
+  },
+  "validSubmit": {
+    "count": "2",
+    "dialog": true,
+    "message": "Formularul a fost verificat doar pe acest dispozitiv. Nu a fost plasată nicio comandă, nu s-a creat un cont și nu au fost trimise date. Produsele rămân în coșul demonstrativ.",
+    "newsletter": false,
+    "passwordCleared": true
+  },
+  "dialogFocus": "school-checkout-submit",
+  "policyFocus": "privacy",
+  "increment": {
+    "count": "3",
+    "net": "111,56 Lei",
+    "tax": "27,84 Lei",
+    "total": "160,41 Lei"
+  },
+  "clamp": {
+    "overflow": false,
+    "qty": "99",
+    "total": "4.040,41 Lei"
+  },
+  "undo": {
+    "quantities": [
+      "2",
+      "2"
+    ],
+    "total": "215,40 Lei"
+  },
+  "empty": {
+    "count": "0",
+    "empty": true,
+    "focus": "school-checkout-empty-title",
+    "formHidden": true
+  },
+  "undoEmpty": {
+    "count": "2",
+    "total": "135,40 Lei"
+  },
+  "cartSync": {
+    "checkoutLink": "checkout.html",
+    "count": "2",
+    "total": "109,98 Lei"
+  },
+  "cartToCheckout": {
+    "blank": true,
+    "count": "2",
+    "total": "120,41 Lei",
+    "url": "http://127.0.0.1:4173/checkout.html"
+  },
+  "menu": {
+    "expanded": "false",
+    "focus": "school-menu-toggle"
+  },
+  "errors": [],
+  "emptyReload": {
+    "count": "0",
+    "empty": true
+  },
+  "expandedResponsive": [
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 375
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 430
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 1280
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "registrationVisible": true,
+      "shippingVisible": true,
+      "width": 1920
+    }
+  ]
+}

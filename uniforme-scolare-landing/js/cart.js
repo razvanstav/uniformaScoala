@@ -11,7 +11,6 @@
   const feedback = root.querySelector('#school-cart-feedback');
   const undo = root.querySelector('#school-cart-undo');
   const live = root.querySelector('#school-cart-live');
-  const dialog = root.querySelector('#school-checkout-dialog');
   const number = new Intl.NumberFormat('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const money = (cents) => `${number.format(cents / 100)} Lei`;
   const unitCents = (item) => Math.round(catalog.getProduct(item.productId).priceValue * 100);
@@ -138,10 +137,6 @@
     event.preventDefault();
     root.querySelector('#school-coupon-status').textContent = 'În acest demo nu se aplică reduceri. Codul va putea fi verificat în magazin.';
   });
-  root.querySelector('#school-checkout-button').addEventListener('click', () => {
-    if (!dialog.open) dialog.showModal();
-  });
-  root.querySelectorAll('[data-school-close-dialog]').forEach((button) => button.addEventListener('click', () => dialog.close()));
   document.addEventListener('school-cart-change', render);
   render();
 })();
