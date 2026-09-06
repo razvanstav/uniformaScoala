@@ -186,7 +186,7 @@
 #school-uniforms-landing .school-partners-copy { max-width: 340px; }
 #school-uniforms-landing .school-partners-copy p { color: var(--school-muted); font-family: Arial, sans-serif; font-size: 16px; line-height: 1.65; }
 
-/* White footer, with the column rhythm of the reference adapted to ERUDIK. */
+/* White footer, with the column rhythm of the reference adapted to NOVRI. */
 #school-uniforms-landing .school-footer { background: #fff; }
 #school-uniforms-landing .school-footer-inner { padding-top: 40px; }
 #school-uniforms-landing .school-footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; padding-bottom: 38px; border-bottom: 1px solid var(--school-line); }

@@ -1,6 +1,6 @@
 # Illustrative photography placeholders
 
-These AI-generated photographs are illustrative placeholders, not actual ERUDIK inventory or actual brand photography.
+These AI-generated photographs are illustrative placeholders, not actual NOVRI inventory or actual brand photography.
 
 Generated with the built-in ImageGen tool. Exactly one generation request per image; seven requests total, no retries or variants. Original PNGs remain in their generated-images directory. Processing below only converts to JPEG and resizes, without cropping or image editing.
 
