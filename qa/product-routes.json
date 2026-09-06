@@ -1,0 +1,50 @@
+[
+  {
+    "image": "assets/product-01.jpg",
+    "name": "Tricou Polo Copii — Alb",
+    "overflow": false,
+    "price": "40,00 Lei",
+    "relatedCount": 3,
+    "url": "?produs=tricou-polo-alb"
+  },
+  {
+    "image": "assets/product-02.jpg",
+    "name": "Bluză Polo Unisex",
+    "overflow": false,
+    "price": "54,99 Lei",
+    "relatedCount": 3,
+    "url": "?produs=bluza-polo"
+  },
+  {
+    "image": "assets/product-03.jpg",
+    "name": "Pantaloni Școlari",
+    "overflow": false,
+    "price": "65,00 Lei",
+    "relatedCount": 3,
+    "url": "?produs=pantaloni-scolari"
+  },
+  {
+    "image": "assets/product-04.jpg",
+    "name": "Hanorac Școlar",
+    "overflow": false,
+    "price": "67,00 Lei",
+    "relatedCount": 3,
+    "url": "?produs=hanorac-scolar"
+  },
+  {
+    "image": "assets/product-05.jpg",
+    "name": "Fustă Școlară",
+    "overflow": false,
+    "price": "65,00 Lei",
+    "relatedCount": 3,
+    "url": "?produs=fusta-scolara"
+  },
+  {
+    "image": "assets/product-06.jpg",
+    "name": "Tricou Polo Vișiniu",
+    "overflow": false,
+    "price": "45,00 Lei",
+    "relatedCount": 3,
+    "url": "?produs=tricou-polo-visiniu"
+  }
+]

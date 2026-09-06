@@ -114,7 +114,6 @@
   }
 
   function openSelector(last = false) {
-    closeMenu();
     resetSearch();
     panel.hidden = false;
     list.scrollTop = 0;
@@ -256,61 +255,17 @@
   window.addEventListener('resize', fitSchoolList);
   if (window.visualViewport) window.visualViewport.addEventListener('resize', fitSchoolList);
 
-  // The same navigation becomes a compact disclosure on smaller viewports.
-  const menuButton = landing.querySelector('.school-menu-toggle');
-  const menu = landing.querySelector('#school-menu');
-  const header = landing.querySelector('.school-header');
-  const desktop = window.matchMedia('(min-width: 1024px)');
-
-  function closeMenu(returnFocus = false) {
-    menu.hidden = !desktop.matches;
-    menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Deschide meniul');
-    if (returnFocus) menuButton.focus();
-  }
-  function syncMenu() {
-    const focusedInMenu = menu.contains(document.activeElement);
-    menuButton.hidden = desktop.matches;
-    closeMenu(focusedInMenu && !desktop.matches);
-  }
-  menuButton.addEventListener('click', () => {
-    const willOpen = menu.hidden;
-    closeSelector();
-    menu.hidden = !willOpen;
-    menuButton.setAttribute('aria-expanded', String(willOpen));
-    menuButton.setAttribute('aria-label', willOpen ? 'Închide meniul' : 'Deschide meniul');
-    if (willOpen) menu.querySelector('a').focus();
-  });
-  menu.addEventListener('click', (event) => {
-    if (event.target.closest('a')) closeMenu();
-  });
-  header.addEventListener('focusout', () => {
-    queueMicrotask(() => {
-      if (!header.contains(document.activeElement)) closeMenu();
-    });
-  });
-  desktop.addEventListener('change', syncMenu);
-  syncMenu();
-  landing.classList.add('school-ready');
-
   document.addEventListener('pointerdown', (event) => {
     if (!selector.contains(event.target)) closeSelector();
-    if (!header.contains(event.target)) closeMenu();
   });
   document.addEventListener('keydown', (event) => {
     if (event.key !== 'Escape') return;
     if (!panel.hidden) closeSelector(true);
-    if (!desktop.matches && !menu.hidden) closeMenu(true);
   });
 
   landing.addEventListener('click', (event) => {
     const link = event.target.closest('a');
     if (!link) return;
-    // Changing href to an actual URL is sufficient to activate a placeholder.
-    if (link.hasAttribute('data-school-placeholder') && link.getAttribute('href') === '#') {
-      event.preventDefault();
-      return;
-    }
     if (link.hasAttribute('data-school-selector-link')) {
       event.preventDefault();
       closeSelector();

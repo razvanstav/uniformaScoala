@@ -1,0 +1,66 @@
+[
+  {
+    "detailColumns": "320px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "57.5938px 57.5938px 57.6094px 57.5938px 57.5938px",
+    "width": 375
+  },
+  {
+    "detailColumns": "335px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "60.5938px 60.5938px 60.6094px 60.5938px 60.5938px",
+    "width": 390
+  },
+  {
+    "detailColumns": "375px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "68.5938px 68.5938px 68.6094px 68.5938px 68.5938px",
+    "width": 430
+  },
+  {
+    "detailColumns": "341.125px 315.875px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "56.7656px 56.7812px 56.7656px 56.7812px 56.7812px",
+    "width": 768
+  },
+  {
+    "detailColumns": "465.453px 387.891px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "71.1719px 71.1719px 71.1875px 71.1719px 71.1719px",
+    "width": 1024
+  },
+  {
+    "detailColumns": "583.875px 486.562px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "90.9062px 90.9062px 90.9219px 90.9062px 90.9062px",
+    "width": 1280
+  },
+  {
+    "detailColumns": "657.875px 548.25px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "103.25px 103.25px 103.25px 103.25px 103.25px",
+    "width": 1440
+  },
+  {
+    "detailColumns": "665.453px 554.547px",
+    "h1Count": 1,
+    "overflow": false,
+    "photoLoaded": true,
+    "sizeColumns": "104.5px 104.516px 104.5px 104.516px 104.516px",
+    "width": 1920
+  }
+]
