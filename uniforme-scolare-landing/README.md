@@ -27,7 +27,7 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 - Intro centrat, mult spațiu deasupra, font Archivo Expanded, navigație discretă.
 - La 1440 px, referința are un heading de 64 px, margini laterale de aproximativ 66 px, spații de 30 px între produse și fotografii de aproximativ 301 × 360 px. Cele trei produse ocupă trei poziții dintr-un grid de patru coloane.
 - La 390 px, referința folosește un produs pe rând, margini de 14 px și un heading de 28 px. Footer-ul original este închis la culoare, cu o bandă decorativă și newsletter.
-- Adaptările cerute pentru MEAI: fundal off-white mai deschis, titlu mai mare, trei coloane complete pe desktop, două pe tabletă, una pe telefon, selector de școli și bara de categorii. Footer-ul alb, bannerul și CTA-ul pentru parteneri păstrează ierarhia editorială, cu conținutul din brief. Newsletter-ul, banda animată și funcțiile de cumpărare din referință nu au fost reproduse.
+- Adaptările cerute pentru MEAI: fundal off-white mai deschis, titlu mai mare, trei coloane complete pe desktop, două pe tabletă, una pe telefon, selector de școli și un titlu static pentru selecția de produse. Footer-ul alb, bannerul și CTA-ul pentru parteneri păstrează ierarhia editorială, cu conținutul din brief. Newsletter-ul, banda animată și funcțiile de cumpărare din referință nu au fost reproduse.
 
 ## Modificări ulterioare
 
@@ -35,7 +35,7 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 - **Coș:** linkul `.school-cart-link` conține un SVG și contorul static `#school-cart-count` (disponibil și prin `[data-school-cart-count]`). La integrare, înlocuiește `href` și textul contorului cu datele OpenCart. Denumirea accesibilă include automat valoarea afișată. Nu există logică de coș în prototip.
 - **Școli:** editează exclusiv `const schools` din `js/main.js`. Fiecare școală are `name`, `county`, `city` și `url`. Dropdown-ul grupează automat după `county`, sortează județele și școlile alfabetic cu regulile limbii române și afișează localitatea sub numele școlii atunci când este diferită de județ. Etichetele județelor au chenar și rămân vizibile la derularea grupului. Selectarea navighează la `school.url`. Pentru o locație neconfirmată, lasă câmpul gol; școala rămâne accesibilă în grupul final „Județ neprecizat”.
 - **Căutare opțională în școli:** schimbă `selectorSettings.searchEnabled` din `false` în `true`. Caută după școală, județ sau localitate, inclusiv fără diacritice, și ascunde grupurile fără rezultate. Implicit, câmpul nu este afișat.
-- **Categorii, produse și cont:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`.
+- **Produse și cont:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`.
 - **Fotografii:** înlocuiește JPEG-urile păstrând denumirile. Produsele au 900 × 1125 px (4:5), iar bannerul 1600 × 1000 px. Actualizează atributele `width`, `height` și `alt` dacă se schimbă imaginile.
 - **Aspect:** culorile și marginile de bază sunt variabile `--school-*` pe wrapper. Pragurile principale sunt 600 px și 1024 px; ajustarea secundară desktop este la 1280 px.
 
@@ -58,7 +58,7 @@ Archivo este găzduit local, cu caracterele românești incluse. Sursă: [Google
 
 ## Limita acestei etape
 
-Doar HTML5, Vanilla CSS și Vanilla JavaScript. Fără pachete, framework-uri, PHP, baze de date, API-uri, autentificare sau coș funcțional. Categoriile nu filtrează produsele.
+Doar HTML5, Vanilla CSS și Vanilla JavaScript. Fără pachete, framework-uri, PHP, baze de date, API-uri, autentificare sau coș funcțional. Produsele sunt introduse prin titlul static „O parte din colecția MEAI”; nu există bară de categorii sau filtre.
 
 Pentru integrarea viitoare, wrapper-ul `#school-uniforms-landing` și referințele către CSS/JS vor fi introduse în template-ul dedicat. Toți selectorii paginii sunt izolați în wrapper, clasele sunt prefixate `school-`, iar familia fontului are un nume propriu. Nu există `!important`. Marginea inline a elementului `body` aparține doar documentului standalone și nu trebuie transferată în OpenCart. Dezactivarea Journal și verificarea în tema reală rămân pentru etapa următoare.
 
