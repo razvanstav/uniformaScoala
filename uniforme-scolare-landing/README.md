@@ -9,12 +9,14 @@ uniforme-scolare-landing/
   index.html
   produs.html
   categorie.html
+  scoli.html
   cos.html
   checkout.html
   contact.html
   css/styles.css
   css/product.css
   css/category.css
+  css/schools.css
   css/cart.css
   css/checkout.css
   css/contact.css
@@ -24,6 +26,7 @@ uniforme-scolare-landing/
   js/navigation.js
   js/product.js
   js/category.js
+  js/schools.js
   js/cart.js
   js/checkout-options.js
   js/checkout.js
@@ -33,6 +36,9 @@ uniforme-scolare-landing/
     hero.jpg
     logo.svg
     image-prompts.md
+    schools/
+      *.png
+      SOURCES.md
     fonts/
       archivo-expanded-latin.woff2
       archivo-expanded-latin-ext.woff2
@@ -50,18 +56,20 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 
 ## Modificări ulterioare
 
+- **Toate școlile / subcategorii:** `scoli.html`, `css/schools.css`, `js/schools.js`. Cele nouă școli din catalogul comun sunt grupate alfabetic pe județe, cu embleme locale, căutare după nume/localitate/județ și acces la colecția fiecărei școli. Căutarea și județul se păstrează în URL. Pagina este legată din meniul și footer-ul comun, de sub selectorul homepage-ului și din „Schimbă școala”. Ghid separat: [INTEGRARE-SUBCATEGORII.md](INTEGRARE-SUBCATEGORII.md).
+
 - **Contact:** `contact.html`, `css/contact.css`, `js/contact.js`. Datele, programul, cele două numere de telefon, harta și cele trei întrebări din formular au fost consultate pe pagina existentă. Meniul și footer-ul tuturor paginilor deschid noul contact; „Devino partener” preselectează subiectul pentru școli. Formularul validează exclusiv local, iar Google Maps se încarcă doar la cerere. Ghid separat: [INTEGRARE-CONTACT.md](INTEGRARE-CONTACT.md).
 
 - **Checkout demo:** `checkout.html`, `css/checkout.css`, `js/checkout.js` și `js/checkout-options.js`. Păstrează opțiunile observate pe checkout-ul existent: fără cont/autentificare/cont nou, date personale, facturare, livrare separată, țară/județ, transport și plată la livrare, produse, TVA, comentarii și acorduri. Datele formularului nu sunt trimise sau stocate de aplicație. Instrucțiuni și inventar complet în [INTEGRARE-CHECKOUT.md](INTEGRARE-CHECKOUT.md).
 
 - **Colecția unei școli:** `categorie.html` are fișierele proprii `css/category.css` și `js/category.js`. Filtrele pentru tip, mărime și culoare operează numai pe catalogul demo local. Există sortare, contor, filtre active eliminabile și stare fără rezultate. Selectorul de pe homepage deschide colecția școlii alese; navigarea spre produs și înapoi păstrează școala și filtrele. Ghidul separat [INTEGRARE-CATEGORIE.md](INTEGRARE-CATEGORIE.md) descrie fișierele și punctele de conectare.
 - **Pagini de produs demo:** toate cele șase produse de pe homepage duc la `produs.html?produs=...`. Datele sunt în array-ul `products` din `js/catalog.js`. Fotografia, numele, culoarea, prețul și produsele asociate corespund produsului ales. Un parametru absent sau necunoscut afișează tricoul polo alb. Fără JavaScript, HTML-ul prezintă tricoul alb ca exemplu static.
-- **Interacțiuni produs:** mărimi demonstrative selectabile prin radio buttons native, inclusiv din tastatură; secțiuni native `details/summary`; link înapoi la colecție și CTA către selectorul de școli. Fără adăugare în coș, cantități, stoc în timp real sau comenzi. Mărimile din demo sunt exemple, nu disponibilitate confirmată.
+- **Interacțiuni produs:** mărimi demonstrative selectabile prin radio buttons native, inclusiv din tastatură; secțiuni native `details/summary`; link înapoi la colecție și CTA către lista școlilor. Fără adăugare în coș, cantități, stoc în timp real sau comenzi. Mărimile din demo sunt exemple, nu disponibilitate confirmată.
 - **Datele tricoului alb:** denumirea, prețul de 40,00 Lei și compoziția de bumbac 100% au fost consultate pe [pagina produsului existent](https://uniformascoala.ro/index.php?route=product/product&path=69_59&product_id=73), la 6 septembrie 2026. Homepage-ul are același nume și preț. Celelalte produse păstrează prețurile demonstrative din brief. Fotografiile sunt cele locale generate anterior; nu sunt imagini preluate de pe magazin.
-- **Navigație comună:** `js/navigation.js` gestionează meniul și linkurile placeholder pe toate cele șase pagini. `js/main.js` gestionează numai selectorul de școli de pe homepage. Pagina de produs încarcă `css/styles.css` + `css/product.css` și `js/catalog.js` + `js/cart-state.js` + `js/navigation.js` + `js/product.js`. Header-ul și footer-ul rămân HTML semantic, fără încărcare prin JavaScript.
+- **Navigație comună:** `js/navigation.js` gestionează meniul și linkurile placeholder pe toate cele șapte pagini. `js/main.js` gestionează numai selectorul de școli de pe homepage. Pagina de produs încarcă `css/styles.css` + `css/product.css` și `js/catalog.js` + `js/cart-state.js` + `js/navigation.js` + `js/product.js`. Header-ul și footer-ul rămân HTML semantic, fără încărcare prin JavaScript.
 - **Hero superior:** compoziție editorială inspirată din captura Milano furnizată ulterior, cu textul „Pregătiți pentru fiecare zi de școală”. Reutilizează fotografia locală `product-01.jpg`; pe telefon, fotografia apare sub text. CTA-ul duce la selectorul școlilor.
 - **Coș demo:** iconița de pe toate paginile deschide `cos.html`. Fișiere proprii: `css/cart.css`, `js/cart.js`; starea comună este în `js/cart-state.js`. Două produse exemplu, cantități ajustabile, eliminare/undo, sumar calculat în bani întregi, coș gol și recomandări. `sessionStorage` păstrează modificările și contorul în aceeași filă. Voucherul afișează numai un mesaj demo. Finalizarea deschide pagina locală `checkout.html`; nu există comenzi sau plăți. Documentația și punctele de înlocuit sunt în [INTEGRARE-COS.md](INTEGRARE-COS.md).
-- **Școli:** editează exclusiv `const schools` din `js/catalog.js`. Fiecare școală are `name`, `county`, `city` și `url`. Dropdown-ul grupează automat după `county`, sortează județele și școlile alfabetic cu regulile limbii române și afișează localitatea sub numele școlii atunci când este diferită de județ. Etichetele județelor au chenar și rămân vizibile la derularea grupului. Selectarea deschide pagina locală `categorie.html?scoala=...`; `school.url` păstrează adresa OpenCart originală pentru integrarea viitoare. Pentru o locație neconfirmată, lasă câmpul gol; școala rămâne accesibilă în grupul final „Județ neprecizat”.
+- **Școli:** editează exclusiv `const schools` din `js/catalog.js`. Fiecare școală are `name`, `county`, `city` și `url`, opțional `emblem` și `sourceUrl` pentru directorul de școli. Dropdown-ul grupează automat după `county`, sortează județele și școlile alfabetic cu regulile limbii române și afișează localitatea sub numele școlii atunci când este diferită de județ. Etichetele județelor au chenar și rămân vizibile la derularea grupului. Selectarea deschide pagina locală `categorie.html?scoala=...`; `school.url` păstrează adresa OpenCart originală pentru integrarea viitoare. Pentru o locație neconfirmată, lasă câmpul gol; școala rămâne accesibilă în grupul final „Județ neprecizat”.
 - **Căutare opțională în școli:** schimbă `selectorSettings.searchEnabled` din `false` în `true`. Caută după școală, județ sau localitate, inclusiv fără diacritice, și ascunde grupurile fără rezultate. Implicit, câmpul nu este afișat.
 - **Produse și cont:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`.
 - **Fotografii:** înlocuiește JPEG-urile păstrând denumirile. Produsele au 900 × 1125 px (4:5), iar bannerul 1600 × 1000 px. Actualizează atributele `width`, `height` și `alt` dacă se schimbă imaginile.
@@ -70,6 +78,8 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 ## Materiale demonstrative
 
 Cele șapte fotografii sunt generate cu instrumentul integrat ImageGen, exclusiv pentru această previzualizare. Nu reprezintă inventarul real NOVRI. Prompturile exacte și corespondența imaginilor sunt în `assets/image-prompts.md`. Prețurile sunt exemplele din brief. `logo.svg` este un wordmark NOVRI provizoriu desenat vectorial, care poate fi înlocuit cu logo-ul oficial.
+
+Cele șapte embleme din `assets/schools/` sunt imaginile afișate de magazinul existent, copiate local fără modificare. Sursele sunt în [assets/schools/SOURCES.md](assets/schools/SOURCES.md). Școlile fără emblemă folosesc o afișare tipografică a numelui.
 
 Archivo este găzduit local, cu caracterele românești incluse. Sursă: [Google Fonts / Archivo](https://fonts.google.com/specimen/Archivo). Licența SIL Open Font License este inclusă în `assets/fonts/OFL.txt`.
 

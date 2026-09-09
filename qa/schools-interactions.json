@@ -1,0 +1,274 @@
+{
+  "diacritics": {
+    "schools": [
+      "Școala Gimnazială \"M. Sântimbreanu\""
+    ],
+    "url": "http://127.0.0.1:4173/scoli.html?q=SANTIMBREANU"
+  },
+  "escape": {
+    "focus": "school-directory-search",
+    "query": "",
+    "visible": 9
+  },
+  "county": {
+    "count": "5 școli din 9",
+    "groups": [
+      "Teleorman"
+    ],
+    "visible": 5
+  },
+  "words": {
+    "schools": [
+      "Școala Gimnazială Nr. 7"
+    ]
+  },
+  "reload": {
+    "pressed": "Teleorman",
+    "query": "nr 7",
+    "visible": 1
+  },
+  "collection": {
+    "changeSchool": "scoli.html",
+    "title": "Școala Gimnazială Nr. 7",
+    "url": "http://127.0.0.1:4173/categorie.html?scoala=scoala-gimnaziala-nr-7"
+  },
+  "product": {
+    "back": "categorie.html?scoala=scoala-gimnaziala-nr-7",
+    "school": "Școala Gimnazială Nr. 7",
+    "title": "Tricou Polo Copii — Alb"
+  },
+  "back": {
+    "query": "nr 7",
+    "visible": 1
+  },
+  "empty": {
+    "empty": true,
+    "visible": 0
+  },
+  "reset": {
+    "focus": "school-directory-search",
+    "selected": "Toate județele",
+    "visible": 9
+  },
+  "city": [
+    "Colegiul Național \"AI Cuza\" Alexandria",
+    "Școala Gimnazială \"Mihai Eminescu\"",
+    "Școala Gimnazială Nr. 7"
+  ],
+  "keyboardCounty": {
+    "selected": "București",
+    "visible": 4
+  },
+  "menu": {
+    "expanded": "false",
+    "focus": "school-menu-toggle"
+  },
+  "images": [
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/stefan-demetrescu.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/avram-iancu.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/m-santimbreanu.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/mihai-eminescu.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/stefan-cel-mare.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120.43658447265624,
+      "file": "assets/schools/mihai-viteazul.png",
+      "loaded": true,
+      "width": 120
+    },
+    {
+      "displayWidth": 120,
+      "file": "assets/schools/scoala-nr-7.png",
+      "loaded": true,
+      "width": 120
+    }
+  ],
+  "console": [],
+  "sharedHeaders": [
+    {
+      "headerHeight": 92,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/index.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/categorie.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/produs.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/cos.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/checkout.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/contact.html"
+    },
+    {
+      "headerHeight": 93,
+      "links": [
+        {
+          "height": 43,
+          "label": "Uniforme școlare"
+        },
+        {
+          "height": 43,
+          "label": "Toate școlile"
+        },
+        {
+          "height": 43,
+          "label": "Pentru școli"
+        },
+        {
+          "height": 43,
+          "label": "Contact"
+        }
+      ],
+      "overflow": false,
+      "page": "/scoli.html"
+    }
+  ]
+}

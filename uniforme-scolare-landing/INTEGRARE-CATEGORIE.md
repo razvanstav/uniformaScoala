@@ -28,7 +28,7 @@ Toate stilurile sunt în wrapper, clasele au prefixul `school-`. În template-ul
 
 ## Date demonstrative
 
-În `js/catalog.js` există o singură listă `schools` și o singură listă `products`, folosite de selector, colecție și pagina de produs.
+În `js/catalog.js` există o singură listă `schools` și o singură listă `products`, folosite de selector, directorul școlilor, colecție și pagina de produs.
 
 Fiecare școală păstrează `name`, `county`, `city`, `url`. Câmpul `slug` se derivă din URL-ul original. Opțional, adaugă `productIds` direct în obiectul școlii pentru o colecție individuală:
 
@@ -50,6 +50,8 @@ index.html → selector școală
   → produs.html?scoala=liceul-teoretic-mihai-ionescu&produs=tricou-polo-alb
   → înapoi la colecția aceleiași școli
 ```
+
+Alternativ, `scoli.html` grupează toate școlile pe județe și deschide aceeași colecție locală. „Schimbă școala” și breadcrumb-ul „Toate școlile” duc la acest director. Detalii în [INTEGRARE-SUBCATEGORII.md](INTEGRARE-SUBCATEGORII.md).
 
 Un parametru `scoala` absent sau necunoscut pe categoria demo afișează prima școală. Filtrele se păstrează în query string; nu se utilizează localStorage, cookie-uri sau cereri către server.
 

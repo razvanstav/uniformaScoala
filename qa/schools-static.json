@@ -1,0 +1,65 @@
+[
+  {
+    "page": "categorie.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "checkout.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "contact.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "cos.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "index.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "produs.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  },
+  {
+    "page": "scoli.html",
+    "h1": 1,
+    "uniqueIds": true,
+    "localFiles": true,
+    "imageDimensions": true,
+    "staticImageAlt": true,
+    "classPrefixes": true
+  }
+]

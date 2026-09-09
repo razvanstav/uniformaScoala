@@ -142,6 +142,8 @@
 #school-uniforms-landing .school-selector-search { padding: 8px 10px 14px; }
 #school-uniforms-landing .school-search-input { width: 100%; min-height: 48px; padding: 10px; border: 1px solid var(--school-line); background: #fff; font-family: Arial, sans-serif; font-size: 16px; }
 #school-uniforms-landing .school-selector-empty { padding: 16px; font-size: 14px; }
+#school-uniforms-landing .school-directory-home-link { display: flex; align-items: center; justify-content: center; gap: 18px; width: fit-content; min-height: 44px; margin: 16px auto 0; padding-block: 8px; font-size: 10px; text-transform: uppercase; }
+#school-uniforms-landing .school-directory-home-link span { color: #977325; font: 21px Arial, sans-serif; }
 #school-uniforms-landing .school-noscript { padding-top: 14px; font-family: Arial, sans-serif; }
 #school-uniforms-landing .school-noscript a { text-decoration: underline; }
 
@@ -218,7 +220,7 @@
   #school-uniforms-landing .school-logo img { width: 112px; }
   #school-uniforms-landing .school-nav,
   #school-uniforms-landing.school-ready .school-nav { position: static; order: initial; flex-direction: row; flex-basis: auto; gap: 30px; padding: 0; border: 0; font-size: 12px; }
-  #school-uniforms-landing .school-nav-link { padding-block: 12px; }
+  #school-uniforms-landing .school-nav-link { padding-block: 12px; white-space: nowrap; }
   #school-uniforms-landing .school-header-actions { gap: 28px; }
   #school-uniforms-landing .school-header-actions .school-desktop-only { display: inline-flex; }
   #school-uniforms-landing .school-mobile-only,
@@ -271,3 +273,11 @@
 /* Keep native hidden semantics stronger than the component's display layout. */
 #school-uniforms-landing [hidden],
 #school-uniforms-landing.school-ready [hidden] { display: none; }
+
+/* Keep the four navigation links comfortable on small desktop screens. */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #school-uniforms-landing .school-header-inner { gap: 28px; padding-inline: 32px; }
+  #school-uniforms-landing .school-nav,
+  #school-uniforms-landing.school-ready .school-nav { gap: 20px; }
+  #school-uniforms-landing .school-header-actions { gap: 20px; }
+}

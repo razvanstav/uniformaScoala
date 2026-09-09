@@ -12,43 +12,57 @@
       name: 'Școala Gimnazială "M. Sântimbreanu"',
       county: 'București',
       city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-m-santimbreanu'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-m-santimbreanu',
+      emblem: 'schools/m-santimbreanu.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_63'
     },
     {
       name: 'Școala Gimnazială Nr. 2 "Mihai Viteazul"',
       county: 'Teleorman',
       city: '',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-2-mihai-viteazul'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-2-mihai-viteazul',
+      emblem: 'schools/mihai-viteazul.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_64'
     },
     {
       name: 'Școala Gimnazială "Mihai Eminescu"',
       county: 'Teleorman',
       city: 'Alexandria',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-mihai-eminescu'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-mihai-eminescu',
+      emblem: 'schools/mihai-eminescu.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_65'
     },
     {
       name: 'Școala Gimnazială Nr. 7',
       county: 'Teleorman',
       city: 'Alexandria',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-7'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-nr-7',
+      emblem: 'schools/scoala-nr-7.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_66'
     },
     {
       name: 'Liceul Teologic Adventist "Ștefan Demetrescu"',
       county: 'București',
       city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/liceul-teologic-adventist-stefan-demetrescu'
+      url: 'https://meai.ro/uniforme-scolare/liceul-teologic-adventist-stefan-demetrescu',
+      emblem: 'schools/stefan-demetrescu.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_67'
     },
     {
       name: 'Școala Gimnazială "Avram Iancu"',
       county: 'București',
       city: 'București',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-avram-iancu'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-avram-iancu',
+      emblem: 'schools/avram-iancu.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_72'
     },
     {
       name: 'Școala Gimnazială "Ștefan cel Mare"',
       county: 'Teleorman',
       city: '',
-      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-stefan-cel-mare'
+      url: 'https://meai.ro/uniforme-scolare/scoala-gimnaziala-stefan-cel-mare',
+      emblem: 'schools/stefan-cel-mare.png',
+      sourceUrl: 'https://uniformascoala.ro/index.php?route=product/category&path=62_68'
     },
     {
       name: 'Colegiul Național "AI Cuza" Alexandria',

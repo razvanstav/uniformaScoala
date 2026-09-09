@@ -39,7 +39,7 @@ Ambele numere de telefon sunt păstrate deoarece sursa le afișează distinct. T
 
 ## Comportament
 
-- „Contact” și „Hai să vorbim” din meniul/footer-ul tuturor celor șase pagini duc la `contact.html`.
+- „Contact” și „Hai să vorbim” din meniul/footer-ul tuturor celor șapte pagini duc la `contact.html`.
 - „Devino partener” de pe homepage duce la `contact.html?subiect=scoala#school-contact-form`.
 - Parametrul `subiect` acceptă numai valorile definite în `subjects` din `contact.js`; valorile necunoscute sunt ignorate. Textul introdus în formular nu este pus în URL.
 - „Scrie-ne un mesaj” mută focusul direct pe nume. „Hai să colaborăm” selectează subiectul pentru școli și mută focusul pe nume, fără a suprascrie mesajul introdus.
