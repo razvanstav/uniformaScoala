@@ -1,0 +1,266 @@
+{
+  "controls": [
+    {
+      "action": "Enter opens and focuses email",
+      "emailFocused": true,
+      "open": true
+    },
+    {
+      "action": "Shift Tab wraps to submit",
+      "submitFocused": true
+    },
+    {
+      "action": "Tab wraps to close",
+      "closeFocused": true
+    },
+    {
+      "action": "Empty form validates",
+      "emailFocused": true,
+      "feedbackHidden": true
+    },
+    {
+      "action": "Demo login",
+      "feedback": "Previzualizare: autentificarea nu este conectată încă. Datele nu au fost trimise.",
+      "open": true,
+      "url": "http://127.0.0.1:4173/scoli.html"
+    },
+    {
+      "action": "Recovery view",
+      "passwordDisabled": true,
+      "title": "Recuperează parola"
+    },
+    {
+      "action": "Demo recovery",
+      "feedback": "Previzualizare: nu a fost trimis niciun e-mail de resetare."
+    },
+    {
+      "action": "Escape cleanup",
+      "focusRestored": true,
+      "open": false,
+      "overflow": ""
+    },
+    {
+      "action": "Email retained in recovery",
+      "evidence": "Confirmed visually in account-recovery-1440.png with the fictional address test@novri.invalid."
+    },
+    {
+      "action": "Recovery focus cycle",
+      "backFocused": true
+    },
+    {
+      "action": "Recovery Tab cycles to close",
+      "closeFocused": true
+    },
+    {
+      "action": "Mobile Escape restores menu focus",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "action": "Backdrop closes on mobile",
+      "closed": true,
+      "menuFocused": true,
+      "overflowRestored": true
+    }
+  ],
+  "desktopPages": [
+    {
+      "page": "index.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "scoli.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "categorie.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "produs.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "cos.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "checkout.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "contact.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "informatii.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "despre-noi.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "livrare.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "retur.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    },
+    {
+      "page": "harta-site.html",
+      "headerOpen": true,
+      "headerClosed": true,
+      "footerOpen": true,
+      "footerRestored": true
+    }
+  ],
+  "mobilePages": [
+    {
+      "page": "index.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "scoli.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "categorie.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "produs.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "cos.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "checkout.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "contact.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "informatii.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "despre-noi.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "livrare.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "retur.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    },
+    {
+      "page": "harta-site.html",
+      "dialogOpen": true,
+      "menuClosed": true,
+      "dialogClosed": true,
+      "focusOnMenu": true
+    }
+  ]
+}

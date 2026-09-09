@@ -10,10 +10,12 @@
   <link rel="preload" href="assets/fonts/archivo-expanded-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/archivo-expanded-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/account.css">
   <link rel="stylesheet" href="css/cart.css">
   <script src="js/catalog.js" defer></script>
   <script src="js/cart-state.js" defer></script>
   <script src="js/navigation.js" defer></script>
+  <script src="js/account.js" defer></script>
   <script src="js/cart.js" defer></script>
 </head>
 <!-- Only this standalone document has its default body margin removed.
@@ -33,12 +35,12 @@
           <a class="school-nav-link" href="index.html#school-partners">Pentru școli</a>
           <a class="school-nav-link" href="contact.html">Contact</a>
           <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Căutare</a>
-          <a class="school-nav-link school-mobile-only" href="#" data-school-placeholder>Contul meu</a>
+          <a class="school-nav-link school-mobile-only" href="#school-account-dialog" data-school-account-open aria-haspopup="dialog" aria-controls="school-account-dialog">Contul meu</a>
         </nav>
         <div class="school-header-actions">
           <!-- Replace placeholder hrefs with the existing OpenCart URLs during integration. -->
           <a class="school-desktop-only" href="#" data-school-placeholder>Căutare</a>
-          <a class="school-desktop-only" href="#" data-school-placeholder>Cont</a>
+          <a class="school-desktop-only" href="#school-account-dialog" data-school-account-open aria-haspopup="dialog" aria-controls="school-account-dialog">Cont</a>
           <a class="school-cart-link" href="cos.html">
             <span class="school-visually-hidden">Coș de cumpărături, produse: </span>
             <svg class="school-cart-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M2.5 4.5h3l3 14h13l3-10H6.5M9 18.5l-1 3h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="25" r="1.4" fill="currentColor"/><circle cx="21" cy="25" r="1.4" fill="currentColor"/></svg>
@@ -110,13 +112,31 @@
       </article>
     </template>
 
+
+    <!-- Shared account fragment. Included statically in each standalone page. -->
+    <dialog class="school-account-dialog" id="school-account-dialog" aria-labelledby="school-account-title" aria-describedby="school-account-description school-account-demo-note">
+      <button class="school-account-close" type="button" data-school-account-close aria-label="Închide fereastra contului"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      <p class="school-account-eyebrow">NOVRI / CONTUL TĂU</p>
+      <h2 id="school-account-title">Bine ai revenit</h2>
+      <p class="school-account-description" id="school-account-description">Intră în cont pentru comenzile și uniformele tale.</p>
+      <form class="school-account-form" id="school-account-form" method="dialog" autocomplete="off" novalidate>
+        <div class="school-account-field"><label for="school-account-email">Adresa de e-mail</label><input id="school-account-email" name="account-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="160" required></div>
+        <div class="school-account-field" id="school-account-password-field"><label for="school-account-password">Parolă</label><input id="school-account-password" name="account-password" type="password" autocomplete="off" maxlength="160" required></div>
+        <button class="school-account-text-button school-account-forgot" type="button" id="school-account-forgot">Ai uitat parola?</button>
+        <button class="school-account-submit" type="submit"><span id="school-account-submit-label">Autentificare</span><span aria-hidden="true">→</span></button>
+        <button class="school-account-text-button school-account-back" type="button" id="school-account-back" hidden><span aria-hidden="true">←</span> Înapoi la autentificare</button>
+        <p class="school-account-status" id="school-account-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+      </form>
+      <p class="school-account-demo-note" id="school-account-demo-note">Demo de design. Folosește date fictive; formularul nu trimite date.</p>
+    </dialog>
+
     <footer class="school-footer" id="contact">
       <div class="school-footer-inner school-container">
         <div class="school-footer-top"><a class="school-logo" href="index.html" aria-label="NOVRI — pagina principală"><img src="assets/logo.svg" alt="NOVRI" width="112" height="36" loading="lazy"></a><span class="school-footer-signature">Uniforme cu identitate.</span></div>
         <div class="school-footer-grid">
           <nav class="school-footer-column" aria-labelledby="school-footer-shop"><h2 id="school-footer-shop">Magazin</h2><a href="index.html#school-main">Uniforme școlare</a><a href="scoli.html">Toate școlile</a><a href="index.html#school-collection">Toate produsele</a><a href="contact.html">Contact</a></nav>
           <nav class="school-footer-column" aria-labelledby="school-footer-info"><h2 id="school-footer-info"><a href="informatii.html">Informații</a></h2><a href="livrare.html">Livrare</a><a href="retur.html">Retur</a><a href="termeni-si-conditii.html">Termeni și condiții</a><a href="confidentialitate.html">Confidențialitate</a><a href="harta-site.html">Harta site-ului</a></nav>
-          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#" data-school-placeholder>Contul meu</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#school-account-dialog" data-school-account-open aria-haspopup="dialog" aria-controls="school-account-dialog">Contul meu</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
           <div class="school-footer-column"><h2>NOVRI</h2><a href="despre-noi.html">Despre noi</a><p>Producător român de uniforme</p><p>Broderie &amp; imprimeu in-house</p><a class="school-footer-contact" href="contact.html">Hai să vorbim <span aria-hidden="true">↗</span></a></div>
         </div>
         <div class="school-footer-bottom"><small>© AUROCOM SRL / NOVRI</small><a href="#school-main">Înapoi sus <span aria-hidden="true">↑</span></a></div>

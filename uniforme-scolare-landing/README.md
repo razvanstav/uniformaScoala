@@ -21,6 +21,7 @@ uniforme-scolare-landing/
   confidentialitate.html
   harta-site.html
   css/styles.css
+  css/account.css
   css/product.css
   css/category.css
   css/schools.css
@@ -32,6 +33,7 @@ uniforme-scolare-landing/
   js/cart-state.js
   js/main.js
   js/navigation.js
+  js/account.js
   js/product.js
   js/category.js
   js/schools.js
@@ -40,6 +42,7 @@ uniforme-scolare-landing/
   js/checkout.js
   js/contact.js
   js/information.js
+  components/account-dialog.html
   assets/
     product-01.jpg … product-06.jpg
     hero.jpg
@@ -65,6 +68,8 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 
 ## Modificări ulterioare
 
+- **Pop-up Cont:** „Cont” din header și „Contul meu” din meniul mobil/footer deschid aceeași fereastră pe toate cele 14 pagini. Include autentificare și recuperare a parolei demonstrative, închidere cu X/Escape/click exterior, focus controlat și responsive. Componenta este separată în `components/account-dialog.html`, `css/account.css` și `js/account.js`; integrarea este descrisă în [INTEGRARE-CONT.md](INTEGRARE-CONT.md). Nu se trimit date sau e-mailuri și nu există autentificare reală.
+
 - **Titluri interioare compacte:** titlurile mari rămân pe homepage și contact. Produsul, colecția școlii, coșul, checkout-ul și paginile de informații folosesc `--school-page-title-size` (22–32 px), cu introduceri mai scurte și mai puțin spațiu deasupra conținutului. Checkout-ul are titlul explicit „Finalizare comandă”. Pagina școlilor începe direct cu un câmp de căutare centrat.
 - **Închiderea meniului mobil:** butonul afișează „Meniu” sau „Închide”, împreună cu hamburger/X. Handlerul de focus folosește destinația reală a focusului, pentru a evita închiderea și redeschiderea imediată la click pe X. Verificările sunt în `../qa/navigation-headings-verification.md`.
 
@@ -85,7 +90,7 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 - **Coș demo:** iconița de pe toate paginile deschide `cos.html`. Fișiere proprii: `css/cart.css`, `js/cart.js`; starea comună este în `js/cart-state.js`. Două produse exemplu, cantități ajustabile, eliminare/undo, sumar calculat în bani întregi, coș gol și recomandări. `sessionStorage` păstrează modificările și contorul în aceeași filă. Voucherul afișează numai un mesaj demo. Finalizarea deschide pagina locală `checkout.html`; nu există comenzi sau plăți. Documentația și punctele de înlocuit sunt în [INTEGRARE-COS.md](INTEGRARE-COS.md).
 - **Școli:** editează exclusiv `const schools` din `js/catalog.js`. Fiecare școală are `name`, `county`, `city` și `url`, opțional `emblem` și `sourceUrl` pentru directorul de școli. Dropdown-ul grupează automat după `county`, sortează județele și școlile alfabetic cu regulile limbii române și afișează localitatea sub numele școlii atunci când este diferită de județ. Etichetele județelor au chenar și rămân vizibile la derularea grupului. Selectarea deschide pagina locală `categorie.html?scoala=...`; `school.url` păstrează adresa OpenCart originală pentru integrarea viitoare. Pentru o locație neconfirmată, lasă câmpul gol; școala rămâne accesibilă în grupul final „Județ neprecizat”.
 - **Căutare opțională în școli:** schimbă `selectorSettings.searchEnabled` din `false` în `true`. Caută după școală, județ sau localitate, inclusiv fără diacritice, și ascunde grupurile fără rezultate. Implicit, câmpul nu este afișat.
-- **Produse și cont:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`.
+- **Linkuri placeholder:** înlocuiește `href="#"` direct în HTML. Linkurile devin active fără alte schimbări; handlerul ignoră doar placeholder-ele cu valoarea exactă `#`. Linkurile Cont au propriul declanșator pentru pop-up; un URL real în loc de `#school-account-dialog` permite navigarea normală.
 - **Fotografii:** înlocuiește JPEG-urile păstrând denumirile. Produsele au 900 × 1125 px (4:5), iar bannerul 1600 × 1000 px. Actualizează atributele `width`, `height` și `alt` dacă se schimbă imaginile.
 - **Aspect:** culorile și marginile de bază sunt variabile `--school-*` pe wrapper. Pragurile principale sunt 600 px și 1024 px; ajustarea secundară desktop este la 1280 px.
 

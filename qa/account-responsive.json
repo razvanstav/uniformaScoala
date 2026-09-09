@@ -1,0 +1,74 @@
+[
+  {
+    "height": 844,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 375,
+    "withinViewport": true
+  },
+  {
+    "height": 844,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 390,
+    "withinViewport": true
+  },
+  {
+    "height": 932,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 430,
+    "withinViewport": true
+  },
+  {
+    "height": 900,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 768,
+    "withinViewport": true
+  },
+  {
+    "height": 900,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 1024,
+    "withinViewport": true
+  },
+  {
+    "height": 900,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 1280,
+    "withinViewport": true
+  },
+  {
+    "height": 1000,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 1440,
+    "withinViewport": true
+  },
+  {
+    "height": 1080,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": false,
+    "width": 1920,
+    "withinViewport": true
+  },
+  {
+    "height": 480,
+    "horizontalOverflow": false,
+    "open": true,
+    "scrollsVertically": true,
+    "width": 375,
+    "withinViewport": true
+  }
+]

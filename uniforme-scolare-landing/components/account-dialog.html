@@ -1,0 +1,16 @@
+<!-- Shared account fragment. Included statically in each standalone page. -->
+<dialog class="school-account-dialog" id="school-account-dialog" aria-labelledby="school-account-title" aria-describedby="school-account-description school-account-demo-note">
+  <button class="school-account-close" type="button" data-school-account-close aria-label="Închide fereastra contului"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.5"/></svg></button>
+  <p class="school-account-eyebrow">NOVRI / CONTUL TĂU</p>
+  <h2 id="school-account-title">Bine ai revenit</h2>
+  <p class="school-account-description" id="school-account-description">Intră în cont pentru comenzile și uniformele tale.</p>
+  <form class="school-account-form" id="school-account-form" method="dialog" autocomplete="off" novalidate>
+    <div class="school-account-field"><label for="school-account-email">Adresa de e-mail</label><input id="school-account-email" name="account-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="160" required></div>
+    <div class="school-account-field" id="school-account-password-field"><label for="school-account-password">Parolă</label><input id="school-account-password" name="account-password" type="password" autocomplete="off" maxlength="160" required></div>
+    <button class="school-account-text-button school-account-forgot" type="button" id="school-account-forgot">Ai uitat parola?</button>
+    <button class="school-account-submit" type="submit"><span id="school-account-submit-label">Autentificare</span><span aria-hidden="true">→</span></button>
+    <button class="school-account-text-button school-account-back" type="button" id="school-account-back" hidden><span aria-hidden="true">←</span> Înapoi la autentificare</button>
+    <p class="school-account-status" id="school-account-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+  </form>
+  <p class="school-account-demo-note" id="school-account-demo-note">Demo de design. Folosește date fictive; formularul nu trimite date.</p>
+</dialog>
