@@ -6,13 +6,13 @@
 
 | Fișier | Rol |
 | --- | --- |
-| `scoli.html` | Alegerea județului, căutare, grupuri de școli, template de card, CTA pentru parteneri |
+| `scoli.html` | Căutare centrată, grupuri de școli pe județe, template de card, CTA pentru parteneri |
 | `css/styles.css` | Stiluri comune, header, footer, fonturi și accesibilitate |
 | `css/schools.css` | Layout-ul directorului, grupuri pe județe și responsive |
 | `js/catalog.js` | Lista comună `schools`, embleme și rute demo |
 | `js/cart-state.js` | Contorul comun al coșului demonstrativ |
 | `js/navigation.js` | Meniul comun |
-| `js/schools.js` | Generarea listei, căutare, selecție de județ și stare în URL |
+| `js/schools.js` | Generarea listei, căutare și stare în URL |
 | `assets/schools/` | Cele șapte embleme locale și sursele acestora |
 
 CSS-ul comun se încarcă primul. Scripturile se încarcă în ordinea din tabel, cu `defer`. Pagina nu necesită `main.js`, `category.js` sau `category.css`.
@@ -49,20 +49,20 @@ Județele și școlile sunt ordonate cu `Intl.Collator('ro')`. Un județ gol est
 - Meniul și footer-ul tuturor paginilor includ „Toate școlile”. Homepage-ul are și link sub selector.
 - „Schimbă școala” din colecție deschide directorul. Un produs fără școală selectată trimite tot aici; în contextul unei școli, păstrează întoarcerea la colecția ei.
 - Căutarea include nume, localitate și județ, fără diferențe de majuscule sau diacritice. Toate cuvintele introduse trebuie să se regăsească în înregistrare.
-- Selecția județului se combină cu căutarea. Grupurile fără rezultate sunt ascunse; contorul, mesajul gol și resetarea se actualizează local.
-- Parametrii `q` și `judet` păstrează selecția la reîncărcare și la revenirea din colecție. Valorile necunoscute de județ sunt ignorate. Directorul nu scrie cookie-uri sau storage.
-- Butoanele de județ folosesc `aria-pressed`; Enter/Space și Tab funcționează nativ. Escape golește căutarea. Contorul are `aria-live`, iar resetarea readuce focusul în căutare.
+- Un singur câmp filtrează școlile; panoul separat cu butoane de județ a fost eliminat. Grupurile fără rezultate sunt ascunse; contorul, mesajul gol și resetarea se actualizează local.
+- Parametrul `q` păstrează căutarea la reîncărcare și la revenirea din colecție. Linkurile vechi cu `judet` afișează județul recunoscut direct în câmp, alături de căutarea existentă. Valorile necunoscute de județ sunt ignorate. Directorul nu scrie cookie-uri sau storage.
+- Câmpul are etichetă vizibilă și chenar de focus. Escape golește căutarea. Contorul are `aria-live`, iar resetarea readuce focusul în căutare.
 - CTA-ul „Hai să vorbim” deschide formularul local cu subiectul pentru școli preselectat.
 - Fără JavaScript se afișează un link către lista existentă a magazinului.
 
-Pe telefon este o școală pe rând, de la 600 px sunt două, iar de la 1024 px sunt trei. Alegerea județului este prima zonă vizibilă sub header, într-un panou contrastant cu butoane mari. Pe telefon, butoanele sunt așezate pe rânduri, fără scroll lateral; toate județele existente sunt vizibile imediat. Introducerea editorială și breadcrumb-ul au fost eliminate, iar H1-ul „Toate școlile” este păstrat pentru accesibilitate, ascuns vizual. Imaginile au dimensiuni definite; emblemele de mai jos sunt lazy. Tranzițiile respectă `prefers-reduced-motion`.
+Pe telefon este o școală pe rând, de la 600 px sunt două, iar de la 1024 px sunt trei. Căutarea apare centrată sub header: maximum 640 px pe desktop, lățimea disponibilă pe mobil și înălțime de 60–64 px. Eticheta și contorul sunt centrate. Județele rămân titlurile grupurilor din listă, în ordine alfabetică. Introducerea editorială și breadcrumb-ul au fost eliminate, iar H1-ul „Toate școlile” este păstrat pentru accesibilitate, ascuns vizual. Imaginile au dimensiuni definite; emblemele de mai jos sunt lazy. Tranzițiile respectă `prefers-reduced-motion`.
 
 ## Puncte pentru integrarea ulterioară
 
 1. Transferă wrapper-ul și referințele CSS/JS în template-ul dedicat OpenCart. Elementele standalone `html`, `head` și `body` nu se dublează. Adaptează căile relative ale fișierelor și dezactivează Journal pentru acest template în etapa de integrare.
 2. Înlocuiește datele demo cu subcategoriile OpenCart. Câmpurile relevante sunt numele, URL-ul categoriei, imaginea și metadatele de județ/localitate. Generatorul poate primi aceleași câmpuri sau lista poate fi randată în Twig, păstrând markup-ul.
 3. Cardul este definit în `#school-directory-card-template`; grupurile se află în `#school-directory-groups`. Titlurile județelor sunt `h2`, iar numele școlilor `h3`.
-4. Controalele sunt `#school-directory-search`, `#school-directory-counties`, `#school-directory-count` și `#school-directory-empty`. Adaptarea listei server trebuie să păstreze etichetele, stările ARIA și mesajul fără rezultate.
+4. Controalele sunt `#school-directory-search`, `#school-directory-count` și `#school-directory-empty`. Adaptarea listei server trebuie să păstreze etichetele, stările ARIA și mesajul fără rezultate.
 5. Înlocuiește `SchoolCatalog.categoryUrl` cu rutele finale. Nu folosi implicit adresele MEAI din brief în locul categoriilor confirmate ale magazinului.
 6. Înlocuiește contorul coșului demo când se integrează navigația comună. Directorul nu modifică produse, stoc sau coș.
 7. Elimină `noindex, nofollow` doar pentru pagina finală publicată, după completarea metadatelor și a rutelor reale.
