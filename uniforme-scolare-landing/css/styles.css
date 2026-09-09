@@ -27,6 +27,7 @@
   --school-line: #d9dad4;
   --school-gutter: 20px;
   --school-font: "School Archivo", Arial, sans-serif;
+  --school-page-title-size: clamp(1.375rem, 2.6vw, 2rem);
   background: var(--school-paper);
   color: var(--school-ink);
   font-family: var(--school-font);

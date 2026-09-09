@@ -3,6 +3,7 @@
   const landing = document.getElementById('school-uniforms-landing');
   if (!landing) return;
   const menuButton = landing.querySelector('.school-menu-toggle');
+  const menuLabel = menuButton.querySelector('.school-menu-label');
   const menu = landing.querySelector('#school-menu');
   const header = landing.querySelector('.school-header');
   const desktop = window.matchMedia('(min-width: 1024px)');
@@ -11,6 +12,7 @@
     menu.hidden = !desktop.matches;
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Deschide meniul');
+    menuLabel.textContent = 'Meniu';
     if (returnFocus) menuButton.focus();
   }
   function syncMenu() {
@@ -23,15 +25,17 @@
     menu.hidden = !willOpen;
     menuButton.setAttribute('aria-expanded', String(willOpen));
     menuButton.setAttribute('aria-label', willOpen ? 'Închide meniul' : 'Deschide meniul');
+    menuLabel.textContent = willOpen ? 'Închide' : 'Meniu';
     if (willOpen) menu.querySelector('a').focus();
   });
   menu.addEventListener('click', (event) => {
     if (event.target.closest('a')) closeMenu();
   });
-  header.addEventListener('focusout', () => {
-    queueMicrotask(() => {
-      if (!header.contains(document.activeElement)) closeMenu();
-    });
+  header.addEventListener('focusout', (event) => {
+    // Pointer activation can briefly move focus to the document before click.
+    // Only a known destination outside the header means keyboard focus left it.
+    // Outside pointer presses are handled below, without racing the toggle click.
+    if (event.relatedTarget && !header.contains(event.relatedTarget)) closeMenu();
   });
   document.addEventListener('pointerdown', (event) => {
     if (!header.contains(event.target)) closeMenu();

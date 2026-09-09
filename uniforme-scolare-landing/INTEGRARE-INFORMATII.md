@@ -31,6 +31,8 @@ Scripturile au `defer`. Wrapper: `#school-uniforms-landing.school-information-pa
 
 Pe desktop, navigația dintre pagini rămâne vizibilă în lateral, iar textul are maximum 760 px. Pe telefon, navigația permite scroll orizontal, iar cuprinsul este inițial închis. `details/summary` funcționează cu Enter/Space și fără JavaScript. Textele rămân afișate integral; cuprinsul controlează doar lista de ancore.
 
+Introducerea este compactă: titlu de 22–32 px, fără rânduri forțate sau etichete repetate deasupra articolului. Mărimea este definită de `--school-page-title-size` în `css/styles.css`, comună paginilor interioare. Titlurile mari ale homepage-ului și contactului au stilurile lor separate.
+
 Lista școlilor din `harta-site.html` se generează din `SchoolCatalog.schools`; nu trebuie întreținută separat. Fără JavaScript există un link către directorul școlilor. Fotografia Despre noi reutilizează `assets/hero.jpg`, fotografia demonstrativă locală deja folosită pe homepage.
 
 ## Legături în restul demo-ului

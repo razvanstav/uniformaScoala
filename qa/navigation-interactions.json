@@ -1,0 +1,466 @@
+{
+  "beforeFix": [
+    {
+      "expanded": "true",
+      "focus": "school-nav-link",
+      "hidden": false
+    },
+    {
+      "expanded": "true",
+      "focus": "school-nav-link",
+      "hidden": false
+    },
+    {
+      "expanded": "true",
+      "focus": "school-nav-link",
+      "hidden": false
+    },
+    {
+      "expanded": "true",
+      "focus": "school-nav-link",
+      "hidden": false
+    }
+  ],
+  "afterFix": [
+    {
+      "page": "index.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "contact.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "scoli.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "categorie.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "produs.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "cos.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "checkout.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "informatii.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "despre-noi.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "livrare.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "retur.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "harta-site.html",
+      "steps": [
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "label": "Închide"
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "label": "Meniu"
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "keyboardAndFocus": [
+    {
+      "action": "Enter opens",
+      "state": {
+        "expanded": "true",
+        "focus": "Uniforme școlare"
+      }
+    },
+    {
+      "action": "Escape closes, restores focus",
+      "state": {
+        "focusedToggle": true,
+        "hidden": true
+      }
+    },
+    {
+      "action": "Space opens",
+      "state": {
+        "hidden": false
+      }
+    },
+    {
+      "action": "Space closes",
+      "state": {
+        "hidden": true
+      }
+    },
+    {
+      "action": "Label opens",
+      "state": {
+        "hidden": false
+      }
+    },
+    {
+      "action": "Label closes",
+      "state": {
+        "hidden": true
+      }
+    },
+    {
+      "action": "Tab out of header closes",
+      "state": {
+        "focusOutside": true,
+        "hidden": true
+      }
+    },
+    {
+      "action": "Click outside closes",
+      "state": {
+        "hidden": true
+      }
+    },
+    {
+      "action": "Menu link navigates",
+      "state": {
+        "hidden": true,
+        "path": "/scoli.html"
+      }
+    },
+    {
+      "action": "Resize to desktop",
+      "state": {
+        "expanded": "false",
+        "menuHidden": false,
+        "toggleHidden": true
+      }
+    },
+    {
+      "action": "Resize back to mobile",
+      "state": {
+        "expanded": "false",
+        "menuHidden": true,
+        "toggleHidden": false
+      }
+    }
+  ]
+}

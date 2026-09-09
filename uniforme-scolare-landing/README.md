@@ -65,6 +65,9 @@ Analiză vizuală și măsurători ale paginii [Milano / Shirts](https://milano-
 
 ## Modificări ulterioare
 
+- **Titluri interioare compacte:** titlurile mari rămân pe homepage și contact. Produsul, colecția școlii, coșul, checkout-ul și paginile de informații folosesc `--school-page-title-size` (22–32 px), cu introduceri mai scurte și mai puțin spațiu deasupra conținutului. Checkout-ul are titlul explicit „Finalizare comandă”. Pagina școlilor începe în continuare direct cu alegerea județului.
+- **Închiderea meniului mobil:** butonul afișează „Meniu” sau „Închide”, împreună cu hamburger/X. Handlerul de focus folosește destinația reală a focusului, pentru a evita închiderea și redeschiderea imediată la click pe X. Verificările sunt în `../qa/navigation-headings-verification.md`.
+
 - **Informații:** pagini separate pentru Despre noi, livrare/plată, retur/schimb, termeni și confidențialitate, plus index și hartă. Folosesc `css/information.css` și `js/information.js`, cu text static, navigație laterală pe desktop și cuprins accesibil. Footer-ul tuturor celor 14 pagini este conectat; politicile din contact/checkout se deschid în filă nouă. Textele sunt preluate din magazinul existent pentru etapa de design; neconcordanțele observate și integrarea ulterioară sunt documentate în [INTEGRARE-INFORMATII.md](INTEGRARE-INFORMATII.md).
 
 - **Toate școlile / subcategorii:** `scoli.html`, `css/schools.css`, `js/schools.js`. Alegerea județului apare imediat sub header, într-un panou contrastant cu butoane mari și toate opțiunile vizibile pe mobil. Cele nouă școli din catalogul comun sunt grupate alfabetic pe județe, cu embleme locale, căutare după nume/localitate/județ și acces la colecția fiecărei școli. Căutarea și județul se păstrează în URL. Pagina este legată din meniul și footer-ul comun, de sub selectorul homepage-ului și din „Schimbă școala”. Ghid separat: [INTEGRARE-SUBCATEGORII.md](INTEGRARE-SUBCATEGORII.md).
@@ -101,7 +104,7 @@ Archivo este găzduit local, cu caracterele românești incluse. Sursă: [Google
 - Escape închide selectorul și restabilește focusul. Tab iese natural din listă, fără blocarea tastaturii. Clickul exterior închide lista.
 - Lista are scroll propriu, iar înălțimea se adaptează la spațiul vizibil.
 - Județele sunt grupuri ARIA etichetate; navigarea cu săgeți traversează numai școlile, iar antetul județului nu ascunde opțiunea focalizată.
-- Meniul mobil se deschide din buton, se închide cu Escape, la click exterior sau la ieșirea focusului.
+- Meniul mobil se deschide și se închide din același buton, prin click, Enter sau Space. Escape îl închide și restabilește focusul; clickul exterior, ieșirea focusului din header și activarea unui link îl închid de asemenea.
 - CTA-ul editorial derulează la selector și îi mută focusul. Mișcarea redusă dezactivează tranzițiile și derularea lină.
 - Un singur H1, limbă română, landmarks semantice, focus vizibil și link „Sari la conținut”.
 

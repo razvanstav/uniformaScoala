@@ -1,13 +1,13 @@
 /* Cart presentation: shared NOVRI styles + this isolated page stylesheet. */
 #school-uniforms-landing.school-cart-page .school-header { position: relative; inset: auto; background: var(--school-paper); border-bottom: 1px solid var(--school-line); }
-#school-uniforms-landing .school-cart-breadcrumbs { display: flex; gap: 12px; flex-wrap: wrap; padding-block: 25px; font-family: Arial, sans-serif; font-size: 12px; color: var(--school-muted); }
+#school-uniforms-landing .school-cart-breadcrumbs { display: flex; gap: 12px; flex-wrap: wrap; padding-block: 20px; font-family: Arial, sans-serif; font-size: 12px; color: var(--school-muted); }
 #school-uniforms-landing .school-cart-breadcrumbs a { text-decoration: underline; text-underline-offset: 4px; }
-#school-uniforms-landing .school-cart-intro { padding-block: 40px 38px; }
-#school-uniforms-landing .school-cart-title-row { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 14px 30px; margin-top: 20px; }
-#school-uniforms-landing .school-cart-title-row h1 { font-size: clamp(2.75rem,11vw,5rem); line-height: 1.1; letter-spacing: -.05em; font-weight: 600; text-transform: uppercase; }
+#school-uniforms-landing .school-cart-intro { padding-block: 8px 28px; }
+#school-uniforms-landing .school-cart-title-row { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 14px 30px; margin-top: 0; }
+#school-uniforms-landing .school-cart-title-row h1 { font-size: var(--school-page-title-size); line-height: 1.3; letter-spacing: -.025em; font-weight: 600; text-transform: uppercase; }
 #school-uniforms-landing .school-cart-continue { display: inline-flex; align-items: center; gap: 18px; min-height: 44px; font-size: 10px; text-transform: uppercase; }
 #school-uniforms-landing .school-cart-continue span { color: #977325; font-family: Arial, sans-serif; font-size: 22px; }
-#school-uniforms-landing .school-cart-intro-note { margin-top: 18px; max-width: 580px; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 16px; line-height: 1.65; }
+#school-uniforms-landing .school-cart-intro-note { margin-top: 12px; max-width: 580px; color: var(--school-muted); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.65; }
 #school-uniforms-landing .school-cart-layout { display: grid; grid-template-columns: minmax(0,1fr); gap: 40px; }
 #school-uniforms-landing .school-cart-products { min-width: 0; }
 #school-uniforms-landing .school-cart-list-heading { display: flex; justify-content: space-between; gap: 20px; padding-block: 18px; border-block: 1px solid var(--school-line); font-family: Arial, sans-serif; font-size: 12px; color: var(--school-muted); }
@@ -59,7 +59,7 @@
 #school-uniforms-landing .school-cart-feedback { display: flex; align-items: center; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; padding: 16px 0; margin-bottom: 18px; border-block: 1px solid var(--school-line); font-family: Arial, sans-serif; font-size: 13px; }
 #school-uniforms-landing .school-cart-feedback button { min-height: 44px; padding: 0; border: 0; background: transparent; text-decoration: underline; text-underline-offset: 4px; font-family: Arial, sans-serif; font-size: 13px; }
 #school-uniforms-landing .school-cart-empty { padding-block: 48px 64px; border-top: 1px solid var(--school-line); }
-#school-uniforms-landing .school-cart-empty h2 { margin-block: 22px; font-size: clamp(1.875rem,7.4vw,3.75rem); line-height: 1.15; letter-spacing: -.045em; font-weight: 500; text-transform: uppercase; text-wrap: balance; }
+#school-uniforms-landing .school-cart-empty h2 { margin-block: 22px; font-size: var(--school-page-title-size); line-height: 1.15; letter-spacing: -.045em; font-weight: 500; text-transform: uppercase; text-wrap: balance; }
 #school-uniforms-landing .school-cart-empty > p:last-of-type { max-width: 440px; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.7; color: var(--school-muted); }
 #school-uniforms-landing .school-cart-empty-cta { display: inline-flex; align-items: center; justify-content: space-between; gap: 60px; min-height: 54px; margin-top: 26px; padding: 16px 20px; background: var(--school-ink); color: #fff; font-size: 12px; text-transform: uppercase; }
 #school-uniforms-landing .school-cart-demo-controls { padding-top: 24px; }
@@ -76,8 +76,6 @@
   #school-uniforms-landing .school-cart-summary { padding: 32px; }
 }
 @media (min-width: 1024px) {
-  #school-uniforms-landing .school-cart-breadcrumbs { padding-block: 34px; }
-  #school-uniforms-landing .school-cart-intro { padding-block: 58px 54px; }
   #school-uniforms-landing .school-cart-layout { grid-template-columns: minmax(0,1fr) 340px; gap: 48px; }
   #school-uniforms-landing .school-cart-summary { position: sticky; top: 24px; padding: 32px 28px; }
   #school-uniforms-landing .school-cart-summary h2 { font-size: 22px; }
