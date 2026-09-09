@@ -6,7 +6,7 @@
 
 | Fișier | Rol |
 | --- | --- |
-| `scoli.html` | Intro, căutare, grupuri de școli, template de card, CTA pentru parteneri |
+| `scoli.html` | Alegerea județului, căutare, grupuri de școli, template de card, CTA pentru parteneri |
 | `css/styles.css` | Stiluri comune, header, footer, fonturi și accesibilitate |
 | `css/schools.css` | Layout-ul directorului, grupuri pe județe și responsive |
 | `js/catalog.js` | Lista comună `schools`, embleme și rute demo |
@@ -46,7 +46,7 @@ Județele și școlile sunt ordonate cu `Intl.Collator('ro')`. Un județ gol est
 
 ## Navigare și interacțiuni
 
-- Meniul și footer-ul tuturor celor șapte pagini includ „Toate școlile”. Homepage-ul are și link sub selector.
+- Meniul și footer-ul tuturor paginilor includ „Toate școlile”. Homepage-ul are și link sub selector.
 - „Schimbă școala” din colecție deschide directorul. Un produs fără școală selectată trimite tot aici; în contextul unei școli, păstrează întoarcerea la colecția ei.
 - Căutarea include nume, localitate și județ, fără diferențe de majuscule sau diacritice. Toate cuvintele introduse trebuie să se regăsească în înregistrare.
 - Selecția județului se combină cu căutarea. Grupurile fără rezultate sunt ascunse; contorul, mesajul gol și resetarea se actualizează local.
@@ -55,7 +55,7 @@ Județele și școlile sunt ordonate cu `Intl.Collator('ro')`. Un județ gol est
 - CTA-ul „Hai să vorbim” deschide formularul local cu subiectul pentru școli preselectat.
 - Fără JavaScript se afișează un link către lista existentă a magazinului.
 
-Pe telefon este o școală pe rând, de la 600 px sunt două, iar de la 1024 px sunt trei. Bara județelor se poate derula orizontal pe telefon. Imaginile au dimensiuni definite; emblemele de mai jos sunt lazy. Tranzițiile respectă `prefers-reduced-motion`.
+Pe telefon este o școală pe rând, de la 600 px sunt două, iar de la 1024 px sunt trei. Alegerea județului este prima zonă vizibilă sub header, într-un panou contrastant cu butoane mari. Pe telefon, butoanele sunt așezate pe rânduri, fără scroll lateral; toate județele existente sunt vizibile imediat. Introducerea editorială și breadcrumb-ul au fost eliminate, iar H1-ul „Toate școlile” este păstrat pentru accesibilitate, ascuns vizual. Imaginile au dimensiuni definite; emblemele de mai jos sunt lazy. Tranzițiile respectă `prefers-reduced-motion`.
 
 ## Puncte pentru integrarea ulterioară
 

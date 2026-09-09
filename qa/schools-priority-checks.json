@@ -1,0 +1,219 @@
+{
+  "responsive": [
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "label": "Toate județele",
+          "top": 205,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "București",
+          "top": 259,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "Teleorman",
+          "top": 259,
+          "visible": true
+        }
+      ],
+      "documentWidth": 360,
+      "h1s": 1,
+      "width": 375
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "label": "Toate județele",
+          "top": 205,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "București",
+          "top": 259,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "Teleorman",
+          "top": 259,
+          "visible": true
+        }
+      ],
+      "documentWidth": 375,
+      "h1s": 1,
+      "width": 390
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "label": "Toate județele",
+          "top": 205,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "București",
+          "top": 259,
+          "visible": true
+        },
+        {
+          "height": 58,
+          "label": "Teleorman",
+          "top": 259,
+          "visible": true
+        }
+      ],
+      "documentWidth": 415,
+      "h1s": 1,
+      "width": 430
+    },
+    {
+      "buttons": [
+        {
+          "height": 64,
+          "label": "Toate județele",
+          "top": 211,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "București",
+          "top": 211,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "Teleorman",
+          "top": 211,
+          "visible": true
+        }
+      ],
+      "documentWidth": 753,
+      "h1s": 1,
+      "width": 768
+    },
+    {
+      "buttons": [
+        {
+          "height": 64,
+          "label": "Toate județele",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "București",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "Teleorman",
+          "top": 166.890625,
+          "visible": true
+        }
+      ],
+      "documentWidth": 1009,
+      "h1s": 1,
+      "width": 1024
+    },
+    {
+      "buttons": [
+        {
+          "height": 64,
+          "label": "Toate județele",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "București",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "Teleorman",
+          "top": 166.890625,
+          "visible": true
+        }
+      ],
+      "documentWidth": 1265,
+      "h1s": 1,
+      "width": 1280
+    },
+    {
+      "buttons": [
+        {
+          "height": 64,
+          "label": "Toate județele",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "București",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "Teleorman",
+          "top": 166.890625,
+          "visible": true
+        }
+      ],
+      "documentWidth": 1425,
+      "h1s": 1,
+      "width": 1440
+    },
+    {
+      "buttons": [
+        {
+          "height": 64,
+          "label": "Toate județele",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "București",
+          "top": 166.890625,
+          "visible": true
+        },
+        {
+          "height": 64,
+          "label": "Teleorman",
+          "top": 166.890625,
+          "visible": true
+        }
+      ],
+      "documentWidth": 1905,
+      "h1s": 1,
+      "width": 1920
+    }
+  ],
+  "county": {
+    "schools": 5,
+    "selected": "Teleorman"
+  },
+  "search": {
+    "schools": [
+      "Școala Gimnazială Nr. 7"
+    ],
+    "url": "http://127.0.0.1:4173/scoli.html?q=nr+7&judet=Teleorman"
+  },
+  "reset": {
+    "count": 9,
+    "focus": "school-directory-search"
+  },
+  "errors": []
+}

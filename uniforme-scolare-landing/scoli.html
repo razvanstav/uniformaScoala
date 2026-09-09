@@ -54,17 +54,18 @@
     </header>
 
     <main class="school-container" id="school-main">
-      <nav class="school-directory-breadcrumbs" aria-label="Fir de navigare"><a href="index.html">Acasă</a><span aria-hidden="true">/</span><span aria-current="page">Toate școlile</span></nav>
-      <section class="school-directory-intro" aria-labelledby="school-directory-title">
-        <p class="school-eyebrow">NOVRI / O IDENTITATE COMUNĂ</p>
-        <div class="school-directory-intro-row"><h1 id="school-directory-title">Toate<br>școlile.</h1><div class="school-directory-intro-copy"><p>Fiecare școală are propria identitate.<br>Alege școala copilului tău și descoperă colecția de uniforme dedicată.</p><a class="school-directory-text-link" href="#school-directory-search" data-school-directory-search-link>Găsește școala <span aria-hidden="true">↓</span></a></div></div>
-      </section>
+      <h1 class="school-visually-hidden" id="school-directory-title">Toate școlile</h1>
       <section class="school-directory-browser" aria-label="Găsește școala copilului tău">
-        <div class="school-directory-toolbar" id="school-directory-controls" hidden>
+        <div class="school-directory-finder" id="school-directory-controls" hidden>
+          <div class="school-directory-county-panel">
+            <div class="school-directory-county-intro"><h2 id="school-directory-county-title">Alege județul</h2><p>Apoi selectează școala.</p></div>
+            <div class="school-directory-counties" id="school-directory-counties" role="group" aria-labelledby="school-directory-county-title" hidden></div>
+          </div>
+          <div class="school-directory-toolbar">
           <div class="school-directory-search"><label class="school-visually-hidden" for="school-directory-search">Caută după școală, localitate sau județ</label><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.4"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.4"/></svg><input id="school-directory-search" type="search" placeholder="Școală, localitate sau județ" autocomplete="off" maxlength="120" aria-controls="school-directory-groups"><button class="school-directory-search-clear" id="school-directory-search-clear" type="button" aria-label="Șterge căutarea" hidden>×</button></div>
           <div class="school-directory-toolbar-meta"><p id="school-directory-count" role="status" aria-live="polite" aria-atomic="true"></p><button class="school-directory-reset" id="school-directory-reset" type="button" hidden>Resetează selecția <span aria-hidden="true">↗</span></button></div>
+          </div>
         </div>
-        <div class="school-directory-counties" id="school-directory-counties" role="group" aria-label="Alege județul" hidden></div>
         <div id="school-directory-groups"></div>
         <section class="school-directory-empty" id="school-directory-empty" aria-labelledby="school-directory-empty-title" hidden><p class="school-eyebrow">MAI ÎNCERCĂ O DATĂ</p><h2 id="school-directory-empty-title">Nu am găsit<br>școala căutată.</h2><p>Încearcă un alt nume, o localitate sau vezi din nou toate școlile.</p><button class="school-directory-text-button" id="school-directory-empty-reset" type="button">Vezi toate școlile <span aria-hidden="true">→</span></button></section>
         <noscript><p class="school-noscript">Activează JavaScript pentru lista școlilor sau <a href="https://uniformascoala.ro/index.php?route=product/category&amp;path=62">consultă școlile pe site-ul existent</a>.</p></noscript>

@@ -144,7 +144,6 @@
       render();
     }
   });
-  find('[data-school-directory-search-link]').addEventListener('click', (event) => { event.preventDefault(); search.focus(); });
   window.addEventListener('popstate', readUrl);
   window.addEventListener('pageshow', (event) => { if (event.persisted) readUrl(); });
   find('#school-directory-controls').hidden = false;
