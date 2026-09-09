@@ -1,0 +1,83 @@
+[
+  {
+    "closeVisible": true,
+    "height": 844,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 375
+  },
+  {
+    "closeVisible": true,
+    "height": 844,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 390
+  },
+  {
+    "closeVisible": true,
+    "height": 932,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 430
+  },
+  {
+    "closeVisible": true,
+    "height": 900,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 768
+  },
+  {
+    "closeVisible": true,
+    "height": 900,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 1024
+  },
+  {
+    "closeVisible": true,
+    "height": 900,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 1280
+  },
+  {
+    "closeVisible": true,
+    "height": 1000,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": false,
+    "width": 1440
+  },
+  {
+    "closeVisible": true,
+    "height": 1080,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": false,
+    "width": 1920
+  },
+  {
+    "closeVisible": true,
+    "height": 480,
+    "inViewport": true,
+    "mode": "register",
+    "noHorizontalOverflow": true,
+    "scrolls": true,
+    "width": 375
+  }
+]

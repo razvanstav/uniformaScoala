@@ -1,12 +1,17 @@
 /* Shared account modal. No dependency on a page stylesheet or Journal. */
-#school-uniforms-landing .school-account-dialog { position: fixed; inset: 0; width: min(520px,calc(100% - 32px)); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); margin: auto; padding: 52px 24px 24px; overflow-y: auto; overscroll-behavior: contain; border: 1px solid var(--school-line); border-radius: 0; background: var(--school-paper); color: var(--school-ink); }
+#school-uniforms-landing .school-account-dialog { position: fixed; inset: 0; width: min(520px,calc(100% - 32px)); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); margin: auto; padding: 0; overflow: hidden; border: 1px solid var(--school-line); border-radius: 0; background: var(--school-paper); color: var(--school-ink); }
+#school-uniforms-landing .school-account-dialog[data-school-account-mode="register"] { width: min(620px,calc(100% - 32px)); }
+#school-uniforms-landing .school-account-body { max-height: calc(100vh - 34px); max-height: calc(100dvh - 34px); padding: 52px 24px 24px; overflow-y: auto; overscroll-behavior: contain; scroll-padding-block: 64px 24px; }
 #school-uniforms-landing .school-account-dialog::backdrop { background: rgb(25 26 24 / .5); }
-#school-uniforms-landing .school-account-close { position: absolute; top: 10px; right: 10px; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; background: transparent; }
+#school-uniforms-landing .school-account-close { position: absolute; z-index: 1; top: 10px; right: 20px; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; background: var(--school-paper); }
 #school-uniforms-landing .school-account-eyebrow { margin-bottom: 18px; color: #766845; font-size: 9px; letter-spacing: .08em; }
 #school-uniforms-landing .school-account-dialog h2 { font-size: clamp(1.25rem,5.8vw,1.75rem); font-weight: 500; line-height: 1.25; letter-spacing: -.035em; text-transform: uppercase; }
 #school-uniforms-landing .school-account-description { margin-top: 14px; color: var(--school-muted); font: 15px/1.65 Arial, sans-serif; }
 #school-uniforms-landing .school-account-form { margin-top: 28px; }
-#school-uniforms-landing .school-account-field + .school-account-field { margin-top: 20px; }
+#school-uniforms-landing .school-account-group { min-width: 0; margin: 0; padding: 0; border: 0; }
+#school-uniforms-landing .school-account-group legend { width: 100%; margin-bottom: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--school-line); font-size: 11px; text-transform: uppercase; }
+#school-uniforms-landing .school-account-field-grid { display: grid; grid-template-columns: minmax(0,1fr); gap: 18px; }
+#school-uniforms-landing .school-account-credentials { margin-top: 20px; }
 #school-uniforms-landing .school-account-field label { display: block; margin-bottom: 9px; font-size: 10px; text-transform: uppercase; }
 #school-uniforms-landing .school-account-field input { display: block; width: 100%; min-width: 0; height: 52px; padding: 12px 14px; border: 1px solid #bfc1b6; background: var(--school-white); font: 16px/1.5 Arial, sans-serif; }
 #school-uniforms-landing .school-account-field input:focus-visible { outline-color: #8b7a51; outline-offset: 3px; }
@@ -15,8 +20,20 @@
 #school-uniforms-landing .school-account-submit { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; min-height: 56px; margin-top: 20px; padding: 14px 18px; border: 1px solid var(--school-ink); background: var(--school-ink); color: #fff; font-size: 11px; text-transform: uppercase; }
 #school-uniforms-landing .school-account-submit > span:last-child { font: 24px Arial, sans-serif; }
 #school-uniforms-landing .school-account-back { margin-top: 10px; }
+#school-uniforms-landing .school-account-register-prompt { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0 12px; margin-top: 24px; padding-top: 14px; border-top: 1px solid var(--school-line); font: 13px/1.5 Arial, sans-serif; }
+#school-uniforms-landing .school-account-register-prompt button > span { font: 21px Arial, sans-serif; color: #8b7a51; }
+#school-uniforms-landing .school-account-newsletter { margin-top: 26px; }
+#school-uniforms-landing .school-account-newsletter-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; font: 14px/1.6 Arial, sans-serif; }
+#school-uniforms-landing .school-account-radio-options { display: flex; gap: 20px; }
+#school-uniforms-landing .school-account-radio-options label { display: flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; }
+#school-uniforms-landing .school-account-radio-options input { width: 18px; height: 18px; margin: 0; accent-color: var(--school-ink); }
+#school-uniforms-landing .school-account-consent { margin-top: 18px; font: 13px/1.65 Arial, sans-serif; }
+#school-uniforms-landing .school-account-consent label { display: flex; align-items: flex-start; gap: 12px; min-height: 44px; padding-block: 8px; cursor: pointer; }
+#school-uniforms-landing .school-account-consent input { flex: 0 0 auto; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--school-ink); }
+#school-uniforms-landing .school-account-consent a { text-decoration: underline; text-underline-offset: 3px; }
 #school-uniforms-landing .school-account-status { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--school-line); font: 14px/1.65 Arial, sans-serif; }
 #school-uniforms-landing .school-account-demo-note { margin-top: 24px; color: var(--school-muted); font: 12px/1.6 Arial, sans-serif; }
 @media (min-width: 600px) {
-  #school-uniforms-landing .school-account-dialog { padding: 48px 40px 32px; }
+  #school-uniforms-landing .school-account-body { padding: 48px 40px 32px; }
+  #school-uniforms-landing .school-account-dialog[data-school-account-mode="register"] .school-account-field-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }

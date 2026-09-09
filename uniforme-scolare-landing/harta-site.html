@@ -98,20 +98,42 @@
     </main>
 
     <!-- Shared account fragment. Included statically in each standalone page. -->
-    <dialog class="school-account-dialog" id="school-account-dialog" aria-labelledby="school-account-title" aria-describedby="school-account-description school-account-demo-note">
+    <dialog class="school-account-dialog" id="school-account-dialog" data-school-account-mode="login" aria-labelledby="school-account-title" aria-describedby="school-account-description school-account-demo-note">
       <button class="school-account-close" type="button" data-school-account-close aria-label="Închide fereastra contului"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      <div class="school-account-body">
       <p class="school-account-eyebrow">NOVRI / CONTUL TĂU</p>
       <h2 id="school-account-title">Bine ai revenit</h2>
       <p class="school-account-description" id="school-account-description">Intră în cont pentru comenzile și uniformele tale.</p>
       <form class="school-account-form" id="school-account-form" method="dialog" autocomplete="off" novalidate>
-        <div class="school-account-field"><label for="school-account-email">Adresa de e-mail</label><input id="school-account-email" name="account-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="160" required></div>
-        <div class="school-account-field" id="school-account-password-field"><label for="school-account-password">Parolă</label><input id="school-account-password" name="account-password" type="password" autocomplete="off" maxlength="160" required></div>
+        <fieldset class="school-account-group">
+          <legend id="school-account-personal-heading" hidden>Detalii personale</legend>
+          <div class="school-account-field-grid">
+            <div class="school-account-field" data-school-register-field hidden><label for="school-account-firstname">Prenume *</label><input id="school-account-firstname" name="account-firstname" type="text" autocomplete="off" maxlength="32" required disabled></div>
+            <div class="school-account-field" data-school-register-field hidden><label for="school-account-lastname">Nume *</label><input id="school-account-lastname" name="account-lastname" type="text" autocomplete="off" maxlength="32" required disabled></div>
+            <div class="school-account-field"><label for="school-account-email" id="school-account-email-label">Adresa de e-mail</label><input id="school-account-email" name="account-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="160" required></div>
+            <div class="school-account-field" data-school-register-field hidden><label for="school-account-phone">Telefon *</label><input id="school-account-phone" name="account-phone" type="tel" autocomplete="off" maxlength="32" required disabled></div>
+          </div>
+        </fieldset>
+        <fieldset class="school-account-group school-account-credentials" id="school-account-credentials">
+          <legend id="school-account-password-heading" hidden>Parola ta</legend>
+          <div class="school-account-field-grid">
+            <div class="school-account-field" id="school-account-password-field"><label for="school-account-password" id="school-account-password-label">Parolă</label><input id="school-account-password" name="account-password" type="password" autocomplete="off" maxlength="160" required></div>
+            <div class="school-account-field" data-school-register-field hidden><label for="school-account-password-confirm">Confirmă parola *</label><input id="school-account-password-confirm" name="account-password-confirm" type="password" autocomplete="off" maxlength="160" required disabled></div>
+          </div>
+        </fieldset>
         <button class="school-account-text-button school-account-forgot" type="button" id="school-account-forgot">Ai uitat parola?</button>
+        <fieldset class="school-account-group school-account-newsletter" data-school-register-field hidden>
+          <legend>Newsletter</legend>
+          <div class="school-account-newsletter-row"><span>Noutăți și colecții NOVRI</span><div class="school-account-radio-options"><label><input type="radio" name="account-newsletter" value="1" disabled> Da</label><label><input type="radio" name="account-newsletter" value="0" checked disabled> Nu</label></div></div>
+        </fieldset>
+        <div class="school-account-consent" data-school-register-field hidden><label><input id="school-account-privacy" name="account-privacy" type="checkbox" required disabled><span>Am citit și sunt de acord cu <a href="confidentialitate.html" target="_blank" rel="noopener" aria-label="Politica de confidențialitate, se deschide într-o filă nouă">Politica de confidențialitate</a>. *</span></label></div>
         <button class="school-account-submit" type="submit"><span id="school-account-submit-label">Autentificare</span><span aria-hidden="true">→</span></button>
         <button class="school-account-text-button school-account-back" type="button" id="school-account-back" hidden><span aria-hidden="true">←</span> Înapoi la autentificare</button>
         <p class="school-account-status" id="school-account-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
       </form>
+      <div class="school-account-register-prompt" id="school-account-register-prompt"><span>Nu ai încă un cont?</span><button class="school-account-text-button" type="button" id="school-account-register">Înregistrare cont <span aria-hidden="true">↗</span></button></div>
       <p class="school-account-demo-note" id="school-account-demo-note">Demo de design. Folosește date fictive; formularul nu trimite date.</p>
+      </div>
     </dialog>
 
     <footer class="school-footer" id="contact">
@@ -120,7 +142,7 @@
         <div class="school-footer-grid">
           <nav class="school-footer-column" aria-labelledby="school-footer-shop"><h2 id="school-footer-shop">Magazin</h2><a href="index.html#school-main">Uniforme școlare</a><a href="scoli.html">Toate școlile</a><a href="index.html#school-collection">Toate produsele</a><a href="contact.html">Contact</a></nav>
           <nav class="school-footer-column" aria-labelledby="school-footer-info"><h2 id="school-footer-info"><a href="informatii.html">Informații</a></h2><a href="livrare.html">Livrare</a><a href="retur.html">Retur</a><a href="termeni-si-conditii.html">Termeni și condiții</a><a href="confidentialitate.html">Confidențialitate</a><a href="harta-site.html">Harta site-ului</a></nav>
-          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#school-account-dialog" data-school-account-open aria-haspopup="dialog" aria-controls="school-account-dialog">Contul meu</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
+          <nav class="school-footer-column" aria-labelledby="school-footer-account"><h2 id="school-footer-account">Cont</h2><a href="#school-account-dialog" data-school-account-open aria-haspopup="dialog" aria-controls="school-account-dialog">Contul meu</a><a href="#school-account-dialog" data-school-account-open="register" aria-haspopup="dialog" aria-controls="school-account-dialog">Înregistrare cont</a><a href="#" data-school-placeholder>Comenzile mele</a></nav>
           <div class="school-footer-column"><h2>NOVRI</h2><a href="despre-noi.html">Despre noi</a><p>Producător român de uniforme</p><p>Broderie &amp; imprimeu in-house</p><a class="school-footer-contact" href="contact.html">Hai să vorbim <span aria-hidden="true">↗</span></a></div>
         </div>
         <div class="school-footer-bottom"><small>© AUROCOM SRL / NOVRI</small><a href="#school-main">Înapoi sus <span aria-hidden="true">↑</span></a></div>

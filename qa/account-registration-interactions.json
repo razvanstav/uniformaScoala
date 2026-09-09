@@ -1,0 +1,312 @@
+{
+  "controls": [
+    {
+      "action": "Empty form",
+      "feedbackHidden": true,
+      "focused": "school-account-firstname"
+    },
+    {
+      "action": "Invalid email",
+      "feedbackHidden": true,
+      "focused": "school-account-email"
+    },
+    {
+      "action": "Passwords differ",
+      "feedbackHidden": true,
+      "focused": "school-account-password-confirm"
+    },
+    {
+      "action": "Privacy agreement missing",
+      "feedbackHidden": true,
+      "focused": "school-account-privacy"
+    },
+    {
+      "action": "Policy link markup",
+      "target": "confidentialitate.html",
+      "opensInNewTab": true,
+      "originalDialogRemainsOpen": true,
+      "verification": "href/target/rel checked; new tab was not exposed by the background preview browser."
+    },
+    {
+      "action": "Valid demo registration",
+      "feedback": "Previzualizare: contul nu a fost creat. Datele nu au fost trimise.",
+      "open": true
+    },
+    {
+      "action": "Back to login",
+      "mode": "login",
+      "registrationDisabled": true,
+      "registrationHidden": true
+    },
+    {
+      "action": "Recovery still submits in demo",
+      "feedback": "Previzualizare: nu a fost trimis niciun e-mail de resetare.",
+      "mode": "recovery"
+    },
+    {
+      "action": "Mobile scroll keeps close accessible",
+      "visible": true
+    },
+    {
+      "action": "Registration Shift Tab cycle",
+      "backFocused": true
+    },
+    {
+      "action": "Registration Tab cycle",
+      "closeFocused": true
+    },
+    {
+      "action": "Login regression",
+      "feedback": "Previzualizare: autentificarea nu este conectată încă. Datele nu au fost trimise."
+    },
+    {
+      "action": "Registration backdrop closes",
+      "closed": true,
+      "overflowRestored": true
+    }
+  ],
+  "desktopPages": [
+    {
+      "page": "index.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "scoli.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "categorie.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "produs.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "cos.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "checkout.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "contact.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "informatii.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "despre-noi.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "livrare.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "retur.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    },
+    {
+      "page": "harta-site.html",
+      "firstNameFocused": true,
+      "mode": "register",
+      "open": true,
+      "focusRestored": true
+    }
+  ],
+  "mobilePages": [
+    {
+      "page": "index.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "scoli.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "categorie.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "produs.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "cos.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "checkout.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "contact.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "informatii.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "despre-noi.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "livrare.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "retur.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    },
+    {
+      "page": "harta-site.html",
+      "firstNameFocused": true,
+      "menuClosed": true,
+      "mode": "register",
+      "closed": true,
+      "menuFocused": true
+    }
+  ],
+  "modeRegression": [
+    {
+      "inViewport": true,
+      "mode": "login",
+      "noHorizontalOverflow": true,
+      "registrationHidden": true,
+      "width": 375
+    },
+    {
+      "inViewport": true,
+      "mode": "recovery",
+      "noHorizontalOverflow": true,
+      "registrationHidden": true,
+      "width": 375
+    },
+    {
+      "inViewport": true,
+      "mode": "login",
+      "noHorizontalOverflow": true,
+      "registrationHidden": true,
+      "width": 1440
+    },
+    {
+      "inViewport": true,
+      "mode": "recovery",
+      "noHorizontalOverflow": true,
+      "registrationHidden": true,
+      "width": 1440
+    }
+  ]
+}

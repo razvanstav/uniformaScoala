@@ -7,8 +7,14 @@
   const form = find('#school-account-form');
   const email = find('#school-account-email');
   const password = find('#school-account-password');
+  const confirmation = find('#school-account-password-confirm');
   const status = find('#school-account-status');
-  let recovery = false;
+  const modes = {
+    login: { title: 'Bine ai revenit', description: 'Intră în cont pentru comenzile și uniformele tale.', submit: 'Autentificare' },
+    recovery: { title: 'Recuperează parola', description: 'Introdu adresa de e-mail asociată contului tău.', submit: 'Trimite linkul de resetare' },
+    register: { title: 'Înregistrare cont', description: 'Creează-ți contul NOVRI. Câmpurile marcate cu * sunt obligatorii.', submit: 'Creează contul' }
+  };
+  let mode = 'login';
   let opener;
   let outsidePress = false;
   let previousOverflow;
@@ -18,18 +24,39 @@
     status.hidden = true;
     status.textContent = '';
   }
-  function setMode(isRecovery) {
-    recovery = isRecovery;
+  function setMode(nextMode) {
+    mode = nextMode;
+    const recovery = mode === 'recovery';
+    const registration = mode === 'register';
+    dialog.dataset.schoolAccountMode = mode;
     password.value = '';
+    confirmation.value = '';
+    confirmation.setCustomValidity('');
     password.disabled = recovery;
     password.required = !recovery;
-    find('#school-account-password-field').hidden = recovery;
-    find('#school-account-forgot').hidden = recovery;
-    find('#school-account-back').hidden = !recovery;
-    find('#school-account-title').textContent = recovery ? 'Recuperează parola' : 'Bine ai revenit';
-    find('#school-account-description').textContent = recovery ? 'Introdu adresa de e-mail asociată contului tău.' : 'Intră în cont pentru comenzile și uniformele tale.';
-    find('#school-account-submit-label').textContent = recovery ? 'Trimite linkul de resetare' : 'Autentificare';
+    find('#school-account-credentials').hidden = recovery;
+    find('#school-account-personal-heading').hidden = !registration;
+    find('#school-account-password-heading').hidden = !registration;
+    find('#school-account-email-label').textContent = registration ? 'Adresa de e-mail *' : 'Adresa de e-mail';
+    find('#school-account-password-label').textContent = registration ? 'Parolă *' : 'Parolă';
+    dialog.querySelectorAll('[data-school-register-field]').forEach((field) => {
+      field.hidden = !registration;
+      field.querySelectorAll('input').forEach((input) => { input.disabled = !registration; });
+    });
+    find('#school-account-forgot').hidden = mode !== 'login';
+    find('#school-account-register-prompt').hidden = mode !== 'login';
+    find('#school-account-back').hidden = mode === 'login';
+    find('#school-account-title').textContent = modes[mode].title;
+    find('#school-account-description').textContent = modes[mode].description;
+    find('#school-account-submit-label').textContent = modes[mode].submit;
+    find('.school-account-body').scrollTop = 0;
     clearStatus();
+  }
+  function focusFirstField() {
+    (mode === 'register' ? find('#school-account-firstname') : email).focus({ preventScroll: true });
+  }
+  function checkPasswords() {
+    confirmation.setCustomValidity(mode === 'register' && confirmation.value !== password.value ? 'Parolele nu coincid.' : '');
   }
   root.addEventListener('click', (event) => {
     const trigger = event.target.closest('[data-school-account-open]');
@@ -39,13 +66,13 @@
     if (dialog.open) return;
     opener = trigger;
     form.reset();
-    setMode(false);
+    setMode(trigger.dataset.schoolAccountOpen === 'register' ? 'register' : 'login');
     previousOverflow = document.documentElement.style.overflow;
     previousGutter = document.documentElement.style.scrollbarGutter;
     document.documentElement.style.scrollbarGutter = 'stable';
     document.documentElement.style.overflow = 'hidden';
     dialog.showModal();
-    email.focus({ preventScroll: true });
+    focusFirstField();
   });
   find('[data-school-account-close]').addEventListener('click', () => dialog.close());
   const outsideDialog = (event) => {
@@ -74,7 +101,7 @@
   // Native dialog handles Escape and makes the background inert.
   dialog.addEventListener('close', () => {
     form.reset();
-    setMode(false);
+    setMode('login');
     outsidePress = false;
     document.documentElement.style.overflow = previousOverflow;
     document.documentElement.style.scrollbarGutter = previousGutter;
@@ -84,16 +111,21 @@
     const target = visible(opener) ? opener : visible(menuButton) ? menuButton : root.querySelector('.school-header-actions [data-school-account-open]');
     if (visible(target)) target.focus({ preventScroll: true });
   });
-  find('#school-account-forgot').addEventListener('click', () => { setMode(true); email.focus(); });
-  find('#school-account-back').addEventListener('click', () => { setMode(false); email.focus(); });
-  form.addEventListener('input', clearStatus);
+  find('#school-account-forgot').addEventListener('click', () => { setMode('recovery'); focusFirstField(); });
+  find('#school-account-back').addEventListener('click', () => { setMode('login'); focusFirstField(); });
+  find('#school-account-register').addEventListener('click', () => { setMode('register'); focusFirstField(); });
+  form.addEventListener('input', () => { clearStatus(); checkPasswords(); });
   form.addEventListener('submit', (event) => {
     // Always local. method="dialog" also prevents a network submission without this handler.
     event.preventDefault();
     clearStatus();
+    checkPasswords();
     if (!form.reportValidity()) return;
     password.value = '';
-    status.textContent = recovery ? 'Previzualizare: nu a fost trimis niciun e-mail de resetare.' : 'Previzualizare: autentificarea nu este conectată încă. Datele nu au fost trimise.';
+    confirmation.value = '';
+    confirmation.setCustomValidity('');
+    status.textContent = mode === 'register' ? 'Previzualizare: contul nu a fost creat. Datele nu au fost trimise.' : mode === 'recovery' ? 'Previzualizare: nu a fost trimis niciun e-mail de resetare.' : 'Previzualizare: autentificarea nu este conectată încă. Datele nu au fost trimise.';
     status.hidden = false;
+    status.scrollIntoView({ block: 'nearest' });
   });
 })();
