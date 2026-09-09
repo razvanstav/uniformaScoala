@@ -47,7 +47,7 @@
 #school-uniforms-landing .school-contact-consent { margin-top: 24px; }
 #school-uniforms-landing .school-contact-consent label { display: flex; align-items: start; gap: 12px; min-height: 44px; padding-block: 10px; font: 13px/1.6 Arial, sans-serif; cursor: pointer; }
 #school-uniforms-landing .school-contact-consent input { flex: 0 0 auto; width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--school-ink); }
-#school-uniforms-landing .school-contact-policy { margin-left: 29px; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--school-muted); font: 12px Arial, sans-serif; text-decoration: underline; text-underline-offset: 4px; }
+#school-uniforms-landing .school-contact-policy { display: inline-flex; align-items: center; gap: 4px; margin-left: 29px; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--school-muted); font: 12px Arial, sans-serif; text-decoration: underline; text-underline-offset: 4px; }
 #school-uniforms-landing .school-contact-submit { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; min-height: 64px; margin-top: 26px; padding: 17px 20px; border: 0; background: var(--school-ink); color: #fff; text-align: left; font-size: 11px; text-transform: uppercase; }
 #school-uniforms-landing .school-contact-submit small { display: block; margin-top: 4px; color: #c1c2ba; font: 11px Arial, sans-serif; text-transform: none; }
 #school-uniforms-landing .school-contact-submit > span:last-child { font: 25px Arial, sans-serif; }

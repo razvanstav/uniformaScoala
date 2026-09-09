@@ -52,7 +52,7 @@ Etichetele geografice sunt date publice citite din controalele vizibile, nu cod 
 - Eliminarea ultimului produs ascunde formularul și afișează coșul gol. Undo îl restabilește; refresh păstrează coșul gol.
 - Câmpurile din panourile ascunse sunt dezactivate și nu blochează validarea. Alegerea altei țări comută selectul de județ cu un input de regiune.
 - Validarea marchează câmpurile nevalide și mută focusul pe primul. Parolele trebuie să coincidă în modul Cont nou.
-- Dialogurile native se închid cu Escape și restabilesc focusul. Linkurile de politici sunt placeholder-e explicite, fără texte juridice inventate.
+- Dialogurile native se închid cu Escape și restabilesc focusul. Linkurile de politici deschid `confidentialitate.html` și `termeni-si-conditii.html` în filă nouă, păstrând formularul completat; textele sursă și punctele de revizuit sunt documentate în `INTEGRARE-INFORMATII.md`.
 - Newsletter-ul este opțional și nebifat. În sursă era bifat; demo-ul nu înscrie utilizatorul nicăieri, indiferent de selecție.
 - Aplicația nu stochează și nu transmite datele formularului, parolele sau acordurile. Nu se înregistrează datele în loguri. Parolele se golesc la ieșirea din panoul respectiv și după confirmarea demonstrativă.
 - Evenimentul `submit` este întotdeauna oprit. `method="dialog"` este o protecție suplimentară împotriva navigării/submiterii HTTP accidentale. Butonul este inițial dezactivat, formularul ascuns fără JavaScript. Nu există stare „comandă plasată”, identificator de comandă, autentificare sau plată reală.
@@ -71,7 +71,7 @@ Eticheta sursei de transport conține „fara TVA”, dar suma afișată lângă
 2. Înlocuiește `cart-state.js`, produsele seed și calculele demo cu datele magazinului. OpenCart trebuie să furnizeze prețurile, taxele, reducerile, stocul, transportul și metodele disponibile.
 3. Înlocuiește `checkout-options.js` cu țările/regiunile permise în magazin. Maparea câmpurilor din HTML este separată (`billing-*`, `shipping-*`, `firstname`, `lastname`, `email`, `telephone`).
 4. Înlocuiește handler-ele demo de autentificare, recuperare și înregistrare; gestionează securizat sesiunea și validarea serverului.
-5. Înlocuiește dialogurile politicilor cu documentele reale și păstrează distinct acordurile obligatorii de opțiunea newsletter.
+5. Conectează linkurile politicilor la documentele finale actualizate și păstrează distinct acordurile obligatorii de opțiunea newsletter.
 6. Înlocuiește explicit mecanismul de submit numai în etapa backend. Validarea vizuală actuală nu poate confirma o comandă sau un preț. `#school-checkout-submit` și `#school-checkout-form` sunt punctele dedicate.
 
 Alte puncte utile: `#school-checkout-item-template`, `#school-checkout-items`, `#school-checkout-subtotal`, `#school-checkout-shipping-net`, `#school-checkout-tax`, `#school-checkout-total`. CSS-ul este mobile-first: o coloană sub 1024 px, formular și sumar alăturate de la 1024 px; pe mobil sumarul apare înaintea acordurilor și confirmării.

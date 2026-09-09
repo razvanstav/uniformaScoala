@@ -39,7 +39,7 @@ Ambele numere de telefon sunt păstrate deoarece sursa le afișează distinct. T
 
 ## Comportament
 
-- „Contact” și „Hai să vorbim” din meniul/footer-ul tuturor celor șapte pagini duc la `contact.html`.
+- „Contact” și „Hai să vorbim” din meniul/footer-ul tuturor celor 14 pagini duc la `contact.html`.
 - „Devino partener” de pe homepage duce la `contact.html?subiect=scoala#school-contact-form`.
 - Parametrul `subiect` acceptă numai valorile definite în `subjects` din `contact.js`; valorile necunoscute sunt ignorate. Textul introdus în formular nu este pus în URL.
 - „Scrie-ne un mesaj” mută focusul direct pe nume. „Hai să colaborăm” selectează subiectul pentru școli și mută focusul pe nume, fără a suprascrie mesajul introdus.
@@ -48,7 +48,7 @@ Ambele numere de telefon sunt păstrate deoarece sursa le afișează distinct. T
 - Selectul rămâne un control nativ stilizat, utilizabil cu tastatura. Contorul mesajului nu anunță fiecare caracter cititorului de ecran.
 - Butonul „Trimite mesajul / Previzualizare” deschide un dialog care spune explicit că mesajul nu a fost trimis. Datele rămân în formular pentru editare și nu sunt stocate de aplicație, înregistrate în loguri sau expediate.
 - Submit este întotdeauna oprit. `method="dialog"` previne și submiterile HTTP accidentale; butonul este inițial dezactivat fără JavaScript.
-- Politica de confidențialitate deschide un dialog placeholder, fără text juridic inventat. Escape și butoanele de închidere restabilesc focusul.
+- Politica de confidențialitate deschide `confidentialitate.html` într-o filă nouă și păstrează formularul completat. Dialogul de previzualizare se închide cu Escape și restabilește focusul.
 - Telefonul folosește linkuri `tel:` normale; deschiderea lor este o acțiune explicită a vizitatorului.
 
 ## Hartă și performanță
@@ -63,7 +63,7 @@ Linkul „Deschide harta într-o filă nouă” rămâne disponibil, inclusiv f�
 2. Înlocuiește datele publice din HTML cu datele finale ale magazinului. Actualizează adresa hărții în `#school-contact-map-link`; scriptul o folosește și pentru embed.
 3. Conectează `#school-contact-form` la endpoint-ul real de contact, cu validare server, protecție anti-abuz și gestionarea erorilor. Înlocuiește explicit handler-ul demo și `method="dialog"` doar în etapa backend.
 4. Câmpurile dedicate sunt `#school-contact-name`, `#school-contact-email`, `#school-contact-subject`, `#school-contact-message`, `#school-contact-privacy`; butonul este `#school-contact-submit`.
-5. Înlocuiește dialogul de politică cu documentul real. Afișează confirmarea de trimitere numai după răspunsul serverului.
+5. Conectează linkul politicii la documentul final actualizat. Afișează confirmarea de trimitere numai după răspunsul serverului.
 6. Înlocuiește contorul din `cart-state.js` cu starea OpenCart când restul fluxului este integrat; pagina de contact nu modifică coșul.
 
 Responsive: o coloană pe mobil/tabletă, date și formular alăturate de la 1024 px; câmpurile nume/e-mail trec pe două coloane de la 600 px. Verificările și capturile sunt în `../qa/contact-*`.

@@ -1,0 +1,148 @@
+{
+  "pages": [
+    {
+      "page": "categorie.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "checkout.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "confidentialitate.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "contact.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "cos.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "despre-noi.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "harta-site.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "index.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "informatii.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "livrare.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "produs.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "retur.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "scoli.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    },
+    {
+      "page": "termeni-si-conditii.html",
+      "h1": 1,
+      "idsUnique": true,
+      "localFilesAndAnchors": true,
+      "footerInformationLinks": true,
+      "imageAttributes": true,
+      "classPrefixes": true
+    }
+  ],
+  "content": [
+    {
+      "page": "termeni-si-conditii.html",
+      "sourceBodyBlocksPreserved": 26
+    },
+    {
+      "page": "confidentialitate.html",
+      "sourceBodyBlocksPreserved": 61
+    },
+    {
+      "page": "despre-noi.html",
+      "sourceBodyBlocksPreserved": 7
+    },
+    {
+      "page": "retur.html",
+      "sourceBodyBlocksPreserved": 10
+    }
+  ]
+}

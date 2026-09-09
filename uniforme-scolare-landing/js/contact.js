@@ -59,9 +59,6 @@
     find('#school-contact-dialog-description').textContent = text;
     if (!dialog.open) dialog.showModal();
   }
-  find('#school-contact-policy-button').addEventListener('click', () => {
-    openDialog('Confidențialitate', 'Aici va fi afișată politica magazinului la integrare. Formularul demonstrativ nu trimite și nu salvează datele introduse.');
-  });
   root.querySelectorAll('[data-school-contact-close]').forEach((button) => button.addEventListener('click', () => dialog.close()));
   form.addEventListener('submit', (event) => {
     // Demo only. No HTTP submission, e-mail, API, storage or analytics.

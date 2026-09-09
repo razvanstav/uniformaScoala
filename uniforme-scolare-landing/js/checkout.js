@@ -90,10 +90,6 @@
     find('#school-dialog-description').textContent = description;
     if (!dialog.open) dialog.showModal();
   }
-  root.querySelectorAll('[data-school-policy]').forEach((button) => button.addEventListener('click', () => {
-    const title = button.dataset.schoolPolicy === 'privacy' ? 'Confidențialitate' : 'Termeni și condiții';
-    openDialog(title, 'Aici va fi afișat documentul magazinului la integrare. În această previzualizare nu sunt colectate sau trimise date și nu se încheie o comandă.');
-  }));
   root.querySelectorAll('[data-school-close-dialog]').forEach((button) => button.addEventListener('click', () => dialog.close()));
 
   function buildRow(item) {

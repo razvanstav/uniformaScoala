@@ -1,0 +1,641 @@
+{
+  "terms": {
+    "blocks": [
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informații despre livrarea produselor comandate"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Termenul de livrare este de maxim 7 zile lucrătoare de la confirmarea comenzii."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informații despre modalitatile de plata"
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "In momentul acesta, singura modalitate de plata pe site-ul nostru este \"Plata ramburs (la livrare)\" cu numerar.\n\nPlata cu cardul nu este disponibila acum.\n\nCondiții privind plasarea comenzilor"
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "SC Aurocom Srl nu este responsabilă pentru comenzile făcute accidental și se exonerează de orice refuz ulterior plasării comenzii."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Comanda făcută prin intermediul acestui magazin virtual devine angajament juridic și comportă obligație de plată din partea clientului."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Datele personale pe care le colectam de la dumneavoastră în momentul în care plasați o comandă sunt utilizate pentru preluarea comenzii, livrare și facturare. În momentul în care bifați casuța de acceptare a acestor Termeni și condiții, sunteți de acord să ne furnizați datele în scopul menționat."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Pentru mai multe detalii vă rugăm să citiți și Politica de confidentialitate."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informații privitoare la returnarea mărfii - altele decât cele de uniformă executate la comandă și personalizate (definite conform art. 16, lit. c, OUG 34/14):"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "In cazul in care se face retur pentru a fi schimbata mărimea, comerciantul se va ocupa de cererea de retur si ridicare GRATUIT, consumatorul platind doar livrarea inapoi in a produsului cerut."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "In cazul in care se face retur pentru a se returna banii, comerciantul se va ocupa de cererea de retur DOAR CONTRACOST (15 ron).\nIn cazul in care consumatorul se ocupa de retur, acesta va primii banii pe produse integral. Returnarea banilor se face in decurs de maxim 14 zile lucratoare."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Consumatorul are dreptul să notifice în scris comerciantului că renunță la cumpărare, fără penalități și fără invocarea unui motiv, în termen de 10 zile lucrătoare de la primirea produsului. În cazul solicitării unui alt produs cu preț mai mare se va achita diferența de preț. Produsul solicitat se va trimite la schimb numai după sau odată cu returnarea produsul cumpărat inițial. Rambursarea contravalorii produsului ori, după caz, înlocuirea acestuia, se va face în cel mult 30 de zile de la retur."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Produsele purtate, spalte, căruia i-au fost tăiate etichetele sau deteriorat ambalajul nu se returnează."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Dacă v-a fost trimis un alt produs decât cel comandat, îl puteți returna. Aurocom SRL va suporta cheltuielile cu transportul și vă va trimite produsul cerut imediat ce vom primi coletul de la dvs."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Aceste dispoziții se aplică în conformitate cu O.G. 130/2000 - privind regimul juridic al contractelor la distanță - pentru produse achiziționate din acest site prin comerț electronic. Clientul nu are dreptul să opteze decât o singură dată pentru returnarea/înlocuirea unui produs în condițiile art 4 alin.1 lit b) din O.G. 130/2000."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Returul produselor se supune acestei legi numai pentru produsele care sunt livrate clienților prin curierat rapid, comenzile care au fost ridicate de la sediile Aurocom SRL din Teleorman nu sunt considerate comerț la distanță, ci vânzare prin magazine specializate, întrucât pot fi vizualizate, verificate și acceptate personal, ca și corespunzătoare cu scopul și nevoile clientului."
+      },
+      {
+        "links": [
+          {
+            "href": "mailto:vanzari@meai.ro",
+            "text": "vanzari@uniformascoala.ro"
+          }
+        ],
+        "tag": "DIV",
+        "text": "Pentru a comunica retragerea, vă rugăm să ne transmiteți prin e-mail la vanzari@uniformascoala.ro sau la numerul de telefon 0771725856."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Coletul cu produsul împreună cu factura se trimit la adresa: Comuna Peretu,Judetul Teleorman, str. Ghimfusești, nr. 1133A , 147240."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Informații privind prețurile:"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informațiile despre produse și preturi sunt prezentate sub rezerva erorilor de tipar. Existența unor eventuale valori de 0 lei la unele produse nu se înțelege a da posibilitatea ca produsul să fie comandat gratuit, ci prețul nu este actualizat de la furnizor(i), produsul este momentan indisponibil sau prețul este comunicat la cerere (datorită configurării diferite a produsului, după caz)."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Prețurile sunt exprimate în RON și conțin TVA. Costul de livrare prin curier este suplimentar față de prețurile produselor din catalog. În cazul modificării prețurilor de achiziție a materialelor și accesoriilor, S.C. AUROCOM  S.R.L. își rezervă dreptul de a modifica oferta de prețuri, fără o notificare prealabilă."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informații despre garanția produselor:"
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Pentru produsele achiziționate, se acordă garanție conform prevederilor Legii 449/2003. Termenul de garanție decurge de la data emiterii facturii."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Garanția se oferă în condițiile respectării unui regim de exploatare normal (utilizarea produselor se va face într-un mediu climatic și mecanic corespunzător; produsele vor fi folosite conform cu scopul și destinația lor și vor fi ferite de acțiuni fizico-mecanice excesive: tăiere, străpungere, sfâșiere, abraziune), a instrucțiunilor de întreținere și în condiții corespunzătoare de depozitare (se vor depozita în spații adecvate, curate, aerisite, lipsite de umezeală, ferite de acțiunea directă a razelor solare și a rozătoarelor)."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Dreptul la garanție se pierde în următoarele situații: intervenții sau reparații executate de persoane neautorizate, nerespectarea condițiilor de utilizare, exploatare, întreținere, manipulare, transport și păstrare sau în condiții ce contravin standardelor tehnice din România."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "În cazul efectuării unei reclamații în perioada de garanție, cumpărătorul are obligația de a prezenta certificatul de garanție si factura fiscală, în original, eliberate la data cumpărării produsului."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Protecția datelor personale"
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Cumpărătorul, în conformitate cu Regulamentul European 2016/679: GDPR - General Data Protection Regulation (anterior Legea nr. 667/2001) privind protecția persoanelor cu privire la prelucrarea datelor cu caracter personal și libera circulație a acestor date, prin achiziționarea produselor de la vânzător, declară că este de acord ca S.C. AUROCOM S.R.L. să colecteze și să prelucreze datele personale în scopul expedierii produselor comandate și a materialelor promoționale, cu respectarea principiului confidențialității datelor primite."
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "S.C. AUROCOM S.R.L. garantează respectarea drepturilor conferite de Regulamentul European 2016/679 privind prelucrarea datelor cu caracter personal si protejarea acestora: dreptul la rectificare, ștergere, obiecție sau restricție, dreptul la opoziție, dreptul de informare, dreptul de acces la date, dreptul de intervenție asupra datelor, dreptul de a vă adresa justiției. Aceste drepturi pot fi exercitate prin intermediul unei simple cereri scrise și semnate ce va fi trimisă prin poștă la adresa Comuna Peretu, Judetul Teleorman, str. Ghimfusești, nr. 1133A , 147240, România."
+      },
+      {
+        "links": [
+          {
+            "href": "https://www.meai.ro/index.php?route=information/information&information_id=3",
+            "text": "Politica de confidențialitate."
+          }
+        ],
+        "tag": "DIV",
+        "text": "Pentru mai multe detalii vă rugăm să citiți și Politica de confidențialitate."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Drepturi de autor"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Materialele incluse în acest web-site aparțin în exclusivitate S.C. AUROCOM  S.R.L. Nici un material informativ  grafic sau fotografic nu poate fi reprodus fără acordul beneficiarului."
+      }
+    ],
+    "title": "Termeni și Condiții",
+    "url": "https://analitic.go.ro/index.php?route=information/information&information_id=5"
+  },
+  "privacy": {
+    "blocks": [
+      {
+        "links": [
+          {
+            "href": null,
+            "text": "Nota de informare privind"
+          }
+        ],
+        "tag": "H2",
+        "text": "Nota de informare privind"
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "Procesarea datelor cu caracter personal"
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "Introducere"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "AUROCOM S.R.L. in calitate de autor, proprietar si administrator al site-ului web www.uniformascoala.ro, respecta caracterul privat si securitatea prelucrarii datelor cu caracter personal al fiecarei persoane care acceseaza site-ul web in vederea efectuarii de comenzi online."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "In aceasta Politica de confidentialitate va explicam modul in care are loc prelucrarea datelor dumneavoastra cu caracter personal de catre AUROCOM S.R.L. si in care ne asiguram ca datele dumneavoastra cu caracter personal sunt prelucrate responsabil si in conformitate cu legislatia privind protectia datelor cu caracter personal care este aplicabila."
+      },
+      {
+        "links": [
+          {
+            "href": null,
+            "text": " Contextul Regulamentului general privind protectia datelor (\"GDPR\")"
+          }
+        ],
+        "tag": "H2",
+        "text": "Contextul Regulamentului general privind protectia datelor (\"GDPR\")"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Regulamentul general privind protectia datelor, 679/2016, inlocuieste Directiva UE din 1995 privind protectia datelor si inlocuieste legislatia fiecarui stat membru care a fost elaborata in conformitate cu Directiva 95/46 / CE privind protectia datelor. Scopul sau este de a proteja \"drepturile si libertatile\" persoanelor fizice (adica persoanele vii) si de a se asigura ca datele cu caracter personal nu sunt prelucrate fara cunostinta lor si, ori de cate ori este posibil, ca sunt prelucrate cu consimtamantul lor."
+      },
+      {
+        "links": [
+          {
+            "href": null,
+            "text": "Definitiile utilizate de organizatie (extrase din GDPR)"
+          }
+        ],
+        "tag": "H2",
+        "text": "Definitiile utilizate de organizatie (extrase din GDPR)"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Domeniul material (articolul 2) - GDPR se aplica prelucrarii datelor cu caracter personal, efectuata total sau partial prin mijloace automatizate, precum si prelucrarii prin alte mijloace decat cele automatizate a datelor cu caracter personal care fac parte dintr-un sistem de evidenta a datelor sau care sunt destinate sa faca parte dintr-un sistem de evidenta a datelor."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Domeniul de aplicare teritorial (articolul 3) - GDPR se aplica prelucrarii datelor cu caracter personal in cadrul activitatilor unui sediu al unui operator sau al unei persoane imputernicite de operator pe teritoriul Uniunii, indiferent daca prelucrarea are loc sau nu pe teritoriul Uniunii. Prezentul regulament se aplica prelucrarii datelor cu caracter personal ale unor persoane vizate care se afla in Uniune de catre un operator sau o persoana imputernicita de operator care nu este stabilit(a) in Uniune, atunci cand activitatile de prelucrare sunt legate de:"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "a) oferirea de bunuri sau servicii unor astfel de persoane vizate in Uniune, indiferent daca se solicita sau nu efectuarea unei plati de catre persoana vizata; sau"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "b) monitorizarea comportamentului lor daca acesta se manifesta in cadrul Uniunii. Prezentul regulament se aplica prelucrarii datelor cu caracter personal de catre un operator care nu este stabilit in Uniune, ci intr-un loc in care dreptul intern se aplica in temeiul dreptului international public."
+      },
+      {
+        "links": [
+          {
+            "href": null,
+            "text": "Definitii"
+          }
+        ],
+        "tag": "H2",
+        "text": "Definitii"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "“Sediul principal” - sediul principal al operatorului in UE va fi locul in care operatorul adopta principalele decizii cu privire la scopul si mijloacele activitatilor sale de prelucrare a datelor. Sediul principal al unei persoane imputernicite in UE va fi centrul sau administrativ."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Date cu caracter personal\" inseamna orice informatii privind o persoana fizica identificata sau identificabila (\"persoana vizata\"); o persoana fizica identificabila este o persoana care poate fi identificata, direct sau indirect, in special prin referire la un element de identificare, cum ar fi un nume, un numar de identificare, date de localizare, un identificator online, sau la unul sau mai multe elemente specifice, proprii identitatii sale fizice, fiziologice, genetice, psihice, economice, culturale sau sociale;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "“Categorii speciale de date cu caracter personal” - date cu caracter personal care dezvaluie originea rasiala sau etnica, opinii politice, convingeri religioase sau filosofice sau apartenenta sindicala si prelucrarea datelor genetice, date biometrice in scopul identificarii unice a unei persoane fizice, date privind sanatatea sau date privind viata sexuala sau orientarea sexuala a unei persoane fizice."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Operator\" inseamna persoana fizica sau juridica, autoritatea publica, agentia sau alt organism care, singur sau impreuna cu altele, stabileste scopurile si mijloacele de prelucrare a datelor cu caracter personal; atunci cand scopurile si mijloacele prelucrarii sunt stabilite prin dreptul Uniunii sau dreptul intern, operatorul sau criteriile specifice pentru desemnarea acestuia pot fi prevazute in dreptul Uniunii sau in dreptul intern;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "“Persoana vizata” - orice persoana vie care face obiectul datelor cu caracter personal detinute de o organizatie."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Prelucrare\" inseamna orice operatiune sau set de operatiuni efectuate asupra datelor cu caracter personal sau asupra seturilor de date cu caracter personal, cu sau fara utilizarea de mijloace automatizate, cum ar fi colectarea, inregistrarea, organizarea, structurarea, stocarea, adaptarea sau modificarea, extragerea, consultarea, utilizarea, divulgarea prin transmitere, diseminarea sau punerea la dispozitie in orice alt mod, alinierea sau combinarea, restrictionarea, stergerea sau distrugerea;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Creare de profiluri\" inseamna orice forma de prelucrare automata a datelor cu caracter personal care consta in utilizarea datelor cu caracter personal pentru a evalua anumite aspecte personale referitoare la o persoana fizica, in special pentru a analiza sau prevedea aspecte privind performanta la locul de munca, situatia economica, sanatatea, preferintele personale, interesele, fiabilitatea, comportamentul, locul in care se afla persoana fizica respectiva sau deplasarile acesteia."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Incalcarea securitatii datelor cu caracter personal\" inseamna o incalcare a securitatii care duce, in mod accidental sau ilegal, la distrugerea, pierderea, modificarea, sau divulgarea neautorizata a datelor cu caracter personal transmise, stocate sau prelucrate intr-un alt mod, sau la accesul neautorizat la acestea"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Consimtamant\" al persoanei vizate inseamna orice manifestare de vointa libera, specifica, informata si lipsita de ambiguitate a persoanei vizate prin care aceasta accepta, printr-o declaratie sau printr-o actiune fara echivoc, ca datele cu caracter personal care o privesc sa fie prelucrate;."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "“Copil” - GDPR defineste un copil drept orice persoana cu varsta sub 16 ani."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Prelucrarea datelor cu caracter personal ale unui copil este legala numai daca a fost obtinut consimtamantul parintilor sau custozilor. Operatorul va depune eforturi rezonabile pentru a verifica, in astfel de cazuri, daca titularul raspunderii parintesti asupra copilului acorda sau autorizeaza acordul."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "„Parte terta\" inseamna o persoana fizica sau juridica, autoritate publica, agentie sau organism altul decat persoana vizata, operatorul, persoana imputernicita de operator si persoanele care, sub directa autoritate a operatorului sau a persoanei imputernicite de operator, sunt autorizate sa prelucreze date cu caracter personal."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "\"Sistem de evidenta a datelor\" inseamna orice set structurat de date cu caracter personal accesibile conform unor criterii specifice, fie ele centralizate, descentralizate sau repartizate dupa criterii functionale sau geografice;"
+      },
+      {
+        "links": [
+          {
+            "href": null,
+            "text": "Declaratia de confidentialitate"
+          }
+        ],
+        "tag": "H2",
+        "text": "Declaratia de confidentialitate"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Conducerea AUROCOM S.R.L., cu sediul in Peretu, Teleorman, Str. Str. Ghimfusesti Nr.1133 A se angajeaza sa respecte toate legile relevante ale UE si ale statelor membre cu privire la datele cu caracter personal si protectia \"drepturilor si libertatilor\" persoanelor ale caror informatii le colecteaza si proceseaza AUROCOM S.R.L., in conformitate cu Regulamentul general privind protectia datelor (GDPR)."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Aceasta va fi aplicata de toate persoanele din cadrul AUROCOM S.R.L. care prelucreaza date cu caracter personal, inclusiv toate persoanele din cadrul AUROCOM S.R.L. care proceseaza datele personale ale clientilor, angajatilor, furnizorilor si partenerilor, precum si orice alte date personale pe care organizatia le proceseaza de la orice sursa."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Aceasta politica se aplica tuturor angajatilor/ personalului si partilor externe din cadrul AUROCOM S.R.L., cum ar fi furnizorii externalizati. Orice incalcare a GDPR va fi tratata conform politicii disciplinare a AUROCOM S.R.L. si poate fi, de asemenea, o contraventie, caz in care problema va fi raportata cat mai curand posibil autoritatilor competente."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Se asteapta ca partenerii si orice terte parti care lucreaza cu sau pentru AUROCOM S.R.L. si care au sau ar putea avea acces la date personale sa fi citit, inteles si sa respecte aceasta politica. Nicio terta parte nu poate accesa datele cu caracter personal detinute de AUROCOM S.R.L. fara sa fi incheiat in prealabil un acord de confidentialitate a datelor, care impune tertei parti obligatii nu mai putin oneroase decat cele pe care le respecta AUROCOM S.R.L. si care ii confera AUROCOM S.R.L. dreptul de a verifica respectarea acordului."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "CE SE INTAMPLA CU DATELE DUMNEVOASTRA PERSONALE?"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Datele personale pe care le colectam de la dumnevoastra vor fi utilizate in urmatoarele scopuri:"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, Adresa de e-mail in scop de Creare si administrare cont;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, ID comanda si Adresa in scop de Preluare comanda si livrare;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, ID comanda, Adresa de e-mail, Nr. de telefon in scop de Informare status comanda;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, Adresa in scop de Facturare si raportare catre autoritatile de control in domeniu;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, ID comanda, Adresa de e-mail, Nr. de telefon in scop de Preluare solicitare de returnare, contactare privind solicitare de retur si realizarea returului;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, Adresa de e-mail in scopul furnizarii unui raspuns in urma cererii incluse in formularul de contact;"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         Nume si prenume, Adresa de e-mail in scop de marketing direct (furnizare de newsletter si promotii/ noutati);"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Cititi mai multe despre cum si de ce va folosim datele personale pe uniformascoala.ro sau contactandu-ne in pagina de Contact, iar colegii nostri va vor detalia oricand serviciile furnizate care necesita colectarea si stocarea datelor."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Va puteti retrage consimtamantul in orice moment, fie in scris, solicitand formularul de retragere a consimatmantului, fie online printr-o solicitare in acest sens la protectiadatelor@uniformascoala.ro ."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "CE SUNT DATELE PERSONALE?"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "In sensul Regulamentului General de Prelucrare a Datelor (EU GDPR), Datele Personale sunt definite ca fiind ”orice informatii privind o persoana fizica identificata sau identificabila (\"persoana vizata\"); o persoana fizica identificabila este o persoana care poate fi identificata, direct sau indirect, in special prin referire la un element de identificare, cum ar fi un nume, un numar de identificare, date de localizare, un identificator online, sau la unul sau mai multe elemente specifice, proprii identitatii sale fizice, fiziologice, genetice, psihice, economice, culturale sau sociale.”"
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "DE CE AUROCOM S.R.L. ARE NEVOIE SA COLECTEZE SI SA STOCHEZE INFORMATIILE FURNIZATE SI CAT TIMP LE PASTRAM?"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "AUROCOM S.R.L. este obligat sa proceseze si sa stocheze date personale pentru a va putea asigura serviciile noastre in conditii de legalitate si inalta calitate. Transferam datele personale furnizate doar daca avem baza legala, legislatie in vigoare, contract comercial sau consimtamantul dumneavoastra. Pe parcursul prestarii serviciilor, cu acordul dumneavoastra vom transfera catre urmatorii terti colaboratori: Sameday, Fan, in cazul in care ati optat pentru livrarea prin curierat."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Datele dumneavoastra vor fi pastrate atat timp cat impune legislatia in vigoare. In cazul in care nu se face o mentiune expresa in acest sens, acestea vor fi stocate in conditii de securitate in conformitate cu politicile si procedurile organizatiei, dar nu pe o perioada de stocare mai mare de 10 ani."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "CINE ARE ACCES LA DATELE FURNIZATE?"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Accesul asupra datelor il au angajatii AUROCOM S.R.L. si tertii parteneri. Nu oferim nimanui accesul asupra datelor personale fara un acord din partea dumneavoastra."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "UNDE SUNT STOCATE DATELE FURNIZATE DE DUMNEAVOASTRA?"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Datele personale furnizate sunt stocate pe teritorul EEA, conform cerintelor Regulamentului General de Prelucrare a datelor (EU GDPR)."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "SECURITATEA DATELOR DUMNEAVOASTRA"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Toti angajatii sunt responsabili pentru a asigura ca toate datele personale pe care AUROCOM S.R.L. le detine, sunt pastrate in siguranta si nu sunt divulgate in niciun fel unei terte parti decat daca acea terta parte a fost autorizata in mod specific de AUROCOM S.R.L. sa primeasca aceste informatii si a incheiat un acord de confidentialitate."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Toate datele personale sunt accesibile numai celor care au nevoie sa le foloseasca. Toate datele cu caracter personal sunt procesate in siguranta si sunt pastrate:"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         intr-o camera incuiata cu acces controlat; si / sau"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         intr-un sertar incuiat sau intr-un dulap incuiat; si / sau"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         daca sunt pastrate pe computere, protejate prin parola in conformitate cu cerintele organizatiei din Politica de control al accesului si / sau"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "·         stocate pe suporturi (detasabile) care sunt criptate"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Toti angajatii au incheiat un acord de utilizare inainte de a li se permite accesul la informatiile organizationale de orice fel. Imediat ce inregistrarile in format fizic nu mai sunt necesare, acestea trebuie sa fie distruse in siguranta."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Datele personale pot fi sterse sau eliminate in conformitate politicilor interne ale organizatiei si conform legislatiei in vigoare. Inregistrarile in format fizic care au ajuns la scadenta, sunt maruntite si aruncate ca \"deseuri confidentiale”."
+      },
+      {
+        "links": [],
+        "tag": "H2",
+        "text": "DREPTURILE PERSOANELOR"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Persoanele vizate au urmatoarele drepturi in ceea ce priveste prelucrarea datelor si inregistrarile acestor date pe care le pot exercita la protectiadatelor@uniformascoala.ro ."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa solicite acces cu privire la informatiile detinute si referitoare la cei carora le-au fost dezvaluite."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa se opuna prelucrarii care ar putea provoca daune sau prejudicii."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa se opuna prelucrarii in scopul marketingul direct."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa fie informati cu privire la procesul decizional individual automatizat, inclusiv crearea de profiluri."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Persoana vizata are dreptul de a nu face obiectul unei decizii bazate exclusiv pe prelucrarea automata, inclusiv crearea de profiluri, care produce efecte juridice care privesc persoana vizata sau o afecteaza in mod similar intr-o masura semnificativa."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa solicite despagubiri in cazul in care sufera daune prin orice incalcare a GDPR."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa ia masuri pentru rectificarea, blocarea, stergerea, inclusiv dreptul de a fi uitat sau distrugerea datelor inexacte."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Sa solicite autoritatii de supraveghere sa evalueze daca o prevedere a GDPR a fost incalcata."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Persoana vizata are dreptul de a primi datele cu caracter personal care o privesc si pe care le-a furnizat operatorului intr-un format structurat, utilizat in mod curent si care poate fi citit automat si are dreptul de a transmite aceste date altui operator, fara obstacole din partea operatorului caruia i-au fost furnizate datele cu caracter personal."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Persoana vizata are dreptul de a se opune crearii de profile fara existenta unui consimtamant"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "AUROCOM S.R.L. asigura persoanele vizate ca isi pot exercita aceste drepturi:"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Persoanele vizate pot face cereri de acces la date, conform Procedurii de solicitare a accesului persoanei vizate; această procedură descrie, de asemenea, modul în care AUROCOM S.R.L se va asigura că răspunsul său la solicitarea de acces la date respectă cerințele legii. Exercitarea acestor drepturi se poate face la protectiadatelor@uniformascoala.ro"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Ø  Persoanele vizate au dreptul sa depuna o plangere catre AUROCOM S.R.L in legatura cu prelucrarea datelor lor personale, solicitarile din partea persoanelor vizate si modul in care au fost solutionate plangerile se vor face in conformitate cu procedura organizatiei privind reclamatiile."
+      }
+    ],
+    "title": "Confidențialitate",
+    "url": "https://analitic.go.ro/index.php?route=information/information&information_id=3"
+  },
+  "delivery": {
+    "blocks": [
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Informații despre livrarea produselor comandate"
+      },
+      {
+        "links": [],
+        "tag": "DIV",
+        "text": "Termenul de livrare este de maxim 7 zile lucrătoare de la confirmarea comenzii.\n\nProdusele vor fi livrate de Urgent Cargus sau Sameday."
+      }
+    ],
+    "title": "Informatii despre livrare",
+    "url": "https://analitic.go.ro/index.php?route=information/information&information_id=6"
+  },
+  "about": {
+    "blocks": [
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Societate comerciala infiintata inca din anul 1992, Aurocom SRL are ca si obiect de activitate productia unei game diversificate de confectii textile. Astfel, clientii care aleg produsele noastre pot gasi aici diferite modele de tricouri, treninguri, hanorace, sau pijamale din diferite materiale. Practic la Aurocom SRL poti gasi tot ceea ce iti doresti in gama confectii textile. Pe langa aceste produse, la Aurocom SRL poti gasi de asemenea si diferite articole de cazarmament. Fie ca ai nevoie de pilote, saltele, huse de saltea sau lenjerii de pat, toate acestea pot fi gasite in oferta magazinului nostru."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Intreaga gama de confectii textile si produse din categoria de articole de cazarmament este de calitate superioara atat in privinta materialelor, cat si in ceea ce priveste calitatea cusaturilor. De asemenea, preturile produselor comercializate de Aurocom SRL sunt printre cele mai competitive de pe piata de profil. In consecinta, avand in vedere toate aceste aspecte, parteneri importanti au ales sa colaboreze cu Aurocom SRL pe partea de produse din gama confectiilor textile si din gama articolelor de cazarmament. Iar printre cei mai renumiti si important parteneri putem aminti Cora, Auchan, Tuborg, Bergenbier, Ursus, Ciuc, Coca Cola, iar in privinta partenerilor din partea Ministerului Afacerilor Interne trebuie spus ca Academia de Politie, Scoala de Politie Campina sau Jandarmeria Bucuresti se regasesc printre partenerii firmei Aurocom SRL. De asemenea, si foarte multe Directii Generale de Asistenta Sociala si Protectie a Copilului (DGASPC) din tara se afla printre partenerii fideli ai firmei noastre."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Oferim partenerilor si clientilor nostri cel mai ridicat standard de calitate pentru toate produsele comercializate, dar si intreg profesionalismul de care am dat dovada in fiecare proiect in care ne-am implicat. In cei peste 25 de ani de experienta in domeniul confectiilor textile am invatat sa ne ridicam la cele mai inalte asteptari venite din partea clientilor."
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "SC AUROCOM SRL"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "RO1402200"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "J34/941/1992"
+      },
+      {
+        "links": [],
+        "tag": "P",
+        "text": "Sediul social: Str. Castanilor Nr. 5, Plosca, Teleorman"
+      }
+    ],
+    "title": "Despre noi",
+    "url": "https://analitic.go.ro/index.php?route=information/information&information_id=4"
+  }
+}

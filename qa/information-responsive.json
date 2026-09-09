@@ -1,0 +1,456 @@
+[
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "title": "INFORMAȚII\nUTILE.",
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "title": "DESPRE\nNOVRI.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "title": "LIVRARE &\nPLATĂ.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "title": "RETUR &\nSCHIMB.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "title": "TERMENI ȘI\nCONDIȚII.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "title": "DATE\nPERSONALE.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "doc": 360,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "title": "HARTA\nSITE-ULUI.",
+    "tocOpen": false,
+    "width": 375
+  },
+  {
+    "articleWidth": 0,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 335,
+    "doc": 375,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 390
+  },
+  {
+    "articleWidth": 0,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 375,
+    "doc": 415,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 430
+  },
+  {
+    "articleWidth": 0,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 689,
+    "doc": 753,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 768
+  },
+  {
+    "articleWidth": 0,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 615,
+    "doc": 1009,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 1024
+  },
+  {
+    "articleWidth": 0,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1265,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 1280
+  },
+  {
+    "articleWidth": 0,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1425,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 1440
+  },
+  {
+    "articleWidth": 0,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/informatii.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/despre-noi.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/livrare.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/retur.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/termeni-si-conditii.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/confidentialitate.html",
+    "width": 1920
+  },
+  {
+    "articleWidth": 760,
+    "doc": 1905,
+    "h1s": 1,
+    "overflowElements": [],
+    "page": "/harta-site.html",
+    "width": 1920
+  }
+]

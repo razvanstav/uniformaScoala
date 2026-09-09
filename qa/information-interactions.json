@@ -1,0 +1,47 @@
+{
+  "tocKeyboard": "",
+  "anchor": {
+    "focus": "school-info-schimb-marime",
+    "hash": "#school-info-schimb-marime",
+    "top": 24
+  },
+  "menu": {
+    "expanded": "false",
+    "focus": "school-menu-toggle"
+  },
+  "hubToAbout": {
+    "imageLoaded": true,
+    "title": "DESPRE\nNOVRI.",
+    "url": "/despre-noi.html"
+  },
+  "contactPolicy": {
+    "field": "Test NOVRI",
+    "newPage": true,
+    "submitEnabled": true
+  },
+  "checkoutPolicy": {
+    "field": "Test NOVRI",
+    "newPage": true,
+    "policyLinks": 2
+  },
+  "footerHub": "http://127.0.0.1:4173/informatii.html",
+  "sitemap": {
+    "count": 9,
+    "links": [
+      "categorie.html?scoala=colegiul-national-ai-cuza-alexandria",
+      "categorie.html?scoala=liceul-teologic-adventist-stefan-demetrescu",
+      "categorie.html?scoala=liceul-teoretic-mihai-ionescu",
+      "categorie.html?scoala=scoala-gimnaziala-avram-iancu",
+      "categorie.html?scoala=scoala-gimnaziala-m-santimbreanu",
+      "categorie.html?scoala=scoala-gimnaziala-mihai-eminescu",
+      "categorie.html?scoala=scoala-gimnaziala-stefan-cel-mare",
+      "categorie.html?scoala=scoala-gimnaziala-nr-2-mihai-viteazul",
+      "categorie.html?scoala=scoala-gimnaziala-nr-7"
+    ]
+  },
+  "sitemapCollection": {
+    "title": "ȘCOALA GIMNAZIALĂ NR. 7",
+    "url": "http://127.0.0.1:4173/categorie.html?scoala=scoala-gimnaziala-nr-7"
+  },
+  "console": []
+}

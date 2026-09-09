@@ -3,23 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#f7f7f4">
-  <meta name="description" content="Uniforme școlare realizate în România. Alege școala copilului tău și descoperă tricouri polo, bluze, hanorace, pantaloni și fuste NOVRI.">
-  <title>Colecția școlii — NOVRI</title>
+  <meta name="description" content="Toate paginile NOVRI, într-un singur loc. Alege destinația și continuă de acolo.">
+  <title>Harta site-ului — NOVRI</title>
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/archivo-expanded-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/archivo-expanded-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/category.css">
+  <link rel="stylesheet" href="css/information.css">
   <script src="js/catalog.js" defer></script>
   <script src="js/cart-state.js" defer></script>
   <script src="js/navigation.js" defer></script>
-  <script src="js/category.js" defer></script>
+  <script src="js/information.js" defer></script>
 </head>
 <!-- Only this standalone document has its default body margin removed.
      For OpenCart, move the wrapper and its stylesheet and script references into the dedicated template. -->
 <body style="margin: 0;">
-  <div id="school-uniforms-landing" class="school-category-page">
+  <div id="school-uniforms-landing" class="school-information-page">
     <a class="school-skip-link" href="#school-main">Sari la conținut</a>
 
     <header class="school-header">
@@ -52,68 +53,49 @@
       </div>
     </header>
 
-    <main id="school-main">
-      <nav class="school-category-breadcrumbs school-container" aria-label="Fir de navigare">
-        <a href="index.html">Acasă</a><span aria-hidden="true">/</span>
-        <a href="scoli.html">Toate școlile</a><span aria-hidden="true">/</span>
-        <span aria-current="page">Colecția școlii</span>
-      </nav>
-      <section class="school-category-hero school-container" aria-labelledby="school-category-title">
-        <p class="school-eyebrow">NOVRI / COLECȚIA ȘCOLII</p>
-        <h1 id="school-category-title">Liceul Teoretic „Mihai Ionescu”</h1>
-        <p class="school-category-location" id="school-category-location">București</p>
-        <p class="school-category-intro">Uniforme pentru fiecare zi de școală. O identitate comună.</p>
-        <a class="school-change-school" href="scoli.html">Schimbă școala <span aria-hidden="true">↗</span></a>
+    <main class="school-container" id="school-main">
+      <nav class="school-info-breadcrumbs" aria-label="Fir de navigare"><a href="index.html">Acasă</a><span aria-hidden="true">/</span><a href="informatii.html">Informații</a><span aria-hidden="true">/</span><span aria-current="page">Harta site-ului</span></nav>
+      <section class="school-info-intro" aria-labelledby="school-info-title">
+        <p class="school-eyebrow">NOVRI / NAVIGARE</p>
+        <div class="school-info-intro-row"><h1 id="school-info-title">Harta<br>site-ului.</h1><div class="school-info-intro-copy"><p>Toate paginile NOVRI, într-un singur loc. Alege destinația și continuă de acolo.</p><a class="school-info-text-link" href="#school-info-content" data-school-info-anchor>Descoperă mai jos <span aria-hidden="true">↓</span></a></div></div>
       </section>
-
-      <section class="school-category-collection school-container" aria-label="Produsele școlii">
-        <div class="school-category-toolbar">
-          <button class="school-filter-toggle" id="school-filter-toggle" type="button" aria-expanded="false" aria-controls="school-filter-panel" hidden>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 5h14M2 13h14M6 2v6m6 2v6" stroke="currentColor" stroke-width="1.3"/></svg>
-            Filtre <span id="school-filter-total"></span>
-          </button>
-          <p class="school-results-count" id="school-results-count" role="status" aria-live="polite" aria-atomic="true">Colecția NOVRI</p>
-          <label class="school-sort-label" for="school-sort">Sortează
-            <span class="school-sort-control"><select id="school-sort" disabled>
-              <option value="recomandate">Recomandate</option>
-              <option value="pret-crescator">Preț crescător</option>
-              <option value="pret-descrescator">Preț descrescător</option>
-              <option value="nume">Nume A–Z</option>
-            </select><span aria-hidden="true">↓</span></span>
-          </label>
-        </div>
-        <div class="school-category-layout">
-          <aside class="school-filter-panel" id="school-filter-panel" aria-label="Filtrează produsele" hidden>
-            <div class="school-filter-heading"><h2>Filtrează</h2><button class="school-reset-filters" type="button" data-school-reset hidden>Șterge tot</button></div>
-            <form id="school-filter-form">
-              <fieldset class="school-filter-group"><legend>Tip de produs</legend><div id="school-filter-types"></div></fieldset>
-              <fieldset class="school-filter-group"><legend>Mărime copii</legend><div class="school-filter-sizes" id="school-filter-sizes"></div></fieldset>
-              <fieldset class="school-filter-group"><legend>Culoare</legend><div id="school-filter-colors"></div></fieldset>
-              <button class="school-filter-done" id="school-filter-done" type="button">Vezi produsele <span aria-hidden="true">→</span></button>
-            </form>
-          </aside>
-          <div class="school-category-results">
-            <div class="school-active-filters" id="school-active-filters" aria-label="Filtre active" hidden></div>
-            <p class="school-category-demo">Colecție demonstrativă · variante și mărimi orientative</p>
-            <div class="school-product-grid" id="school-category-products"></div>
-            <div class="school-category-empty" id="school-category-empty" hidden>
-              <span class="school-eyebrow">O ALTĂ COMBINAȚIE</span>
-              <h2>Nu am găsit produse.</h2>
-              <p>Încearcă o altă mărime, culoare sau categorie.</p>
-              <button type="button" class="school-empty-reset" data-school-reset>Șterge filtrele <span aria-hidden="true">↗</span></button>
-            </div>
-            <noscript><p class="school-noscript">Activează JavaScript pentru colecția și filtrele demo sau <a href="index.html#school-collection">vezi prezentarea produselor</a>.</p></noscript>
-          </div>
-        </div>
-      </section>
-      <section class="school-category-note school-container" aria-label="Uniforme personalizate">
-        <p class="school-eyebrow">ACELEAȘI VALORI. ACEEAȘI UNIFORMĂ.</p>
-        <h2>O școală.<br>O identitate.</h2>
-        <p>Uniforme realizate în România, cu broderie și imprimeu adaptate fiecărei școli.</p>
-        <a class="school-text-cta" href="index.html#school-partners">Pentru școala ta <span aria-hidden="true">↗</span></a>
-      </section>
+<div class="school-info-layout"><aside class="school-info-sidebar"><nav class="school-info-navigation" aria-label="Pagini de informații">
+<a href="informatii.html"><span aria-hidden="true">01</span>Toate informațiile</a>
+<a href="despre-noi.html"><span aria-hidden="true">02</span>Despre noi</a>
+<a href="livrare.html"><span aria-hidden="true">03</span>Livrare &amp; plată</a>
+<a href="retur.html"><span aria-hidden="true">04</span>Retur &amp; schimb</a>
+<a href="termeni-si-conditii.html"><span aria-hidden="true">05</span>Termeni și condiții</a>
+<a href="confidentialitate.html"><span aria-hidden="true">06</span>Confidențialitate</a>
+<a href="harta-site.html" aria-current="page"><span aria-hidden="true">07</span>Harta site-ului</a>
+</nav></aside>
+<article class="school-info-article" id="school-info-content" tabindex="-1" aria-label="Harta site-ului">
+<p class="school-info-article-label">NOVRI / Harta site-ului</p>
+<details class="school-info-toc" open><summary>Pe această pagină</summary><nav aria-label="Cuprins"><ol>
+<li><a href="#school-info-magazin" data-school-info-anchor>Magazin</a></li>
+<li><a href="#school-info-scoli" data-school-info-anchor>Colecțiile școlilor</a></li>
+<li><a href="#school-info-informatii" data-school-info-anchor>Informații și contact</a></li>
+</ol></nav></details>
+<section class="school-info-section" id="school-info-magazin" tabindex="-1" aria-labelledby="school-info-magazin-title">
+<h2 id="school-info-magazin-title"><span aria-hidden="true">01</span>Magazin</h2>
+<div class="school-info-prose">
+<ul><li><a href="index.html">Pagina principală</a></li><li><a href="index.html#school-collection">O parte din colecția NOVRI</a></li><li><a href="scoli.html">Toate școlile</a></li><li><a href="cos.html">Coș de cumpărături</a></li><li><a href="checkout.html">Finalizare comandă</a></li></ul>
+</div>
+</section>
+<section class="school-info-section" id="school-info-scoli" tabindex="-1" aria-labelledby="school-info-scoli-title">
+<h2 id="school-info-scoli-title"><span aria-hidden="true">02</span>Colecțiile școlilor</h2>
+<div class="school-info-prose">
+<ul data-school-info-school-list><li><a href="scoli.html">Vezi toate școlile</a></li></ul>
+</div>
+</section>
+<section class="school-info-section" id="school-info-informatii" tabindex="-1" aria-labelledby="school-info-informatii-title">
+<h2 id="school-info-informatii-title"><span aria-hidden="true">03</span>Informații și contact</h2>
+<div class="school-info-prose">
+<ul><li><a href="despre-noi.html">Despre noi</a></li><li><a href="livrare.html">Livrare &amp; plată</a></li><li><a href="retur.html">Retur &amp; schimb</a></li><li><a href="termeni-si-conditii.html">Termeni și condiții</a></li><li><a href="confidentialitate.html">Confidențialitate</a></li><li><a href="contact.html">Contact</a></li><li><a href="informatii.html">Toate informațiile</a></li></ul>
+</div>
+</section>
+</article></div>
+      <section class="school-info-help" aria-labelledby="school-info-help-title"><div><p class="school-eyebrow">SUNTEM AICI PENTRU TINE</p><h2 id="school-info-help-title">Mai ai<br>o întrebare?</h2></div><div class="school-info-help-copy"><p>Despre uniforme, comanda ta sau o colaborare cu școala. Hai să vorbim.</p><a class="school-info-text-link" href="contact.html">Contactează-ne <span aria-hidden="true">↗</span></a></div></section>
     </main>
-
     <footer class="school-footer" id="contact">
       <div class="school-footer-inner school-container">
         <div class="school-footer-top"><a class="school-logo" href="index.html" aria-label="NOVRI — pagina principală"><img src="assets/logo.svg" alt="NOVRI" width="112" height="36" loading="lazy"></a><span class="school-footer-signature">Uniforme cu identitate.</span></div>
