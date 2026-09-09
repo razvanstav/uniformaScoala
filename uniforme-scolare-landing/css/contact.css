@@ -1,0 +1,98 @@
+/* Contact presentation. Shared NOVRI typography and isolated page layout. */
+#school-uniforms-landing.school-contact-page .school-header { position: relative; inset: auto; background: var(--school-paper); border-bottom: 1px solid var(--school-line); }
+#school-uniforms-landing.school-contact-page .school-nav-link[aria-current="page"] { text-decoration: underline; text-underline-offset: 6px; }
+#school-uniforms-landing .school-contact-breadcrumbs { display: flex; flex-wrap: wrap; gap: 12px; padding-block: 25px; font: 12px/1.5 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-breadcrumbs a { text-decoration: underline; text-underline-offset: 4px; }
+#school-uniforms-landing .school-contact-intro { padding-block: 38px 50px; }
+#school-uniforms-landing .school-contact-intro-row { display: grid; gap: 28px; margin-top: 24px; }
+#school-uniforms-landing .school-contact-intro h1 { font-size: clamp(3.5rem,15vw,7rem); line-height: .98; font-weight: 600; letter-spacing: -.055em; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-intro-copy > p { max-width: 420px; font: 17px/1.7 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-intro-copy > a { margin-top: 16px; }
+#school-uniforms-landing .school-contact-layout { display: grid; grid-template-columns: minmax(0,1fr); gap: 48px; }
+#school-uniforms-landing :is(.school-contact-details,.school-contact-message) { min-width: 0; }
+#school-uniforms-landing .school-contact-section-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px; padding-block: 20px; border-block: 1px solid var(--school-line); margin-bottom: 28px; }
+#school-uniforms-landing .school-contact-section-heading > span:first-child { color: #8b702f; font: 11px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-section-heading h2 { font-size: 13px; font-weight: 500; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-section-heading .school-contact-required-note { margin-left: auto; color: var(--school-muted); font: 10px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-detail + .school-contact-detail { border-top: 1px solid var(--school-line); padding-top: 28px; margin-top: 24px; }
+#school-uniforms-landing .school-contact-detail .school-eyebrow { color: var(--school-muted); font-size: 9px; }
+#school-uniforms-landing .school-contact-detail address { display: flex; flex-direction: column; gap: 4px; margin-top: 18px; font: 16px/1.6 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-detail address strong { font-weight: 400; margin-bottom: 2px; }
+#school-uniforms-landing .school-contact-text-link { display: inline-flex; align-items: center; gap: 18px; min-height: 44px; padding-block: 8px; font-size: 10px; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-text-link span { color: #977325; font: 21px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-detail > .school-contact-text-link { margin-top: 12px; }
+#school-uniforms-landing .school-contact-phones { display: grid; gap: 5px; margin-top: 14px; }
+#school-uniforms-landing .school-contact-phones a { display: flex; align-items: center; gap: 24px; width: fit-content; min-height: 44px; font-size: clamp(1rem,4.7vw,1.5rem); letter-spacing: -.02em; }
+#school-uniforms-landing .school-contact-phones span { color: #977325; font: 22px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-hours { margin: 16px 0 0; font: 14px/1.6 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-hours > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 18px; padding-block: 6px; }
+#school-uniforms-landing .school-contact-hours dd { margin: 0; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-school-note { margin-top: 34px; padding: 26px 22px; background: #eeeee8; }
+#school-uniforms-landing .school-contact-school-note .school-eyebrow { font-size: 9px; }
+#school-uniforms-landing .school-contact-school-note > p:nth-child(2) { margin-block: 14px; font: 15px/1.65 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-fields { display: grid; grid-template-columns: minmax(0,1fr); gap: 24px; }
+#school-uniforms-landing .school-contact-field { min-width: 0; }
+#school-uniforms-landing .school-contact-field label { display: block; margin-bottom: 9px; font: 12px/1.5 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-field :is(input,select,textarea) { display: block; width: 100%; min-width: 0; min-height: 52px; padding: 14px; border: 1px solid #cfd0c9; border-radius: 0; background: transparent; color: var(--school-ink); font: 16px/1.5 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-field :is(input,textarea)::placeholder { color: #777971; opacity: 1; }
+#school-uniforms-landing .school-contact-field textarea { min-height: 180px; resize: vertical; }
+#school-uniforms-landing .school-contact-field :is(select,textarea):focus-visible { outline: 2px solid var(--school-ink); outline-offset: 4px; }
+#school-uniforms-landing .school-contact-select { position: relative; }
+#school-uniforms-landing .school-contact-select select { appearance: none; padding-right: 42px; text-overflow: ellipsis; }
+#school-uniforms-landing .school-contact-select > span { position: absolute; right: 16px; top: 11px; pointer-events: none; font: 24px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-wide { grid-column: 1 / -1; }
+#school-uniforms-landing .school-contact-subject-help { min-height: 40px; margin-top: 10px; font: 12px/1.6 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-message-meta { display: flex; align-items: start; justify-content: space-between; gap: 14px; margin-top: 9px; }
+#school-uniforms-landing .school-contact-message-meta > span { margin-left: auto; flex-shrink: 0; font: 11px/1.5 Arial, sans-serif; color: var(--school-muted); font-variant-numeric: tabular-nums; }
+#school-uniforms-landing .school-contact-consent { margin-top: 24px; }
+#school-uniforms-landing .school-contact-consent label { display: flex; align-items: start; gap: 12px; min-height: 44px; padding-block: 10px; font: 13px/1.6 Arial, sans-serif; cursor: pointer; }
+#school-uniforms-landing .school-contact-consent input { flex: 0 0 auto; width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--school-ink); }
+#school-uniforms-landing .school-contact-policy { margin-left: 29px; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--school-muted); font: 12px Arial, sans-serif; text-decoration: underline; text-underline-offset: 4px; }
+#school-uniforms-landing .school-contact-submit { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; min-height: 64px; margin-top: 26px; padding: 17px 20px; border: 0; background: var(--school-ink); color: #fff; text-align: left; font-size: 11px; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-submit small { display: block; margin-top: 4px; color: #c1c2ba; font: 11px Arial, sans-serif; text-transform: none; }
+#school-uniforms-landing .school-contact-submit > span:last-child { font: 25px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-submit:disabled { opacity: .5; }
+#school-uniforms-landing .school-contact-demo-note { margin-top: 14px; font: 12px/1.6 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-field-error { margin-top: 8px; color: #a22c27; font: 12px/1.5 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-message-meta .school-contact-field-error { margin: 0; }
+#school-uniforms-landing .school-contact-form-error { margin-top: 18px; color: #a22c27; font: 13px/1.6 Arial, sans-serif; }
+#school-uniforms-landing.school-contact-page [aria-invalid="true"] { outline: 1px solid #a22c27; outline-offset: 2px; }
+#school-uniforms-landing .school-contact-location { margin-block: 70px 80px; padding-top: 40px; border-top: 1px solid var(--school-line); }
+#school-uniforms-landing .school-contact-location-heading { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 24px; margin-bottom: 32px; }
+#school-uniforms-landing .school-contact-location-heading h2 { margin-top: 18px; font-size: clamp(1.6rem,6.5vw,3rem); font-weight: 500; line-height: 1.1; letter-spacing: -.04em; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-location-heading > p { font: 14px/1.6 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-map { position: relative; min-height: 340px; background: #e9e9e2; border: 1px solid var(--school-line); }
+#school-uniforms-landing .school-contact-map-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: inherit; padding: 24px; text-align: center; }
+#school-uniforms-landing .school-contact-map-label { padding: 8px 12px; border: 1px solid #a59c7c; font-size: 9px; color: #665c41; }
+#school-uniforms-landing .school-contact-map-placeholder > p { margin-block: 22px 20px; font-size: clamp(1.2rem,5vw,2rem); line-height: 1.2; letter-spacing: -.03em; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-map-button { display: flex; align-items: center; gap: 24px; min-height: 48px; padding: 10px 18px; border: 1px solid var(--school-ink); background: transparent; font-size: 10px; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-map-button span { font: 22px Arial, sans-serif; }
+#school-uniforms-landing .school-contact-map-note { margin-top: 14px; color: var(--school-muted); font: 11px/1.5 Arial, sans-serif; }
+#school-uniforms-landing .school-contact-map-frame { position: absolute; inset: 0; }
+#school-uniforms-landing .school-contact-map-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+#school-uniforms-landing .school-contact-map-caption { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px 20px; margin-top: 12px; }
+#school-uniforms-landing .school-contact-map-caption > span { font-size: 9px; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-map-caption a { font-size: 9px; }
+#school-uniforms-landing .school-contact-dialog { width: min(520px,calc(100% - 40px)); max-height: calc(100svh - 40px); overflow: auto; padding: 56px 24px 28px; border: 1px solid var(--school-line); border-radius: 0; background: var(--school-paper); color: var(--school-ink); }
+#school-uniforms-landing .school-contact-dialog::backdrop { background: rgb(25 26 24 / .45); }
+#school-uniforms-landing .school-contact-dialog h2 { margin-block: 24px; font-size: clamp(1.5rem,6.5vw,2rem); font-weight: 500; line-height: 1.15; letter-spacing: -.035em; text-transform: uppercase; }
+#school-uniforms-landing .school-contact-dialog > p:last-of-type { font: 15px/1.75 Arial, sans-serif; color: var(--school-muted); }
+#school-uniforms-landing .school-contact-dialog-close { position: absolute; top: 8px; right: 10px; width: 44px; height: 44px; padding: 0; border: 0; background: transparent; font: 28px Arial, sans-serif; }
+@media (min-width: 600px) {
+  #school-uniforms-landing .school-contact-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  #school-uniforms-landing .school-contact-detail { max-width: 450px; }
+  #school-uniforms-landing .school-contact-school-note { max-width: 450px; }
+  #school-uniforms-landing .school-contact-dialog { padding: 60px 40px 40px; }
+}
+@media (min-width: 1024px) {
+  #school-uniforms-landing .school-contact-intro { padding-block: 54px 72px; }
+  #school-uniforms-landing .school-contact-intro-row { grid-template-columns: 1.25fr 1fr; align-items: end; gap: 60px; }
+  #school-uniforms-landing .school-contact-intro-copy { padding-bottom: 8px; }
+  #school-uniforms-landing .school-contact-layout { grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr); gap: 80px; }
+  #school-uniforms-landing .school-contact-location { margin-block: 110px 120px; padding-top: 55px; }
+  #school-uniforms-landing .school-contact-map { min-height: 420px; }
+}
+@media (min-width: 1280px) {
+  #school-uniforms-landing .school-contact-layout { grid-template-columns: minmax(0,440px) minmax(0,1fr); gap: 120px; }
+  #school-uniforms-landing .school-contact-section-heading h2 { font-size: 14px; }
+}

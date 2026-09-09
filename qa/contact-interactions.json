@@ -1,0 +1,46 @@
+{
+  "jumpFocus": "school-contact-name",
+  "mapInitiallyAbsent": true,
+  "empty": {
+    "dialog": false,
+    "focus": "school-contact-name",
+    "invalid": 4
+  },
+  "invalid": {
+    "errors": [
+      "Completează numele tău.",
+      "Introdu o adresă de e-mail validă.",
+      "Scrie un mesaj.",
+      "Bifează acordul pentru a verifica formularul demonstrativ."
+    ],
+    "focus": "school-contact-name"
+  },
+  "valid": {
+    "count": "51 / 3000",
+    "dialog": true,
+    "message": "Formularul a fost verificat doar pe acest dispozitiv. Mesajul nu a fost trimis și datele nu au fost salvate. Pentru a ne contacta acum, folosește numerele de telefon afișate pe pagină.",
+    "subject": "Putem comanda și prin SICAP?",
+    "title": "Previzualizare completă."
+  },
+  "returnFocus": "school-contact-submit",
+  "policyFocus": "school-contact-policy-button",
+  "map": {
+    "frameHeight": 338,
+    "frames": 1,
+    "overflow": false,
+    "placeholderHidden": true,
+    "title": "Locația AUROCOM SRL în Peretu — Google Maps"
+  },
+  "partnerRoute": {
+    "mapAbsent": true,
+    "nameBlank": true,
+    "subject": "scoala",
+    "url": "http://127.0.0.1:4173/contact.html?subiect=scoala#school-contact-form"
+  },
+  "partnerFocus": "school-contact-name",
+  "menu": {
+    "expanded": "false",
+    "focus": "school-menu-toggle"
+  },
+  "console": []
+}
